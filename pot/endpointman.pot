@@ -1,0 +1,319 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for endpointman
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-24 17:40+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Add New Template"
+msgstr ""
+
+msgid "Template Name"
+msgstr ""
+
+msgid "Product Select"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Model Classification"
+msgstr ""
+
+msgid "Model Clone"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Check for Updates"
+msgstr ""
+
+msgid "Package Last Modified"
+msgstr ""
+
+msgid "Uninstall"
+msgstr ""
+
+msgid "Install"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Install Firmware"
+msgstr ""
+
+msgid "Remove Firmware"
+msgstr ""
+
+msgid "Update Firmware"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Search for new devices in netmask"
+msgstr ""
+
+msgid "Go"
+msgstr ""
+
+msgid "Use NMAP"
+msgstr ""
+
+msgid "Mac Address"
+msgstr ""
+
+msgid "Brand"
+msgstr ""
+
+msgid "Model of Phone"
+msgstr ""
+
+msgid "Line"
+msgstr ""
+
+msgid "Extension Number"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Unmanaged Extensions"
+msgstr ""
+
+msgid "Add Selected Phones"
+msgstr ""
+
+msgid "Current Managed Extensions"
+msgstr ""
+
+msgid "Selected Phone(s) Options"
+msgstr ""
+
+msgid "Rebuild Configs for Selected Phones"
+msgstr ""
+
+msgid "Change Selected Phones to"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "Update Phones"
+msgstr ""
+
+msgid "Global Phone Options"
+msgstr ""
+
+msgid "Rebuild Configs for All Phones"
+msgstr ""
+
+msgid "Reboot This Brand"
+msgstr ""
+
+msgid "Reconfigure all"
+msgstr ""
+
+msgid "with"
+msgstr ""
+
+msgid "Rebuild"
+msgstr ""
+
+msgid "Add Custom"
+msgstr ""
+
+msgid "Export CSV file of devices"
+msgstr ""
+
+msgid "Export CSV"
+msgstr ""
+
+msgid "Import CSV file of devices"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Note: CSV file should look like this"
+msgstr ""
+
+msgid "Extension"
+msgstr ""
+
+msgid "Line can be blank"
+msgstr ""
+
+msgid "IP address of phone server"
+msgstr ""
+
+msgid "Determine for me"
+msgstr ""
+
+msgid "Configuration Type"
+msgstr ""
+
+msgid "Global Final Config & Firmware Directory"
+msgstr ""
+
+msgid "Time Zone"
+msgstr ""
+
+msgid "like"
+msgstr ""
+
+msgid "Time Server (NTP Server)"
+msgstr ""
+
+msgid "executable path"
+msgstr ""
+
+msgid "Enable FreePBX ARI Module"
+msgstr ""
+
+msgid "Enable Debug Mode"
+msgstr ""
+
+msgid "Disable Tooltips"
+msgstr ""
+
+msgid "Allow Duplicate Extensions"
+msgstr ""
+
+msgid "Allow Saving Over Default Configuration Files"
+msgstr ""
+
+msgid "Disable TFTP Server Check"
+msgstr ""
+
+msgid "Disable Configuration File Backups"
+msgstr ""
+
+msgid "Use GITHUB Live Repo (Requires git to be installed)"
+msgstr ""
+
+msgid "Update Globals"
+msgstr ""
+
+msgid "End Point Configuration Manager"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "The Endpoint Configuration Manager was originally written by"
+msgstr ""
+
+msgid "The project is maintained at"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "OUI Manager"
+msgstr ""
+
+msgid "Product Options/Configuration Editor"
+msgstr ""
+
+msgid "Import/Export My Devices List"
+msgstr ""
+
+msgid "Manual Endpoint Modules Upload/Export"
+msgstr ""
+
+msgid "Show/Hide Brands/Models"
+msgstr ""
+
+msgid "Select Product"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "File Configuration Editor"
+msgstr ""
+
+msgid "Custom Template Files"
+msgstr ""
+
+msgid "Local File Configs"
+msgstr ""
+
+msgid "User File Configs"
+msgstr ""
+
+msgid "Save As"
+msgstr ""
+
+msgid "End Point Manager"
+msgstr ""
+
+msgid "OSS PBX End Point Manager"
+msgstr ""
+
+msgid "Connectivity"
+msgstr ""
+
+msgid ""
+"OSS PBX End Point Manager is the free supported PBX Endpoint Manager for "
+"FreePBX.          It is NOT to be confused with the commercial version "
+"called 'endpoint'.         The main differences between the two versions is "
+"that the developer of Commercial Endpoint works 30 hours a week paid by "
+"Schmoozecom to work on it."
+msgstr ""
+
+msgid "OSS Endpoint Device List"
+msgstr ""
+
+msgid "OSS Endpoint Template Manager"
+msgstr ""
+
+msgid "OSS Endpoint Configuration"
+msgstr ""
+
+msgid "OSS Endpoint Advanced Settings"
+msgstr ""

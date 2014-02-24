@@ -1,0 +1,101 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for pagingpro
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-24 17:40+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "seconds"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "minutes"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "day"
+msgstr ""
+
+msgid "weeks"
+msgstr ""
+
+msgid "week"
+msgstr ""
+
+msgid "years"
+msgstr ""
+
+msgid "year"
+msgstr ""
+
+msgid "Paging Pro"
+msgstr ""
+
+msgid "Applications"
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE REQUIES A LICENSE FOR IT TO FUNCTION.  Please visit www."
+"schmoozecom.com/oss.php.  This Module expands the normal Paging module in "
+"\tFreePBX to add the following features:\t\tOutbound Notifications - Enables "
+"the ability to notify a group of phone(s) when a user dials a specific "
+"number, ie: 911. Any page group can be linked in the outbound routes "
+"\tmodule. When a call is placed a page will go out to the page group "
+"notifying the page group of what number was failed and what user dialed the "
+"number. Any user of the page \tgroup can dial *1 to barge into the call and "
+"speak.\tValet Style Paging (Airport Style) - You can now choose to have your "
+"pages recorded and when you hang up have it send the audio file to all the "
+"devices that are part of the \tpage group. This setting is done on a per "
+"page group. You can also tell the system to only use Valet if someone dials "
+"the page group and it is in use already.\tPrepend Recording - You can now "
+"have the page group weather normal or valet style play a recorded message to "
+"all participants of the page group before the pager can start \tspeaking."
+"\tScheduled Pages - You can now define custom schedules to have the system "
+"page a group of devices and play a recording. This is a great replacement "
+"for school bell systems or lunch break buzzers."
+msgstr ""
+
+msgid "Max Paging Participants"
+msgstr ""
+
+msgid "Paging"
+msgstr ""
+
+msgid "Maximum amount of particpants allowed in a page"
+msgstr ""

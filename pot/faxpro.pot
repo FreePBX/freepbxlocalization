@@ -1,0 +1,254 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for faxpro
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-24 17:40+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Fax Configuration Professional"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit www."
+"schmoozecom.com/oss.php. The Fax Pro module adds functionality to the "
+"standard \tFreePBX Fax modue. Outbound faxing can be done through a web "
+"interface on your FreePBX system. Simply type in a phone number and upload a "
+"PDF. You can optionally set the \toutgoing PDF to use a locally stored fax "
+"coversheet with your faxes; and type in a personal message on the coversheet"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Select a file to upload. Supported formats are: "
+msgstr ""
+
+msgid "attach another file"
+msgstr ""
+
+msgid "Destination"
+msgstr ""
+
+msgid "Coversheet?"
+msgstr ""
+
+msgid "Recipient Name"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "My Details"
+msgstr ""
+
+msgid "My Name"
+msgstr ""
+
+msgid "My Tel"
+msgstr ""
+
+msgid "My Email"
+msgstr ""
+
+msgid "Send Fax"
+msgstr ""
+
+#, php-format
+msgid "You are using %s%% of your fax storage quota. "
+msgstr ""
+
+msgid "A full quota will cause new faxes to be rejected by the system."
+msgstr ""
+
+msgid ""
+"A full quota will cause the system to delete stored fax to make room for "
+"the  ones."
+msgstr ""
+
+msgid "Please ensure you have adequate space remaining."
+msgstr ""
+
+msgid "Fax"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Pages"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Forward"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid ""
+" Submit Changes needs to be pressed before this option can become available."
+msgstr ""
+
+msgid "T38-Gateway Enabled"
+msgstr ""
+
+msgid "Set this to yes if you are using a t38 gateway device."
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Store Localy"
+msgstr ""
+
+msgid ""
+"Chose this option to have faxes stored by the server; accesable via the ARI."
+msgstr ""
+
+msgid "Outgoing Station ID"
+msgstr ""
+
+msgid "The outgoing Fax Machine Identifier. This is usualy your fax number."
+msgstr ""
+
+msgid "Outgoing Header"
+msgstr ""
+
+msgid ""
+"The outgoing Fax Machine Headers. This usualy contains the name of the "
+"person or entity sending the fax."
+msgstr ""
+
+msgid "Coversheet Name"
+msgstr ""
+
+msgid "The name that should appear on the outbound coversheet."
+msgstr ""
+
+msgid "Coversheet Tel"
+msgstr ""
+
+msgid "The Phone number that will appear on the cover sheet."
+msgstr ""
+
+msgid "Coversheet Email"
+msgstr ""
+
+msgid "The email address that will appear on the coversheet."
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Fax Licenses"
+msgstr ""
+
+msgid "License number"
+msgstr ""
+
+msgid "Concurrent Faxes"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Fax Cover Page Options"
+msgstr ""
+
+msgid "ERROR:"
+msgstr ""
+
+msgid "Company Logo"
+msgstr ""
+
+msgid "Company Logo. Filetype MUST be JPG"
+msgstr ""
+
+msgid "Company Name"
+msgstr ""
+
+msgid "Company Address 1"
+msgstr ""
+
+msgid "Company Address 2"
+msgstr ""
+
+msgid "Company Address 3"
+msgstr ""
+
+msgid "Company Phone"
+msgstr ""
+
+msgid "Company Web Site"
+msgstr ""
+
+msgid "Company Footer"
+msgstr ""
+
+msgid "This text will appear at the bottom of every outbound fax."
+msgstr ""
+
+msgid "Preview Cover Page"
+msgstr ""
+
+msgid "Preview cover page, will save your settings first"
+msgstr ""
+
+msgid "Local Storage Options"
+msgstr ""
+
+msgid "Max Pages"
+msgstr ""
+
+msgid "The maximum amount of pages a user is allowed to store locally."
+msgstr ""
+
+msgid "Excess Faxes"
+msgstr ""
+
+msgid ""
+"How the system should respond when a new fax arrives for a user whos quota "
+"is full.<ul><li>Reject: Reject the new fax and dissconect the call</"
+"li><li>Delete Oldest: Delete as many faxes as nesesary to accommodate the "
+"incoming fax, starting from the oldest.</li></ul>With either option, a fax "
+"larger that the quota will be deleted after it was recived."
+msgstr ""

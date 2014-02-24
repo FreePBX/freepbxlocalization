@@ -1,0 +1,178 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for misdn
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-24 17:40+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Checking for an xslt processor.."
+msgstr ""
+
+msgid "nothing found."
+msgstr ""
+
+msgid "FATAL: can't continue installing, see module requirements."
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "Standard"
+msgstr ""
+
+msgid "Round Robin"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "International"
+msgstr ""
+
+msgid "National"
+msgstr ""
+
+msgid "Subscriber"
+msgstr ""
+
+msgid "Give a comma separated list (or '*' to match any) of MSNs for TE ports."
+msgstr ""
+
+msgid ""
+"This enables echocancellation, with the given number of taps. Be aware, move "
+"this setting only to outgoing portgroups! A value of zero turns "
+"echocancellation off."
+msgstr ""
+
+msgid ""
+"Set the method to use for channel selection.<br /><i>Standard</i> always "
+"chooses the first free channel with the lowest number.<br /><i>Round Robin</"
+"i> uses the round robin algorithm to select a channel. Use this if you want "
+"to balance your load."
+msgstr ""
+
+msgid ""
+"This option defines, if chan_misdn should check the L1 on a PMP before "
+"making a group call on it. The L1 may go down for PMP Ports so we might need "
+"this."
+msgstr ""
+
+msgid "Changes the TX Gain."
+msgstr ""
+
+msgid "Type Of Number in ISDN Terms (for outgoing calls)."
+msgstr ""
+
+msgid ""
+"National prefix is put before the oad if an according dialplan is set by the "
+"other end."
+msgstr ""
+
+msgid ""
+"International prefix is put before the oad if an according dialplan is set "
+"by the other end."
+msgstr ""
+
+msgid "Either if we should produce DTMF Tones ourselves."
+msgstr ""
+
+msgid ""
+"Reject code sent to the caller in PMP.<br /><i>16</i> normal call clearing."
+"<br /><i>17</i> user busy.<br /><i>21</i> disconnected."
+msgstr ""
+
+msgid "Generic mISDN Device"
+msgstr ""
+
+msgid "mISDN"
+msgstr ""
+
+msgid "Connectivity"
+msgstr ""
+
+msgid "mISDN General Settings"
+msgstr ""
+
+msgid "mISDN Port Groups"
+msgstr ""
+
+msgid "Add Port Group"
+msgstr ""
+
+msgid ""
+"Please remember that you have to restart asterisk after changing port to "
+"group assignment!"
+msgstr ""
+
+msgid "mISDN Settings"
+msgstr ""
+
+msgid "mISDN Error"
+msgstr ""
+
+msgid "No cards found on this system!"
+msgstr ""
+
+msgid "Delete mISDN Port Group"
+msgstr ""
+
+msgid "Add Group"
+msgstr ""
+
+msgid ""
+"Unique name of the mISDN portgroup. Must not be <i>default</i> nor "
+"<i>general</i>."
+msgstr ""
+
+msgid "Extensions"
+msgstr ""
+
+msgid "Trunks"
+msgstr ""
+
+msgid "Select type of the ports in this group."
+msgstr ""
+
+msgid "The type of the ports in this group."
+msgstr ""
+
+msgid "Selectable ports on this card:"
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+msgid "All ports of this device are already assigned to groups!"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Default is"
+msgstr ""

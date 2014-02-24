@@ -1,0 +1,135 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for motif
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-24 17:40+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Can not create Google Voice/Motif table"
+msgstr ""
+
+msgid "Unknown/Not Supported database type: "
+msgstr ""
+
+msgid "Google Voice/Chan Motif"
+msgstr ""
+
+msgid "Connectivity"
+msgstr ""
+
+msgid "Manage Google Voice Trunks with Chan Motif"
+msgstr ""
+
+msgid "Google Voice (Motif)"
+msgstr ""
+
+msgid "Add Google Voice Account"
+msgstr ""
+
+msgid "Typical Settings"
+msgstr ""
+
+msgid "Google Voice Username"
+msgstr ""
+
+msgid ""
+"This is your google voice login.<br />If don't you supply '@domain' we will "
+"append @gmail.com"
+msgstr ""
+
+msgid "Google Voice Password"
+msgstr ""
+
+msgid "This is your Google Voice Password"
+msgstr ""
+
+msgid "Google Voice Phone Number"
+msgstr ""
+
+msgid "This is your Google Voice Phone Number <br />10 Digit Format"
+msgstr ""
+
+msgid " Trunk"
+msgstr ""
+
+msgid "Automatically Add this Account as a Trunk"
+msgstr ""
+
+msgid " Outbound Routes"
+msgstr ""
+
+msgid "Automatically Add Outbound Route for this Account"
+msgstr ""
+
+msgid " Inbound Routes"
+msgstr ""
+
+msgid "Automatically Add Inbound Routes for this Account"
+msgstr ""
+
+msgid "Send Unanswered to Google Voicemail"
+msgstr ""
+
+msgid ""
+"Send unanswered calls to Google voicemail after 25 seconds<br />Note: You "
+"MUST route this to a device that can answer. Example: IVRs and Phone "
+"directories can NOT answer"
+msgstr ""
+
+msgid "Advanced Settings"
+msgstr ""
+
+msgid "Google Voice Status Message"
+msgstr ""
+
+msgid "This is your Google Voice Status Message that buddies will see"
+msgstr ""
+
+msgid "XMPP Priority"
+msgstr ""
+
+msgid ""
+"This is the priority of where google will route an inbound call. A higher "
+"number has a higher priority. We believe that:<ul><li>Windows Gtalk client "
+"is 20</li><li>GMail is 24</li><li>Pidgin would be 0 or 1</li></ul>The range "
+"of acceptable values is -128 to +127. Anything else will be reset to the "
+"highest or lowest value."
+msgstr ""
+
+msgid "Detailed Status"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Connected"
+msgstr ""
+
+msgid "Disconnected"
+msgstr ""
+
+msgid "Buddies"
+msgstr ""

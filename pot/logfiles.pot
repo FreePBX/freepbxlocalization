@@ -1,0 +1,225 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for logfiles
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-24 17:40+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Asterisk Logfiles"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Asterisk Logfile Settings"
+msgstr ""
+
+msgid "logger.conf symlinked to incorrect file:"
+msgstr ""
+
+msgid "removing.."
+msgstr ""
+
+msgid "ok"
+msgstr ""
+
+msgid "failed"
+msgstr ""
+
+msgid "Error parsing log file or file not found!"
+msgstr ""
+
+msgid "View Logs"
+msgstr ""
+
+msgid "Log file settings"
+msgstr ""
+
+msgid "Asterisk Log Files"
+msgstr ""
+
+msgid "lines"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Log File Settings"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Date Format"
+msgstr ""
+
+msgid ""
+"Customize the display of debug message time stamps. See strftime(3) Linux "
+"manual for format specifiers. Note that there is also a fractional second "
+"parameter which may be used in this field.  Use %1q for tenths, %2q for "
+"hundredths, etc."
+msgstr ""
+
+msgid ""
+"Leave blank for default: ISO 8601 date format yyyy-mm-dd HH:MM:SS (%F %T)"
+msgstr ""
+
+msgid "Sequential"
+msgstr ""
+
+msgid "Rotate"
+msgstr ""
+
+msgid "Timestamp"
+msgstr ""
+
+msgid ""
+"Sequential: Rename archived logs in order, such that the newest has the "
+"highest sequence number"
+msgstr ""
+
+msgid ""
+"Rotate: Rotate all the old files, such that the oldest has the highest "
+"sequence number (expected behavior for Unix administrators)."
+msgstr ""
+
+msgid ""
+"Timestamp: Rename the logfiles using a timestamp instead of a sequence "
+"number when \"logger rotate\" is executed."
+msgstr ""
+
+msgid "Log rotation"
+msgstr ""
+
+msgid "Log rotation strategy: "
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Append Hostname"
+msgstr ""
+
+msgid "Appends the hostname to the name of the log files"
+msgstr ""
+
+msgid "Log Queues"
+msgstr ""
+
+msgid "Log queue events to a file"
+msgstr ""
+
+msgid "Log Files"
+msgstr ""
+
+msgid "File Name"
+msgstr ""
+
+msgid ""
+"Name of file, relative to TODO!!!!. Use absolute path for a different "
+"location"
+msgstr ""
+
+msgid "Debug"
+msgstr ""
+
+msgid ""
+"Messages used for debuging. Do not report these as error's unless you have a "
+"specific issue that you are attempting to debug. Also note that Debug "
+"messages are also very verbose and can and do fill up logfiles (and disk "
+"storage) quickly."
+msgstr ""
+
+msgid "DTMF"
+msgstr ""
+
+msgid ""
+"Keypresses as understood by asterisk. Usefull for debuging IVR and VM issues."
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Critical errors and issues"
+msgstr ""
+
+msgid "Fax"
+msgstr ""
+
+msgid "Transmition and receiving of faxes"
+msgstr ""
+
+msgid "Notice"
+msgstr ""
+
+msgid ""
+"Messages of specific actions, such as a phone registration or call completion"
+msgstr ""
+
+msgid "Verbose"
+msgstr ""
+
+msgid ""
+"Step-by-step messages of every step of a call flow. Always enable and review "
+"if calls dont flow as expected"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Possible issues with dialplan syntaxt or call flow, but not critical."
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid ""
+"Notification of security related events such as authentication attempts."
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "file path/name"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Delete this entry. Click Submit to save changes"
+msgstr ""
+
+msgid "New Log File"
+msgstr ""
+
+msgid "Save"
+msgstr ""

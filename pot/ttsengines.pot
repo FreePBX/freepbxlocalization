@@ -1,0 +1,81 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for ttsengines
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-24 17:40+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Text to Speech Engines"
+msgstr ""
+
+msgid "Add Engine"
+msgstr ""
+
+msgid ""
+"On this page you can manage text to speech engines on your system. When you "
+"add an engine you give it a name, and the full path to the engine on your "
+"system. After doing this the engine will be available on the text to speech "
+"page."
+msgstr ""
+
+msgid "Engine name"
+msgstr ""
+
+msgid ""
+"The name you enter will be shown in a drop down box on the Text to Speech "
+"page so you can select which engine you want to play your text."
+msgstr ""
+
+msgid "Engine path"
+msgstr ""
+
+msgid ""
+"The full path to the binary of your text to speech engine. For example: /usr/"
+"sbin/magic_speech_engine."
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Text To Speech Engines"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Allows you to configure text to speech engines"
+msgstr ""
+
+msgid "Text-to-Speech Engine:"
+msgstr ""
+
+msgid ""
+"Choose either the free Flite engine (requires flite and app_flite) or the "
+"paid Cepstral engine (requires app_cepstral)"
+msgstr ""
