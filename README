@@ -1,21 +1,31 @@
-THIS IS THE README.
+README - Updated on February 24th, 2014
 
-Weblate github/gitlab webhook modifications:
+TODO: Check on whether there needs to be an update from POT files on old
+translations. Some of those guys are really OLD and use strings that don't
+exist in the current UI, or are also likely missing current new strings that
+do.
 
-To support GitLab:
+TODO: Write a script to place the files in the appropriate directories.
+update_xlation.sh will probably help.
 
-Test 1
+===ABOUT THIS REPOSITORY==
 
-(Changes in api.py)
+This is a repository containing all of the current PO files for FreePBX 2.11.
+It's divided by language, rather than by module as has been the norm before.
+That means that in the "po" folder, you'll find the 4 character language code
+of the supported locale (ex: Japan is ja_JP), and inside that folder are all
+of the currently existing PO files. Weblate, our translation management
+software, demands that things be shaped this way in order for an automatic
+import of all the files to work.
 
-1st part I changed:
-        payload = request.body
-        # payload = request.POST['payload']
+NOTE: Many languages were translated a long, long time ago and are badly out
+of date or incomplete. 
 
-2nd part I changed:
-    #owner = data['repository']['owner']['name']
-    #slug = data['repository']['name']
-    repo_url = data['repository']['url']
-    repos = [repo_url]
-    #repos = [repo % {'owner': owner, 'slug': slug} for repo in GITHUB_REPOS]
+You can also find the current POT templates for all modules that support
+localization in the "pot" directory. These contain the current complete
+list of translate-able strings for each module, and should be updated on a
+regular basis as localization bugs get fixed in source code to allow for 
+more complete translations.
 
+NOTE AGAIN: .po files aren't worth anything until they've been compiled as
+binary .mo files by gettext.
