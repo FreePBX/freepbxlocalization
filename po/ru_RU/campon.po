@@ -1,0 +1,612 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Russian freePBX ver. translation 
+# Copyright (c) 2006-2011 PostMet Corporation
+# Alexander Kozyrev <ceo@postmet.com>, 2006-2011.
+#
+# fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-09 12:25+0200\n"
+"PO-Revision-Date: 2011-09-11 00:00+0100\n"
+"Last-Translator: Alexander Kozyrev <ceo@postmet.com>\n"
+"Language-Team: Russian <faq@postmet.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Camp-On"
+msgstr "Camp-On"
+
+msgid "Internal Options & Configuration"
+msgstr "Внутренние опции и конфигурация"
+
+msgid ""
+"This module implements the Call Completion Supplemental Services (CCSS) "
+"often referred to as Call Camping or Camp-On. It allows a caller to request "
+"the system call them back when a busy or non-responding extension becomes "
+"available. Requires Asterisk 1.8 or higher."
+msgstr ""
+"Этот модуль реализует Справочную Услугу Завершение вызова (CCSS). Это ещё называют "
+"услугой вызова Отдых на природе или Camp-On. Она позволяет абоненту запросить систему "
+"совершить вызов Call-back, если номер был занят или не отвечал тогда, когда номер станет "
+"доступным."
+
+msgid "Maximum Active Camp-On Requests"
+msgstr "Активных запросов Camp-On, максимально"
+
+msgid "Camp-On Module"
+msgstr "Модуль Camp-On"
+
+msgid ""
+"System wide maximum number of outstanding Camp-On requests that can be "
+"active. This limit is useful on a system that may have memory constraints "
+"since the internal state machine takes up system resources relative to the "
+"number of active requests it has to track. Restart Asterisk for changes to "
+"take effect."
+msgstr ""
+"Общее количество принятых запросов Camp-On, макисмально, которые будут активны. "
+"Это ограничение может быть полезно на системах с ограниченной оперативной памятью, "
+"в которых состояние системы и её ресурсов напрямую зависит от количества "
+"одновременных запросов, которые отслеживаются системой в текущий момент. Необходим "
+"рестарт Астериск чтобы изменения вступили в силу."
+
+msgid "Non Extensions Callee Policy"
+msgstr "Политика вызовов на служебные внутренние номера"
+
+msgid ""
+"If this is set to 'generic' or 'always' then it will be possible to attempt "
+"call completion requests when dialing non-extensions such as ring groups and "
+"other possible destinations that could work with call completion. Setting "
+"this will bypass any Callee Policies and can result in inconsistent "
+"behavior. If set, 'generic' is the most common, 'always' will attempt to use "
+"technology specific capabilities if the called extension uses a channel that "
+"supports that."
+msgstr ""
+"Если эта опция установлена в 'generic' или 'always' то это делает возможным "
+"попытаться завершить запрос вызова если набирались не прямые внутренние номера, "
+"а такие как группы вызова и другие возможные направления, которые могут использоваться "
+"при вызове. Установка этой опции будет обходить Политику вызовов и может приводить "
+"к противоречивому поведению системы. Если указано 'generic', то это наиболее "
+"общая политика, если 'always', то будет выполнена попытка использовать специфические "
+"возможности технологии, если вызывающий внутренний номер использует канал, который "
+"их поддерживают." 
+
+msgid "Only Use Default Camp-On Settings"
+msgstr "Использовать только дефолтные установки Camp-On"
+
+msgid ""
+"You can force all extensions on a system to only used the default Camp-On "
+"settings. When in this mode, the individual settings will not be shown on "
+"the extension page. If there were unique settings previously configured, the "
+"data will be retained but not used unless you switch this back to false. "
+"With this set, the Caller Policy (cc_agent_policy) and Callee Policy "
+"(cc_monitor_policy) settings will still be configurable for each user so you "
+"can still enable/disable Call Camping ability on select extensions."
+msgstr ""
+"Можно форсировать использовать только дефолтные установки Camp-On всем внутренним "
+"Caller IDуальные настройки Camp-On у каждого внутреннего номера "
+"не видны. Если там уже были установлены какие-то индивидуальные настройки, то они "
+"не пропадут, но они будут использоваться когда этот флаг установлен в 'false'. "
+"Этой установкой настройки политик по умолчанию для вызывающей (cc_agent_policy) и "
+"вызываемой (cc_monitor_policy) сторон будут также конфигурабельны для каждого "
+"пользователя, и, таким образом, можно по-прежнему включать/выключать возможность "
+"вызовов Camp-On для внутреннего номера." 
+
+msgid "Caller Policy Default"
+msgstr "Политика по умолчанию для вызывающей стороны"
+
+msgid ""
+"Asterisk: cc_agent_policy. Used to enable Camp-On for a user and set the "
+"Technology Mode that will be used when engaging the feature. In most cases "
+"'generic' should be chosen unless you have phones designed to work with "
+"channel specific capabilities."
+msgstr ""
+"Asterisk: cc_agent_policy. Используется для включения опции Camp-On для пользователя "
+"и установки вида технологии, которая будет использоваться при этом. В большинстве "
+"случаев необходимо и достаточно выбрать 'generic', кроме случаев, когда у вас телефон "
+"умеет работать с какими то особенными специфическими возможностями." 
+
+msgid "Callee Policy Default"
+msgstr "Политика по умолчанию для вызываемой стороны"
+
+msgid ""
+"Asterisk: cc_monitor_policy. Used to control if other phones are allowed to "
+"Camp On to an extension. If so, it sets the technology mode used to monitor "
+"the availability of the extension. If no specific technology support is "
+"available then it should be set to a 'generic'. In this mode, a callback "
+"will be initiated to the extension when it changes from an InUse state to "
+"NotInUse. If it was busy when first attempted, this will be when the current "
+"call has eneded. If it simply did not answer, then this will be the next "
+"time this phone is used to make or answer a call and then hangs up. It is "
+"possible to set this to take advantage of 'native' technology support if "
+"available and automatically fallback to 'generic' whe not by setting it to "
+"'always'."
+msgstr ""
+"Asterisk: cc_monitor_policy. Служит для контроля могут ли другие телефоны "
+"вызывать внутренний номер в режиме Camp-On. Если не используется какая-то специфическая "
+"технология вызова, то должно быть установлено в 'generic'. В этом режиме обратный "
+"звонок инициируется когда статус внутреннего номера изменится с InUse на NotInUse. "
+"Если с первой попытки получен статус Занято, то это произойдёт когда закончится текущий "
+"разговор. Если же просто никто не ответил, то это произойдёт в тот момент, когда "
+"этот телефон будет использоваться, или ответит на вызов, и закончит его. Есть "
+"возможность попытаться указать 'native' как поддерживаемую технологию, и автоматически "
+"перейти на 'generic' если не указано 'always'."
+
+msgid "Caller Timeout to Request Default"
+msgstr "Таймаут по умолчанию для запроса вызывающей стороны"
+
+msgid ""
+"Asterisk: cc_offer_timer. How many seconds after dialing an extenion a user "
+"has to make a call completion request."
+msgstr ""
+"Asterisk: cc_offer_timer. Время в секундах после набора номера пользователю, в течение "
+"которого выполняется завершение запроса вызова." 
+
+msgid "Max Camp-On Life Busy Default"
+msgstr "Максимальное время жизни по умолчанию режима Занято Camp-On"
+
+msgid ""
+"Asteirsk: ccbs_available_timer. How long a call completion request will "
+"remain active, in seconds, before expiring if the phone rang busy when first "
+"attempting the call."
+msgstr ""
+"Asterisk: ccbs_available_timer. Как долго запрос вызова будет оставаться активным, "
+"в секундах, после чего запрос снимается, если телефон, на котороый совершён вызов "
+"занят при первой попытке дозвониться."
+
+msgid "Max Camp-On Life No Answer Default"
+msgstr "Максимальное время жизни по умолчанию по неответу Camp-On"
+
+msgid ""
+"Asteirsk: ccnr_available_timer. How long a call completion request will "
+"remain active, in seconds, before expiring if the phone was simply "
+"unanswered when first attempting the call."
+msgstr ""
+"Asterisk: ccnr_available_timer. Как долго запрос на вызов будет оставаться активным, "
+"в секундах, прежде чем закончится, если внутренний номер просто не ответил "
+"на начальный вызов."
+
+msgid "Default Time to Ring Back Caller"
+msgstr "Максимальное время обратного вызова вызывающему абоненту"
+
+msgid ""
+"Asterisk: cc_recall_timer. How long in seconds to ring back a caller who's "
+"Caller Policy is set to 'Generic Device'. This has no affect if set to any "
+"other setting."
+msgstr ""
+"Asterisk: cc_recall_timer. Как долго будет идти вызов вызывающему, если "
+"если политика вызывающей стороны установлена в 'Generic Device'. Это опция "
+"не работает в других установках." 
+
+msgid "Default Caller Callback Mode"
+msgstr "Режим по умолчанию для вызывающей стороны"
+
+msgid ""
+"Affects Asterisk: cc_agent_dialstring. If not set a callback request will be "
+"dialed straight to the speciifc device that made the call. If using 'native' "
+"technology support this may be the peferred mode. The 'internal' (Callback "
+"Standard) option will intiate a call back to the caller just as if someone "
+"else on the system placed the call, which means the call can pursue Follow-"
+"Me. To avoid Follow-Me setting, choose 'extension' (Callback Extension)."
+msgstr "Affects Asterisk: cc_agent_dialstring. Если не установлено специально, запрос на "
+"обратный вызов будет совершаться прямо на то устройство, которое сделало звонок. "
+"Если используется 'native' - собственная технология вызова, то это может быть "
+"предпочтением. Опция 'internal' (стандартная для обратного вызова) будет "
+"инициировать обратный вызов позвонившему так, как будто звонок совершается "
+"изнутри системы, то есть по сценарию Следуйте сюда. Чтобы не учитывать установки "
+"Следуйте сюда - выбирайте 'extension' (Обратный вызов внутреннего номера)."   
+
+msgid "Default Max Camped-On Extensions"
+msgstr "Максимальное число внутренних номеров с задействованной опцией Camp-On"
+
+msgid ""
+"Asterisk: cc_max_agents. Only valid for when using 'native' technology "
+"support for Caller Policy. This is the number of outstanding Call Completion "
+"requests that can be pending to different extensions. With 'generic' device "
+"mode you can only have a single request outstanding and this will be ignored."
+msgstr "Asterisk: cc_max_agents. Данный параметр имеет значение при использовании технологии "
+"'native' для вызывающей стороны и определяет количество незаконченных запросов CCSS для "
+"отдельного внутреннего номера. При использовании технологии 'generic' для отдельного "
+"внутреннего номера может быть только один запрос и данный параметр будет проигнорирован."
+
+msgid "Default Callback Alert-Info"
+msgstr "Значение по умолчанию поля Alert-Info при обратном вызове"
+
+msgid ""
+"An optional Alert-Info setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to 'generic' device'"
+msgstr "Назначаемое значение поля Alert-Info в обратном звонке. Имеет смысл только для "
+"технологии 'generic'."
+
+msgid "Default Callback CID Prepend"
+msgstr "Префикс CID по умолчанию при обратном вызове"
+
+msgid ""
+"An optional CID Prepend setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to a 'generic' device'"
+msgstr "Назначаемое значение префикса CID в обратном вызове.  Имеет смысл только для "
+"технологии 'generic'."
+
+msgid "Announce the Callee Extension"
+msgstr "Оповещение о звонке вызываемой стороне"
+
+msgid ""
+"When set to true the target extension being called will be announced upone "
+"answering the Callback prior to ringing the extension. Setting this to false "
+"will go directly to ringing the extension, the CID information will still "
+"reflect who is being called back."
+msgstr "Если установлено, вызываемая сторона будет оповещена при ответе на обратный вызов"
+" перед тем, как вызов будет отправлен вызывающей стороне. Информация в поле CID будет "
+"установлена вне зависимости от значения данного параметра."
+
+msgid "Default Callee Alert-Info"
+msgstr "Значение по умолчанию поля Alert-Info для вызываемой стороны"
+
+msgid ""
+"An optional Alert-Info setting that can be used to send to the extension "
+"being called back."
+msgstr "Назначаемое значение Alert-Info для вызываемой стороны."
+
+msgid "Default Callee CID Prepend"
+msgstr "Приставка к CID для вызываемой стороны по умолчанию"
+
+msgid ""
+"An optional CID Prepend setting that can be used to send to the extension "
+"being called back.'"
+msgstr "Назначаемое значение приставке к CID для вызываемой стороны."
+
+msgid "Default Max Queued Callers"
+msgstr "Максимальное число позвонивших"
+
+msgid ""
+"Asterisk: cc_max_monitors. This is the maximum number of callers that are "
+"allowed to queue up call completion requests against this extension."
+msgstr "Asterisk: cc_max_monitors. Максимальное значение запросов CCSS, которые "
+" одновременно могут быть направлены этому абоненту."
+
+msgid "BLF Camp-On Available State"
+msgstr "Состояние BLF Camp-On Доступен"
+
+msgid ""
+"This is the state that will be set for BLF subscriptions after attempting a "
+"call while it is still possible to Camp-On to the last called number, prior "
+"to the offer_timer expiring. Restart Asterisk for changes to take effect."
+msgstr "Значение состояния BLF, показывающего возможность Camp-On запроса на "
+"последний набранный номер перед истечением таймера offer_timer. Для того, что бы этот "
+"параметр заработал требуется перезапуск Asterisk."
+
+msgid "BLF Camp-On Pending State"
+msgstr "Состояние BLF Camp-On В Ожидании"
+
+msgid ""
+"This is the state that will be set for BLF subscriptions upon a successful "
+"Camp-On request, pending a callback when the party becomes available. "
+"Restart Asterisk for changes to take effect."
+msgstr ""
+"Это состояние которое будет установлено для информации BLF по подписке после "
+"успешного запроса Camp-On, устанавливающее ожидание для обратного вызова "
+"тогда, когда абонент освободится. Необходим рестарт Астериска чтобы изменения "
+"вступили в силу."
+
+msgid "BLF Camp-On Busy Caller State"
+msgstr "Состояние BLF Camp-On Занято позвонившему"
+
+msgid ""
+"This is the state that will be set for BLF subscriptions once the callee "
+"becomes available if the caller is not busy. Restart Asterisk for changes to "
+"take effect."
+msgstr ""
+"Это состояние которое будет установлено для информации BLF по подписке о том, что "
+"вызываемая сторона будет доступна, если позвонившая сторона не занята. Необходим "
+"рестарт Астериска чтобы изменения вступили в силу."
+
+msgid "BLF Camp-On Recalling State"
+msgstr "Состояние BLF Camp-On повторного вызова"
+
+msgid "Disable Camp-On"
+msgstr "Отключить Camp-On"
+
+msgid "Generic Device"
+msgstr "Обычное устройство"
+
+msgid "Native Technology Support"
+msgstr "Поддержка собственной технологии"
+
+msgid "20 sec"
+msgstr "20 сек"
+
+msgid "30 sec"
+msgstr "30 сек"
+
+msgid "45 sec"
+msgstr "45 сек"
+
+msgid "1 min"
+msgstr "1 мин"
+
+msgid "2"
+msgstr "2 min"
+
+msgid "3 min"
+msgstr "3 min"
+
+msgid "4 min"
+msgstr "4 min"
+
+msgid "5 min"
+msgstr "5 min"
+
+msgid "10 min"
+msgstr "10 min"
+
+msgid "20 min"
+msgstr "20 min"
+
+msgid "40 min"
+msgstr "40 min"
+
+msgid "60 min"
+msgstr "60 min"
+
+msgid "80 min"
+msgstr "80 min"
+
+msgid "100 min"
+msgstr "100 min"
+
+msgid "2 hrs"
+msgstr "2 часа"
+
+msgid "3 hrs"
+msgstr "3 часа"
+
+msgid "4 hrs"
+msgstr "4 часа"
+
+msgid "5 hrs"
+msgstr "5 часов"
+
+msgid "6 hrs"
+msgstr "6 часов"
+
+msgid "7 hrs"
+msgstr "7 часов"
+
+msgid "8 hrs"
+msgstr "8 часов"
+
+#, php-format
+msgid "%s sec"
+msgstr "%s сек"
+
+#, php-format
+msgid "%s Outgoing Requests"
+msgstr "%s Исходящий запрос"
+
+msgid "Callback Device Directly"
+msgstr "Обратный вызов для устройства напрямую"
+
+msgid "Callback Standard"
+msgstr "Стандартный обратный вызов"
+
+msgid "Callback Extension (no Follow-Me)"
+msgstr "Обратный вызов внутреннего номера (не по опции Следуте сюда)"
+
+msgid "Native Where Available"
+msgstr "Собственный (если доступно)"
+
+msgid "Announce"
+msgstr "Приветствие"
+
+msgid "Silent"
+msgstr "Тишина"
+
+#, php-format
+msgid "%s Incoming Requests"
+msgstr "%s Входящий запрос"
+
+msgid "Caller Policy"
+msgstr "Политика для вызывающего абонента"
+
+msgid "Callee Policy"
+msgstr "Политика для вызываемого абонента"
+
+msgid "Caller Timeout to Request"
+msgstr "Таймаут для запроста вызывающей стороны"
+
+msgid "Max Camp-On Life Busy"
+msgstr "Время жизни Camp-On по статуту Занято, максимально"
+
+msgid "Max Camp-On Life No Answer"
+msgstr "Время жизни Camp-On по неответу, максимально"
+
+msgid "Time to Ring Back Caller"
+msgstr "Время обратного вызова вызывающему абоненту"
+
+msgid "Max Camped-On Extensions"
+msgstr "Общее число внутренних номеров с опцией Camp-On, максимально"
+
+msgid "Caller Callback Mode"
+msgstr "Режим обратного вызова вызывающему абоненту"
+
+msgid "Max Queued Callers"
+msgstr "Максимальное число вызывающих абонентов в очереди на запросы"
+
+msgid "Announce Callback Extension"
+msgstr "Сообщение для обратного вызова внутреннему номеру"
+
+msgid "Callback Alert-Info"
+msgstr "Информационное сообщение Alert для обратного вызова"
+
+msgid "Callback CID Prepend"
+msgstr "Приставка к CID для обратного вызова"
+
+msgid "Callee Alert-Info"
+msgstr "Информационное сообщение Alert вызываемой стороне"
+
+msgid "Callee CID Prepend"
+msgstr "Приставка к CID для вызываемой стороны"
+
+msgid ""
+"Asterisk: cc_agent_policy. Used to enable Camp-On for this user and set the "
+"Technology Mode that will be used when engaging the feature. In most cases "
+"'Generic Device' should be chosen unless you have phones designed to work "
+"with channel specific capabilities."
+msgstr ""
+"Asterisk: cc_agent_policy. Используется для включения Camp-On для пользователя "
+"и указания технологии, посредством которой будет задействована эта опция. В "
+"большинстве случаев лучше выбрать 'Обычное устройство' если ваш телефон не "
+"разработан для использования каналов специфических технологий."
+
+msgid ""
+"Asterisk: cc_monitor_policy. Used to control if other phones are allowed to "
+"Camp On to this extension. If so, it sets the technology mode used to "
+"monitor the availability of the extension. If no specific technology support "
+"is available then it should be set to a 'Generic Device'. In this mode, a "
+"callback will be initiated to this extension when it changes from an InUse "
+"state to NotInUse. If it was busy when first attempted, this will be when "
+"the current call has ended. If it simply did not answer, then this will be "
+"the next time this phone is used to make or answer a call and then hangs up. "
+"It is possible to set this to take advantage of 'Native Technology Support' "
+"if available and automatically fallback to the 'Generic Mode' when not."
+msgstr "Asterisk: cc_monitor_policy. Технология, используемая для определения "
+"состояния доступности абонента для сервиса CCSS. Если абонент не поддерживает "
+"специфическую технологию определения доступности, этот параметр должен быть "
+"установлен как 'Обычное устройство'. В этом режиме обратный вызов будет инициирован, "
+"когда состояние абонента изменится с InUse на NotInUse. При запросе обратного вызова "
+"по \"занято\", обратный вызов будет инициирован, когда закончится текущий вызов."
+"При запросе обратного вызова по \"активности\", обратный вызов будет инициирован, "
+"после завершения очередного входящего или исходящего вызова абонента."
+
+msgid "Call Camp-On Services"
+msgstr "Сервис вызова Camp-On"
+
+msgid "Forcing default settings"
+msgstr "Форсировать установки по умолчания"
+
+msgid ""
+"The following settings are being used for all extensions. To configure "
+"individually set 'Only Use Default Camp-On Settings' to false on the "
+"Advanced Settings page. Active settings:"
+msgstr ""
+"Нижеследующие установки будут применены ко всем внутренним номерам. Чтобы "
+"сконфигурировать индивидуальные настройки необходимо установить флаг  'Использовать "
+"только установки Camp-On по умолчанию' в разделе Дополнительные настройки в 'false'. "
+"Текужие устанвки:"
+
+msgid ""
+"Asterisk: cc_offer_timer. How long after dialing an extension a user has to "
+"make a call completion request."
+msgstr ""
+"Asterisk: cc_offer_timer. Как долго после набора внутреннего номера будет "
+"выполняться запрос на вызов."
+
+msgid ""
+"Asterisk: ccbs_available_timer. How long a call completion request will "
+"remain active before expiring if the phone rang busy when first attempting "
+"the call."
+msgstr ""
+"Asterisk: ccbs_available_timer. Как долго запрос на вызов будет оставаться активным "
+"если внутренний номер, на который поступил вызов занят при первой попытке дозвониться." 
+
+msgid ""
+"Asterisk: ccnr_available_timer. How long a call completion request will "
+"remain active before expiring if the phone was simply unanswered when first "
+"attempting the call."
+msgstr ""
+"Asterisk: ccnr_available_timer. Как долго запрос на вызов будет оставаться активным "
+"если внутренний номер, на который поступил вызов не отвечает при первой попытке дозвониться."
+
+msgid ""
+"Asterisk: cc_recall_timer. How long to ring back a caller who's Caller "
+"Policy is set to 'Generic Device'. This has no affect if to any other "
+"setting."
+msgstr ""
+"Asterisk: cc_recall_timer. Как долго будет идти обратный вызов позвонившему, если "
+"если политика вызывающей стороны установлена в 'Обычное устройство'. Это опция "
+"не работает в других установках." 
+
+msgid ""
+"Asterisk: cc_max_agents. Only valid for when using 'Native Technology "
+"Support' for Caller Policy. This is the number of outstanding Call "
+"Completion requests that can be pending to different extensions. With "
+"'Generic Device' mode you can only have a single request outstanding and "
+"this will be ignored."
+msgstr ""
+"Asterisk: cc_max_agents. Параметр действителен только при использовании "
+"'Поддержки собственной технологии' для политики вызывающей стороны. Это общее "
+"количество внешних запросов для выполнения вызовов, которые находятся в "
+"статусе ожидания для различных внутренних номеров. При установке параметра "
+"'Какое-то устройство' если сделан единичный запрос для выполнения вызова, "
+"то этот флаг будет игнорироваться." 
+
+msgid ""
+"Affects Asterisk: cc_agent_dialstring. With 'Callback Device Directly' a "
+"callback request will be dialed straight to the specific device that made "
+"the call. If using 'Native Technology Support' this may be the preferred "
+"mode. The 'Callback Standard' option will initiate a call back to the caller "
+"just as if someone else on the system placed the call, which means the call "
+"can pursue Follow-Me. To avoid Follow-Me setting, choose 'Callback "
+"Extension'."
+msgstr "Затрагивает Asterisk: cc_agent_dialstring. В режиме 'Обратный вызов напрямую' "
+"обратный вызов будет отправлен напрямую на абонента, запросившего вызов. "
+"При использовании 'Собственной технологии' это является предпочтительным режимом. "
+"Значение 'Стандартный обратный вызов' будет инициировать обратный вызов на любой номер "
+"в системе, в том числе и на номер Follow-Me. Для отказа от использовании Follow-Me "
+"в обратном вызове, выберите 'Обратный звонок на внутренний номер'."
+
+msgid ""
+"Whether or not to announce the extension that is being called back when the "
+"phone is picked up."
+msgstr "Оповещать при ответе абонента, запросивщего обратный вызов."
+
+msgid ""
+"An optional Alert-Info setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to a 'Generic Device' and 'Caller "
+"Callback Mode' is not set to 'Callback Device Directly'."
+msgstr "Назначаемое значение поля Alert-Info, которое будет использовано при обратном "
+"вызове. Используется только при политике вызывающей стороны 'Обычное устройство' и режиме "
+"обратного вызова, отличного от 'Обратный вызов напрямую'."
+
+msgid ""
+"An optional CID Prepend setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to a 'Generic Device' and 'Caller "
+"Callback Mode' is not set to 'Callback Device Directly'."
+msgstr "Назначаемое значение префикса CID при обратном вызове."
+"Используется только при политике вызывающей стороны 'Обычное устройство' и режиме "
+"обратного вызова, отличного от 'Обратный вызов напрямую'."
+
+msgid ""
+"An optional CID Prepend setting that can be used to send to the extension "
+"being called back."
+msgstr ""
+"Опционально - приставка к установке CID которая может быть использована для "
+"номера, на который выполняется обратный вызов."
+
+msgid "Please enter a valid Alert-Info"
+msgstr "Введите действительную информацию для пакета Alert-Info"
+
+msgid "Please enter a valid CID Prefix"
+msgstr "Введите действительный префикс CID"
+
+msgid "Camp-On Request"
+msgstr "Запрос Camp-On"
+
+msgid "Camp-On Cancel"
+msgstr "Отменить Camp-On"

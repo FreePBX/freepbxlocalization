@@ -1,0 +1,99 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for customcontexts
+# Copyright (C) 2008, 2009, 2010, 2011 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX customcontexts\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 19:32+0900\n"
+"PO-Revision-Date: 2014-02-21 02:39+0200\n"
+"Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
+"Language-Team: Japanese "
+"<http://192.168.30.85/projects/freepbx/customcontexts/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 1.8\n"
+
+msgid "Custom Contexts"
+msgstr "カスタムコンテキスト"
+
+msgid "Connectivity"
+msgstr "接続"
+
+msgid ""
+"Creates custom contexts which can be used to allow limited access to "
+"dialplan applications. Allows for time restrictions on any dialplan access. "
+"Allows for pattern matching to allow/deny. Allows for failover destinations, "
+"and PIN protected failover. This can be very useful for multi-tennant "
+"systems. Inbound routing can be done using DID or zap channel routing,\tthis "
+"module allows for selective outbound routing. House/public phones can be "
+"placed in a restricted context allowing them only internal calls."
+msgstr ""
+"ダイヤルプランのアプリケーションに対して、制限付きアクセスを許可するためのカスタムコンテキストを作ります。全てのダイヤルプランへアクセスする時間を制限す"
+"ることができます。パターンマッチングによる許可・拒否も可能。また、フェールオーバー時の宛先や、暗証番号で保護されたフェールオーバーも使えます。その為、マ"
+"ルチテナントのシステムにおいて非常に役に立ちます。インバウンドルーティングは、DIDやZapチャンネルルーティングが出来ます。　このモジュールは選択的な"
+"アウトバウンドルーティングを可能にします。例えば、社内/公衆電話には、内部の通話のみを許可する制限をかけることができます。"
+
+msgid "Custom Contexts Admin"
+msgstr "カスタムコンテキスト管理"
+
+msgid "Time Conditions Module required and not present .. aborting install"
+msgstr ""
+"タイムコンディションモジュールが必要ですが、存在しません .. インストールの中"
+"断"
+
+msgid "migrating customcontexts_timegroups if needed.."
+msgstr "必要であれば、customcontexts_timegroupsを移行します.."
+
+msgid "done"
+msgstr "完了"
+
+msgid ""
+"removing customcontexts_timegroups and customcontexts_tiemgroups_detail "
+"tables.."
+msgstr ""
+"customcontexts_timegroups と customcontexts_tiemgroups_detail テーブルの削除"
+
+msgid "Context"
+msgstr "コンテキスト"
+
+msgid " v"
+msgstr " v"
+
+msgid "Add Context"
+msgstr "コンテキストを追加"
+
+msgid "Edit Context"
+msgstr "コンテキストを編集"
+
+msgid "Remove Context"
+msgstr "コンテキストを削除"
+
+msgid "Duplicate Context"
+msgstr "重複したコンテキスト"
+
+#, php-format
+msgid "Custom Context: %s"
+msgstr "カスタムコンテキスト： %s"
+
+#, php-format
+msgid "Custom Context: %s (%s)"
+msgstr "カスタムコンテキスト： %s(%s)"

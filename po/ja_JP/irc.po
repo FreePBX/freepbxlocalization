@@ -1,0 +1,107 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for irc
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 19:32+0900\n"
+"PO-Revision-Date: 2013-11-07 13:09+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+msgid ""
+"What nickname would you like to use? If you leave this blank, a nick will be "
+"automatically generated for you."
+msgstr ""
+"どのようなニックネームを使用したいですか？空白にした場合、あなたのニックネー"
+"ムは自動生成されます。"
+
+msgid "Start IRC"
+msgstr "IRCを開始する"
+
+msgid "Online Resources"
+msgstr "オンラインリソース"
+
+msgid "Online Support"
+msgstr "オンラインサポート"
+
+msgid ""
+"When you connect, you will be automatically be named 'FreePBX' and a random "
+"4 digit number, eg, FreePBX3486."
+msgstr ""
+"接続時には自動的に'FreePBX'プラスランダムな4桁の数字の名前が付けられます。"
+"例：FreePBX3486。"
+
+msgid ""
+"If you wish to change this to your normal nickname, you can type '<b>/nick "
+"yournickname</b>', and your nick will change. This is an ENGLISH ONLY "
+"support channel. Sorry."
+msgstr ""
+"もしこれをあなたの普通のニックネームに変更したい場合、 '<b>/nick "
+"yournickname</b>'と打ち込んでニックネームを変更することができます。これは英語"
+"のみがサポートされたチャネルです。"
+
+msgid "This allows you to contact the FreePBX channel on IRC."
+msgstr "ここではIRC上のFreePBXチャネルにコンタクトをとることができます。"
+
+msgid ""
+"As IRC is an un-moderated international medium, FreePBX, Schmooze Com, Inc "
+"or any other party can not be held responsible for the actions or behavior "
+"of other people on the network"
+msgstr ""
+"IRCは自己責任の国際的メディアなので、FreePBX, Schmoozecom, Inc.や他のパー"
+"ティーはネットワーク上の他の人のアクションや振る舞いに責任をもつことができま"
+"せん。"
+
+msgid ""
+"When you connect to IRC, to assist in support, the IRC client will "
+"automatically send the following information to everyone in the #freepbx "
+"channel:"
+msgstr ""
+"あなたがサポートの援助をするためにIRCに接続した時、IRCクライアントは自動的に"
+"次の情報を #freepbx channelにいる人全員に送ります。"
+
+msgid "Your Linux Distribution:"
+msgstr "あなたのLinuxディストリビューション："
+
+msgid "Your FreePBX version:"
+msgstr "あなたのFreePBXバージョン："
+
+msgid ""
+"If you do not want this information to be made public, please use another "
+"IRC client, or contact a commercial support provider"
+msgstr ""
+"この情報を公にしたくない場合は、他のIRCクライアントを使用するか、商用のサポー"
+"トプロバイダーへ連絡してください。"
+
+msgid "Admin"
+msgstr "アドミン"
+
+msgid ""
+"This module lets you connect to the IRC network where developers and other "
+"users chat. You can chat to the developers live, if you have problems"
+msgstr ""
+"このモジュールを使用してあなたは開発者や他のユーザーがチャットをしているIRC"
+"ネットワークへ接続することができます。もし問題を抱えた場合にリアルタイムで開"
+"発者とチャットをすることができます。"

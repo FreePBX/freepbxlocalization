@@ -1,0 +1,152 @@
+# This file is part of FreePBX.
+# Copyright Bandwidth.com (2009)
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
+#
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX versionupgrade\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-10-10 17:26+0900\n"
+"Last-Translator: \n"
+"Language-Team: GeekFeed <support@geekfeed.co.jp>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#~ msgid "2.6 Upgrade Module"
+#~ msgstr "2.6アップグレードモジュール"
+
+#~ msgid "Current Version Info (Updated each stage of upgrade process):"
+#~ msgstr ""
+#~ "現バージョン情報(アップグレードプロセスそれぞれのステージが更新されまし"
+#~ "た。)："
+
+#~ msgid "FreePBX Base Version:"
+#~ msgstr "FreePBXベースバージョン："
+
+#~ msgid "FreePBX Framework Version:"
+#~ msgstr "FreePBXフレームワークバージョン："
+
+#~ msgid "FreePBX Core Version:"
+#~ msgstr "FreePBXコアバージョン："
+
+#~ msgid ""
+#~ "<h2 align='center' style='color:red'>WARNING - YOU WILL BE UPGRADED TO "
+#~ "VERSION 2.6</h2><p>This module will allow you to upgrade to FreePBX "
+#~ "version 2.6 from the current version, %s, that you are running.</p><p>The "
+#~ "upgrade process is a simple but multi-step process that you should "
+#~ "complete all at one time. As always when upgrading a system, it is "
+#~ "advisable that you complete this process when the system is not actively "
+#~ "being used.</p>The steps you will take are:<ol><li>Press the upgrade "
+#~ "button below.</li><li>Go to Module Admin, check for online updates, and "
+#~ "upgrade the <b>FreePBX Framework</b> module ONLY from the online "
+#~ "repository which will now be connected to version 2.6.</li><li>Now, Check "
+#~ "for online updates again and upgrade all other modules that have upgrades "
+#~ "available. If you get dependency warnings, just repeat the process until "
+#~ "all your modules have been upgraded.</li><li>Now press the Apply "
+#~ "Configuration bar.</li></ol><p>Once you have completed these step you "
+#~ "will be upgraded to the new 2.6 version and you may disable or remove "
+#~ "this module if it does not do so automatically.</p>"
+#~ msgstr ""
+#~ "<h2 align='center' style='color:red'>WARNING - バージョン 2.6 にアップグ"
+#~ "レードされます</h2><p>このモジュールはFreePBXを現バージョン %s からバー"
+#~ "ジョン2.6にアップグレードする機能を提供します。</p><p>The upgrade process "
+#~ "is a simple but multi-step process that you should complete all at one "
+#~ "time. As always when upgrading a system, it is advisable that you "
+#~ "complete this process when the system is not actively being used.</p>The "
+#~ "steps you will take are:<ol><li>Press the upgrade button below.</"
+#~ "li><li>Go to Module Admin, check for online updates, and upgrade the "
+#~ "<b>FreePBX Framework</b> module ONLY from the online repository which "
+#~ "will now be connected to version 2.6.</li><li>Now, Check for online "
+#~ "updates again and upgrade all other modules that have upgrades available. "
+#~ "If you get dependency warnings, just repeat the process until all your "
+#~ "modules have been upgraded.</li><li>Now press the Apply Configuration bar."
+#~ "</li></ol><p>Once you have completed these step you will be upgraded to "
+#~ "the new 2.6 version and you may disable or remove this module if it does "
+#~ "not do so automatically.</p>"
+
+#~ msgid "UPGRADE NOW"
+#~ msgstr "今すぐアップグレード"
+
+#~ msgid ""
+#~ "You are about to upgrade your system to FreePBX 2.6. You can not reverse "
+#~ "this process. Do you want to continue?"
+#~ msgstr ""
+#~ "あなたのシステムをFreePBX2.6にアップグレードします。このプロセスは戻すこと"
+#~ "はできません。続行しますか？"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>You appear to have partially upgraded to version 2.6, your current "
+#~ "version number is %s. The remaining steps you should take are:</"
+#~ "p><ol><li>Go to Module Admin, press check for online updates, and upgrade "
+#~ "the <b>FreePBX Framework</b> module from the online repository. Do not "
+#~ "upgrade other modules.</li><li>Check for online updates again and upgrade "
+#~ "all other modules that have upgrades available. If you get dependency "
+#~ "warnings, simply repeat the process until all modules are upgraded.</"
+#~ "li><li>Press the Apply Configuration Changes bar.</li></ol><p>Once you "
+#~ "have completed these steps you will be upgraded to the new 2.6 version "
+#~ "and you may disable or remove this module if it it does not do so "
+#~ "automatically.</p>"
+#~ msgstr ""
+#~ "<p>バージョン2.6へのアップグレードはまだ完了していないようです。現在のバー"
+#~ "ジョンは%sです。以下の手順に従ってください：</p><ol><li>モジュールアドミン"
+#~ "へ移動してから「オンラインアップデートを確認」を押し、<b>FreePBXフレーム"
+#~ "ワーク</b>モジュールをオンラインレポジトリーからアップグレードしてくださ"
+#~ "い。他のモジュールはアップグレードしないでください。</li><li>もう一度オン"
+#~ "ラインアップデートを確認してから、残りのアップグレードが可能なモジュールを"
+#~ "アップグレードしてください。依存関係の警告が表示された場合は、すべてのモ"
+#~ "ジュールがアップグレードされるまで、繰り返してアップレードのプロセスを行っ"
+#~ "てください。</li><li>「設定の変更を適用する」バーを押してください。</li></"
+#~ "ol><p>この手順が終わると、新しいバージョン2.6へのアップグレードが完了しま"
+#~ "すので、このモジュールが自動的に削除・無効にされない場合は手動ですることが"
+#~ "可能です。</p>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p>You appear to have upgraded Framework to version 2.6, your current "
+#~ "version number is %s. You still need to upgrade the Core Module and any "
+#~ "other modules that show upgrades available. The remaining steps you "
+#~ "should take are:</p><ol><li>Check for online updates again and upgrade "
+#~ "all other modules that have upgrades available including Core. If you get "
+#~ "dependency warnings simply repeat the process until all modules are "
+#~ "upgraded.</li><li>Press the Apply Configuration Changes bar.</li></"
+#~ "ol><p>Once you have completed these steps you will be upgraded to the new "
+#~ "2.6 version and you may disable or remove this module if it it does not "
+#~ "do so automatically.</p>"
+#~ msgstr ""
+#~ "<p>バージョン2.6へのアップグレードはまだ完了していないようです。現在のバー"
+#~ "ジョンは%sです。コアモジュール、又はアップグレードが可能なモジュールをアッ"
+#~ "プグレードする必要があります。以下の手順に従ってください：</p><ol><li>オン"
+#~ "ラインアップデートをもう一度確認し、コアモジュールを含むすべてのアップグ"
+#~ "レードが可能なモジュールをアップグレードしてください。依存関係の警告が表示"
+#~ "された場合は、すべてのモジュールがアップグレードされるまで、繰り返してアッ"
+#~ "プレードのプロセスを行ってください。</li><li>「設定の変更を適用する」バー"
+#~ "を押してください。</li></ol><p>この手順が終わると、新しいバージョン2.6への"
+#~ "アップグレードが完了しますので、このモジュールが自動的に削除・無効にされな"
+#~ "い場合は手動ですることが可能です。</p>"
+
+#~ msgid ""
+#~ "You have successfully upgraded to FreePBX version %s. If this module has "
+#~ "not been automatically disabled you should go to Module Admin and "
+#~ "disabled or uninstall this module at this time"
+#~ msgstr ""
+#~ "FreePBXバージョン%sへアップグレード成功しました。もしこのモジュールが自動"
+#~ "的に無効にならない場合は、モジュール管理に移動し、このモジュールを無効にす"
+#~ "るか、アンインストールしてください。"

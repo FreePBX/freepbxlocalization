@@ -1,0 +1,397 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for faxpro
+# Copyright (C) 2008, 2009, 2010, 2011 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX faxpro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 19:32+0900\n"
+"PO-Revision-Date: 2014-02-21 01:05+0200\n"
+"Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
+"Language-Team: Japanese <http://example.com/projects/freepbx/faxpro/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 1.8\n"
+
+#, fuzzy
+msgid "Fax"
+msgstr "Fax"
+
+msgid "Store Localy"
+msgstr ""
+
+msgid ""
+"Chose this option to have faxes stored by the server; accesable via the ARI."
+msgstr ""
+
+#, fuzzy
+msgid "Outgoing Station ID"
+msgstr "E911(緊急通報)発信者番号"
+
+#, fuzzy
+msgid "The outgoing Fax Machine Identifier. This is usualy your fax number."
+msgstr "送信するFAXのID。通常あなたのfax番号。"
+
+#, fuzzy
+msgid "Outgoing Header"
+msgstr "発信設定"
+
+msgid ""
+"The outgoing Fax Machine Headers. This usualy contains the name of the "
+"person or entity sending the fax."
+msgstr ""
+
+#, fuzzy
+msgid "Coversheet Name"
+msgstr "ディスプレイ名"
+
+msgid "The name that should appear on the outbound coversheet."
+msgstr ""
+
+msgid "Coversheet Tel"
+msgstr ""
+
+msgid "The Phone number that will appear on the cover sheet."
+msgstr ""
+
+#, fuzzy
+msgid "Coversheet Email"
+msgstr "Eメールをアップデート"
+
+msgid "The email address that will appear on the coversheet."
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+#, fuzzy
+msgid "Fax Licenses"
+msgstr "Fax設定"
+
+#, fuzzy
+msgid "License number"
+msgstr "発信者番号"
+
+#, fuzzy
+msgid "Concurrent Faxes"
+msgstr "Faxを検知"
+
+#, fuzzy
+msgid "Total"
+msgstr "総コール数"
+
+#, fuzzy
+msgid "Fax Cover Page Options"
+msgstr "Faxキーコードオプション"
+
+#, fuzzy
+msgid "ERROR:"
+msgstr "エラー"
+
+#, fuzzy
+msgid "Company Logo"
+msgstr "社内"
+
+msgid "Company Logo. Filetype MUST be JPG"
+msgstr ""
+
+#, fuzzy
+msgid "Company Name"
+msgstr "ディスプレイ名"
+
+#, fuzzy
+msgid "Company Address 1"
+msgstr "デフォルトアドレス："
+
+#, fuzzy
+msgid "Company Address 2"
+msgstr "デフォルトアドレス："
+
+#, fuzzy
+msgid "Company Address 3"
+msgstr "デフォルトアドレス："
+
+#, fuzzy
+msgid "Company Phone"
+msgstr "電話帳"
+
+#, fuzzy
+msgid "Company Web Site"
+msgstr "FreePBX ウェブアドレス"
+
+#, fuzzy
+msgid "Company Footer"
+msgstr "画像： フッター"
+
+msgid "This text will appear at the bottom of every outbound fax."
+msgstr ""
+
+#, fuzzy
+msgid "Preview Cover Page"
+msgstr "デフォルトページンググループ"
+
+msgid "Preview cover page, will save your settings first"
+msgstr ""
+
+#, fuzzy
+msgid "Local Storage Options"
+msgstr "内部のオプション & 設定"
+
+#, fuzzy
+msgid "Max Pages"
+msgstr "最大試行数"
+
+msgid "The maximum amount of pages a user is allowed to store locally."
+msgstr ""
+
+#, fuzzy
+msgid "Excess Faxes"
+msgstr "Faxを検知"
+
+msgid ""
+"How the system should respond when a new fax arrives for a user whos quota "
+"is full.<ul><li>Reject: Reject the new fax and dissconect the call</"
+"li><li>Delete Oldest: Delete as many faxes as nesesary to accommodate the "
+"incoming fax, starting from the oldest.</li></ul>With either option, a fax "
+"larger that the quota will be deleted after it was recived."
+msgstr ""
+
+msgid ""
+" Submit Changes needs to be pressed before this option can become available."
+msgstr ""
+
+#, fuzzy
+msgid "T38-Gateway Enabled"
+msgstr "有効にできません。"
+
+msgid "Set this to yes if you are using a t38 gateway device."
+msgstr ""
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "No"
+msgstr "いいえ"
+
+#, fuzzy
+msgid "File"
+msgstr "ファイル"
+
+msgid "Select a file to upload. Supported formats are: "
+msgstr ""
+
+#, fuzzy
+msgid "attach another file"
+msgstr "ファイル %s が必要です。"
+
+msgid "Destination"
+msgstr "宛先"
+
+msgid "Coversheet?"
+msgstr ""
+
+#, fuzzy
+msgid "Recipient Name"
+msgstr "ディスプレイ名"
+
+#, fuzzy
+msgid "Message"
+msgstr "メッセージ"
+
+#, fuzzy
+msgid "My Details"
+msgstr "ピア詳細"
+
+#, fuzzy
+msgid "My Name"
+msgstr "ディスプレイ名"
+
+#, fuzzy
+msgid "My Tel"
+msgstr "マイボイスメール"
+
+#, fuzzy
+msgid "My Email"
+msgstr "Eメールをアップデート"
+
+#, fuzzy
+msgid "Send Fax"
+msgstr "Fax設定"
+
+#, php-format
+msgid "You are using %s%% of your fax storage quota. "
+msgstr ""
+
+msgid "A full quota will cause new faxes to be rejected by the system."
+msgstr ""
+
+msgid ""
+"A full quota will cause the system to delete stored fax to make room for "
+"the  ones."
+msgstr ""
+
+msgid "Please ensure you have adequate space remaining."
+msgstr ""
+
+#, fuzzy
+msgid "Date"
+msgstr "日付"
+
+msgid "From"
+msgstr "From"
+
+msgid "To"
+msgstr "To"
+
+msgid "Status"
+msgstr "ステータス"
+
+msgid "Pages"
+msgstr "ページ"
+
+msgid "View"
+msgstr "表示"
+
+msgid "Forward"
+msgstr "転送"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Fax Configuration Professional"
+msgstr "Fax設定 プロフェッショナル（有料）"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit www."
+"schmoozecom.com/oss.php. The Fax Pro module adds functionality to the "
+"standard \tFreePBX Fax modue. Outbound faxing can be done through a web "
+"interface on your FreePBX system. Simply type in a phone number and upload a "
+"PDF. You can optionally set the \toutgoing PDF to use a locally stored fax "
+"coversheet with your faxes; and type in a personal message on the coversheet"
+msgstr ""
+"COMMERCIAL MODULE REQUIRES A LICENSE FOR IT TO FUNCTION.  Please visit www."
+"schmoozecom.com/oss.php. The Fax Pro module adds functionality to the "
+"standard \tFreePBX Fax module. Outbound faxing can be done through a web "
+"interface on your FreePBX system. Simply type in a phone number and upload a "
+"PDF. You can optionally set the \toutgoing PDF to use a locally stored fax "
+"coversheet with your faxes; and type in a personal message on the coversheet"
+
+#~ msgid "Basic"
+#~ msgstr "基本"
+
+#~ msgid "Extends the fax module with profesional options"
+#~ msgstr "faxモジュールにプロフェッショナルオプションを拡張します。"
+
+#~ msgid "Fax Presentation Options"
+#~ msgstr "Fax プレゼンテーションオプション"
+
+#~ msgid "Default Fax header"
+#~ msgstr "デフォルトFaxヘッダー"
+
+#~ msgid ""
+#~ "Header information that is passed to remote side of the fax transmission "
+#~ "and is printed on top of every page."
+#~ msgstr ""
+#~ "fax転送のリモート側に送出され、全てのページのトップにプリントされるヘッ"
+#~ "ダー情報。"
+
+#~ msgid "Default Local Station Identifier"
+#~ msgstr "デフォルトの送信側FAX ID"
+
+#~ msgid ""
+#~ "Text string that identifies the sender identification to the remote side "
+#~ "of the fax transmission."
+#~ msgstr "fax転送のリモート側に対して"
+
+#~ msgid ""
+#~ "Email address that faxes appear to come from if 'system default' has been "
+#~ "chosen as the default fax extension."
+#~ msgstr ""
+#~ "デフォルトfax内線として、'システムデフォルト'が選択された場合にfax情報を送"
+#~ "信するEメールアドレス。"
+
+#~ msgid "Fax Transport Options"
+#~ msgstr "Fax転送オプション"
+
+#~ msgid "Error Correction Mode"
+#~ msgstr "エラー訂正モード"
+
+#~ msgid ""
+#~ "Error Correction Mode (ECM) option is used to specify whether\n"
+#~ "\t\t\t\t to use ecm mode or not."
+#~ msgstr ""
+#~ "エラー転送モード(ECM)オプションはecmモードを使用するかどうかを決定します。"
+
+#~ msgid "Maximum transfer rate"
+#~ msgstr "最大転送レート"
+
+#~ msgid "Maximum transfer rate used during fax rate negotiation."
+#~ msgstr "faxレートネゴシエーション中に使用される最大転送レート"
+
+#~ msgid "Minimum transfer rate"
+#~ msgstr "最少転送レート"
+
+#~ msgid "Minimum transfer rate used during fax rate negotiation."
+#~ msgstr "faxレートネゴシエーション中に使用される最少転送レート"
+
+#~ msgid "Modem"
+#~ msgstr "モデム"
+
+#~ msgid "Modem Type."
+#~ msgstr "モデムタイプ。"
+
+#~ msgid "Default fax instance:"
+#~ msgstr "デフォルトFaxインスタンス："
+
+#~ msgid ""
+#~ "Select 'system default' to have the system act as a fax instance and "
+#~ "receive and faxes. You can then route faxes to this instance and avoid "
+#~ "having to route faxes to an instance accociated with a specific entity. "
+#~ "This can be the system using Asterik's internal capabilites or it can be "
+#~ "an external extesnion, such as a physical fax machine"
+#~ msgstr ""
+#~ "システムがfaxインスタンスとして動作する'システムデフォルト'を選択します。"
+#~ "これによりfaxをこのインスタンスにルーティングし、特定のエンティティに結び"
+#~ "付けられたインスタンスへfaxをルーティングすることを回避することができま"
+#~ "す。これは、Asteriskの内部的な機能で実装することができ、また物理的なfax装"
+#~ "置のように外部の内線を使用することができます。"
+
+#~ msgid "disabled"
+#~ msgstr "無効"
+
+#~ msgid "system default"
+#~ msgstr "システムデフォルト"
+
+#~ msgid "Default Recipent Email address:"
+#~ msgstr "デフォルト受信 Eメールアドレス："
+
+#~ msgid ""
+#~ "Email address used if 'system default' has been chosen as the default fax "
+#~ "extension."
+#~ msgstr ""
+#~ "デフォルトのFax内線として'システムデフォルト'が選択された際に使用するEメー"
+#~ "ルアドレス。"
+
+#~ msgid "Submit"
+#~ msgstr "送信"

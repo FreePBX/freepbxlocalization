@@ -1,0 +1,1043 @@
+# Copyright (C) 2010-2012 PostMet Corporation
+# This file is distributed under the same license as the ARI package.
+# Alexander Kozyrev <ceo@postmet.com>, 2010-2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ARI\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-30 17:46+0400\n"
+"PO-Revision-Date: 2012-11-2 19:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alexander Kozyrev <ceo@postmet.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: Russia\n"
+
+msgid "Potential malicious access blocked in the User Portal (ARI)"
+msgstr "Потенциально вредоносный доступ к порталу пользователя (ARI) был отклонён"
+
+msgid "The call was terminated."
+msgstr "Вызов был отклонён."
+
+msgid "INBOX"
+msgstr "Входящие"
+
+msgid "Family"
+msgstr "Семья"
+
+msgid "Friends"
+msgstr "Друзья"
+
+msgid "Old"
+msgstr "Старые"
+
+msgid "Work"
+msgstr "Работа"
+
+msgid "Urgent"
+msgstr "Важно"
+
+msgid "Call Forward All Activate"
+msgstr "Активировать все перенаправления"
+
+msgid "Call Forward All Deactivate"
+msgstr "Деактивировать все перенаправления"
+
+msgid "Call Forward All Prompting Deactivate"
+msgstr "Деактивировать предупреждение о перенаправлении"
+
+msgid "Call Forward Busy Activate"
+msgstr "Активировать перенаправление по статусу Занято"
+
+msgid "Call Forward Busy Deactivate"
+msgstr "Деактивировать перенаправление по статусу Занято"
+
+msgid "Call Forward Busy Prompting Deactivate"
+msgstr "Деактивировать предупреждение перенаправления по статусу Занято"
+
+msgid "Call Forward No Answer/Unavailable Activate"
+msgstr "Активировать перенаправление по неответу"
+
+msgid "Call Forward No Answer/Unavailable Deactivate"
+msgstr "Деактивировать перенаправление по неответу"
+
+msgid "Call Waiting - Activate"
+msgstr "Активировать режим приёма второго звонка"
+
+msgid "Call Waiting - Deactivate"
+msgstr "Деактивировать режим приёма второго вызова"
+
+msgid "Do-Not-Disturb Activate"
+msgstr "Активировать режим Не-беспокоить"
+
+msgid "Do-Not-Disturb Deactivate"
+msgstr "Деактивировать режим Не-беспокоить"
+
+msgid "My Voicemail"
+msgstr "Моя голосовая почта"
+
+msgid "Dial Voicemail"
+msgstr "Набор в голосовую почту"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Searched for"
+msgstr "Поиск для"
+
+#, php-format
+msgid "Results %d - %d of %d"
+msgstr "Результаты  %d - %d до %d"
+
+#, php-format
+msgid "Results %d"
+msgstr "Результат %d"
+
+msgid "First"
+msgstr "Первый"
+
+msgid "Last"
+msgstr "Последний"
+
+msgid "Incorrect Username or Password"
+msgstr "Неверное имя пользователя или пароль"
+
+msgid "Login"
+msgstr "Логин"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Submit"
+msgstr "Подтвердить"
+
+msgid "Remember Password"
+msgstr "Запомнить пароль"
+
+msgid "Use your <b>Voicemail Mailbox and Password</b>"
+msgstr "Используйте свой <b>Внутренний номер голосовой почты и пароль на неё</b>"
+
+msgid "This is the same password used for the phone"
+msgstr "Это тот же пароль, что используется для телефона"
+
+msgid ""
+"For password maintenance or assistance, contact your Phone System "
+"Administrator."
+msgstr ""
+"Для восстановления пароля или другой помощи свяжитесь с Администратором "
+"вашей ИП-АТС"
+
+msgid "ARI does not appear to have access to the Asterisk Manager."
+msgstr "ARI не достаточно прав доступа к Asterisk Manager."
+
+msgid ""
+"Check the ARI 'main.conf.php' configuration file to set the Asterisk Manager "
+"Account."
+msgstr ""
+"Проверьте кофигурационный файл 'main.conf.php' для установки аккаунта "
+"доступа к Asterisk Manager"
+
+msgid "Check /etc/asterisk/manager.conf for a proper Asterisk Manager Account"
+msgstr ""
+"Проверьте /etc/asterisk/manager.conf для правильности установок доступа к "
+"Asterisk Manager"
+
+msgid ""
+"make sure [general] enabled = yes and a 'permit=' line for localhost or the "
+"webserver."
+msgstr ""
+"убедитесь что в секции [general] указано enabled = yes и опции 'permit=' для "
+"localhost или интерфейса вэбсервера."
+
+msgid "Check AMP installation, asterisk, and ARI main.conf"
+msgstr "Проверьте инсталляцию АМР, Asterisk и файл main.conf интерфейса ARI"
+
+msgid "Logout"
+msgstr "Выйти"
+
+msgid "Page Not Found."
+msgstr "Страница не найдена."
+
+msgid "Asterisk Call Manager not responding"
+msgstr "Asterisk Call Manager не доступен"
+
+msgid "Asterisk authentication failed:"
+msgstr "Аутентификация с Астериск не возможна:"
+
+msgid "Asterisk command not understood"
+msgstr "Команды Астериск не поняты"
+
+#, php-format
+msgid "Too many files in %s. Not all files processed"
+msgstr "Слишком много файлов в  %s. Не все файлы будут обработаны"
+
+#, php-format
+msgid "Too many directories in %s. Not all files processed"
+msgstr "Слишком много директорий в %s Не все файлы будут обработаны."
+
+msgid "ARI requires a version of PHP 4.3 or later"
+msgstr "ARI требует PHP версии 4.3 или выше"
+
+msgid ""
+"PHP PEAR must be installed.  Visit http://pear.php.net for help with "
+"installation."
+msgstr ""
+"Необходимо инсталлировать пакет PHP PEAR. Для справки как это сделать - "
+"посетите http://pear.php.net."
+
+#, php-format
+msgid ""
+"Malformed callme number passed to callme_startcall $to field could be "
+"Security Breach: %s"
+msgstr "Неверный номер, указанный в поле $to callme_startcall, может вызвать проблему безопасности: %s "
+
+#, php-format
+msgid ""
+"Malformed callme number passed to callme_startcall $from field could be "
+"Security Breach: %s"
+msgstr "Неверный номер, указанный в поле $from callme_startcall, может вызвать проблему безопасности: %s "
+
+msgid "Folders"
+msgstr "Папки"
+
+msgid ""
+" error(s) occurred, you should view the notification log on the dashboard or "
+"main screen to check for more details."
+msgstr ""
+" произошла ошибка(-ки), просмотрите журнал сообщений в рабочей панели или на "
+"главной странице для детализации."
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Retry"
+msgstr "Повторить"
+
+msgid "Error: Did not receive valid response from server"
+msgstr "Ошибка: не получен ответ сервера"
+
+msgid "Please select a \"Destination\""
+msgstr "Выберите \"Назначение\""
+
+msgid ""
+"Custom Goto contexts must contain the string \"custom-\".  ie: custom-app,s,1"
+msgstr "Дополнительный Goto контекст должен содержать строку \"custom-\", то есть: "
+"custom-app,s,1"
+
+msgid "The secret must be at minimum six characters in length."
+msgstr "Пароль должен быть длиной минимально шесть знаков"
+
+msgid "The secret must contain at least two numbers and two letters."
+msgstr "Пароль должен содержать по крайней мере две цифры и две буквы."
+
+msgid "Attach voicemail to email"
+msgstr ""
+"Присоединять звуковой файл голосовой почты к сообщению эл. почты"
+
+msgid "Option to attach audio file to email."
+msgstr "Опция присоединения аудио файла в электронную почту."
+
+msgid "Email attachment format"
+msgstr "Формат присоединения к эл. сообщению"
+
+msgid "Audio format of message to attach to email."
+msgstr "Аудио формат присоединённых файлов."
+
+msgid "Number of deleted messages to backup"
+msgstr "Количество удалённых сообщений для резервирования"
+
+msgid ""
+"The maximum number of messages that are backed up in the Deleted folder. "
+"This may be 0-9999."
+msgstr ""
+"Максимальное число сообщений, хранимых в папке Удалённые сообщения. От 0 до 9999."
+
+msgid "Call back context"
+msgstr "Контекст для обратных вызовов"
+
+msgid "Dialing context used for calling back the caller that left a message."
+msgstr ""
+"Контекст для исходящих вызовов абоненту для информации об оставленных "
+"для него голосовых сообщений."
+
+msgid "Delete voicemail after emailed"
+msgstr "Удалять голосовую почту после отправки сообщения."
+
+msgid ""
+"When enabled the message will be deleted from the voicemailbox after the "
+"notification email is sent. This allows receiving voicemail via email alone, "
+"rather than having the voicemail available from the Web interface or by "
+"telephone. CAUTION: Attach voicemail to email must be enabled, OTHERWISE "
+"YOUR MESSAGES WILL BE LOST FOREVER."
+msgstr ""
+"Если включено, то сообщение удаляется из ящика голосовой почты после отправки "
+"уведомления по электронной почте. Это даёт возможность получать и прослушивать сообщения "
+"как приложения электронной почты вместо того, чтобы использовать вэб-интерфейс "
+"голосовой почты или прослушивать сообщения с помощью телефона. ОСТОРОЖНО: должна быть "
+"включена опция Присоединять звуковой файл к телу эл. письма, В ПРОТИВНОМ СЛУЧАЕ "
+"ВАШЕ СООБЩЕНИЕ ГОЛОСОВОЙ ПОЧТЫ БУДЕТ УТЕРЯНО."
+
+msgid "Dial out context"
+msgstr "Контекст исходящих вызовов"
+
+msgid "Dialing context used to dial out from voicemail."
+msgstr "Контекст для исходящих вызовов оповещения системы голосовой почты."
+
+msgid "Say envelope (date/time)"
+msgstr "Проговаривать дату и время"
+
+msgid ""
+"When enabled the voicemail system will play the message envelope (date/time) "
+"before playing the voicemail message. This setting does not affect the "
+"operation of the envelope option in the advanced voicemail menu."
+msgstr "Если разрешено система голосовой почты будет воспроизводить дату и время сообщения "
+"перед воспроизведением самого сообщения. Этот параметр не влияет на работу параметра "
+"'envelope' в меню дополнительных настроек голосовой почты."
+
+msgid "Operator context"
+msgstr "Контекст оператора"
+
+msgid "Dialing context for handling * or 0 calls to operator from voicemail."
+msgstr "Контекст, в котором будут обрабатываться вызовы * и 0 (на оператора системы) из "
+"голосовой почты."
+
+msgid "Force greeting recording"
+msgstr "Заставлять записать сообщение входа в голосвую почту"
+
+msgid ""
+"Forces a new user to record a greeting. A new user is determined by the "
+"password being the same as the mailbox number."
+msgstr "Заставит нового пользователя записать сообщение входа в голосвую почту. "
+"Новый пользователь определяется по введенному паролю, который должен совпадать с номером "
+"ящика голосовой почты."
+
+msgid "Force name recording"
+msgstr "Заставлять записать озвучку имени"
+
+msgid ""
+"Forces a new user to record their name. A new user is determined by the "
+"password being the same as the mailbox number."
+msgstr "Заставит записать озвучку имени абонента. "
+"Новый пользователь определяется по введенному паролю, который должен совпадать с номером "
+"ящика голосовой почты."
+
+msgid "IMAP email account password"
+msgstr "пароль от учетной записи IMAP"
+
+msgid "Password for the IMAP email account used to store voicemail messages."
+msgstr "Пароль от учетной записи IMAP, которая будет использована для сообщений голосовой почты"
+
+msgid "IMAP email user name"
+msgstr "Логин в IMAP"
+
+msgid "User name for the IMAP email account used to store voicemail messages."
+msgstr "Логин учётной записи IMAP для голосовой почты"
+
+msgid "Voice prompt language"
+msgstr "Сообщение о выборе языка"
+
+msgid ""
+"Enter language code to use for voice prompts. Before non-English languages "
+"can be used, the voice prompts must be installed by the system administrator."
+msgstr "Введите код языка, который будет использован для голосовых подсказок. "
+"Перед использование не английского языка, файлы голосовых подсказок должны быть установлен "
+"в системе."
+
+msgid "Maximum number of messages"
+msgstr "Максимальное количество сообщений"
+
+msgid ""
+"Maximum number of messages per folder. It may be up to 9999. The default "
+"value is 100."
+msgstr "Максимальное количество сообщений в папке. Может быть до 9999. По умолчанию - 100."
+
+msgid "Maximum message length"
+msgstr "Максимальная длина сообщения"
+
+msgid "Maximum length allowed for a voicemail message (in seconds)."
+msgstr "Максимальная длина сообщения голосовой почты (в секундах)."
+
+msgid "Move heard messages"
+msgstr "Перемещать прослушанные сообщения"
+
+msgid "Automatically move heard messages to the Old folder."
+msgstr "Автоматически перемещать прослушанные сообщения в папку 'Old'"
+
+msgid "Dial 0 for Operator"
+msgstr "Наберите 0 для вызова оператора"
+
+msgid ""
+"Allow caller to reach an operator by pressing 0 before, after, or while "
+"leaving a voicemail."
+msgstr "Позволяет вызывающему дозвониться до оператора через набор 0 при работе с голосовой "
+"почтой."
+
+msgid "Review recording"
+msgstr "Прослушать сообщение перед записью"
+
+msgid "Allow caller to review their voicemail before saving it."
+msgstr "Разрешить вызывающему прослушать собственное сообщение перед его записью"
+
+msgid "Say caller ID"
+msgstr "Сообщать CID"
+
+msgid ""
+"After announcing the message date and time, play back the caller's telephone "
+"number before each message."
+msgstr "После озвучки даты и времени сообщения, воспроизводить номер телефона позвонившего "
+"перед каждым сообщением."
+
+msgid "Say duration"
+msgstr "Сообщать длительность"
+
+msgid "Announce the message duration before playing the message."
+msgstr "Озвучивает длительность сообщения перед самим сообщением."
+
+msgid "Say duration minimum"
+msgstr "Минимальная длительность сообщения для озвучки"
+
+msgid ""
+"Do not announce message duration for messages shorter than this number of "
+"minutes."
+msgstr "Не сообщает длительность голосового сообщения, если она меньше чем указанное "
+"значение в минутах."
+
+msgid "Send internal voicemail"
+msgstr "Отправлять сообщения из голосовой почты"
+
+msgid ""
+"Allow a user logged into voicemail to compose and send voicemail messages to "
+"other voicemail users."
+msgstr "Даёт возможность отправлять голосовые сообщения другим пользователям из "
+"интерфейса голосовй почты."
+
+msgid "Email from"
+msgstr "Адрес отправителя уведомлений"
+
+msgid "Who the e-mail notification should appear to come from."
+msgstr "Указывает адрес отправителя уведомлений голосовой почты."
+
+msgid "Temporary greeting warning"
+msgstr "Временное приглашение голосовой почты"
+
+msgid "Warn user when a temporary greeting is active."
+msgstr "Предупреждает пользовать что установлено временное приглашение."
+
+msgid "Timezone from zonemessages context. Irrelevant if Envelope is disabled."
+msgstr "Временная зона в сообщениях. Не имеет смысла, если запрещена отправка сообщений."
+
+msgid "Change attachment volume"
+msgstr "Изменение громкости в отправляемом сообщении"
+
+msgid ""
+"Change volume of message before attaching it to an email. Values less than "
+"1.0 decrease volume, greater than 1.0 increase volume."
+msgstr "Изменяет громкость отправляемого по email сообщения. Значения меньше 1.0 уменьшают "
+"громкость, значения больше 1.0 увеличивают громкость."
+
+msgid "Settings"
+msgstr "Установки"
+
+msgid "Voicemail password not changed"
+msgstr "Пароль для голосовой почты не изменён"
+
+msgid "Password and password confirm must not be blank"
+msgstr "Пароль и его поле подтверждения не должны быть пустыми"
+
+#, php-format
+msgid "Passwords must be all numbers and greater than %d digits"
+msgstr ""
+"Пароль должен состоять не менее чем из %d цифр и никаких других символов"
+
+#, php-format
+msgid "Passwords must be all numbers and only %d digits"
+msgstr "Пароль должен состоять только из %d цифр"
+
+msgid "Password and password confirm do not match"
+msgstr "Пароль не совпадает с подтверждением"
+
+#, php-format
+msgid "%s does not exist or is not writable"
+msgstr "%s не существует или не имеет прав на запись"
+
+msgid "Voicemail email and pager address not changed"
+msgstr "Адрес электронной почты и пейджера не изменён"
+
+msgid "Voicemail email settings not changed"
+msgstr "Настройки голосовой электронной почты не изменены"
+
+msgid "Language:"
+msgstr "Язык:"
+
+#, php-format
+msgid "Passwords must be all numbers and only %s digits"
+msgstr "Пароль должен состоять только из %d цифр"
+
+#, php-format
+msgid "Passwords must be all numbers and at least %s digits"
+msgstr ""
+"Пароль должен состоять не менее чем из %d цифр и никаких других символов"
+
+msgid "Password Settings"
+msgstr "Настройки пароля"
+
+msgid "Voicemail Password:"
+msgstr "Пароль для голосовой почты:"
+
+msgid "Enter again to confirm:"
+msgstr "Подтвердить пароль:"
+
+msgid "Email Address:"
+msgstr "Адрес Email:"
+
+msgid "Email a notification, including audio file if indicated below."
+msgstr "Отправлять уведомления по e-mail, включая записи сообщений, если установлено."
+
+msgid "Enable"
+msgstr "Разрешить"
+
+msgid "Pager Email Address:"
+msgstr "Адрес Email для сообщений пэйджера:"
+
+msgid "Email a short notification"
+msgstr "Отправлять короткие уведомления (на e-mail пейджера)"
+
+msgid "Call Me Number:"
+msgstr "Мой номер:"
+
+msgid ""
+"Call Me Number can be any dialable number, such as an extension or a "
+"cellphone."
+msgstr "'Мой номер' может быть любым доступным номером, внутренним абонентским или мобильным."
+
+msgid "Audio Format:"
+msgstr "Формат аудио:"
+
+msgid "Default"
+msgstr "По умолчанию"
+
+msgid "Best Quality"
+msgstr "Наилучшее качество"
+
+msgid "Smallest Download"
+msgstr "Наименьший размер для скачивания"
+
+msgid "Notification Settings"
+msgstr "Настройки уведомлений"
+
+msgid "Web Playback Settings"
+msgstr "Настройки воспроизведения на странице"
+
+msgid "Phone Playback Settings"
+msgstr "Настройки воспроизведения через телефон"
+
+msgid "Caller Settings"
+msgstr "Настройки позвонившего"
+
+msgid "Mailbox Storage Settings"
+msgstr "Настройки хранения почтового ящика"
+
+msgid "IMAP Mail Settings"
+msgstr "Настройки сервера почты IMAP"
+
+msgid "Other Voicemail Settings"
+msgstr "Другие настройки голосовой почты"
+
+#, php-format
+msgid "Settings for %s (%s)"
+msgstr "Установки для %s (%s)"
+
+msgid "Update"
+msgstr "Обновить"
+
+msgid "Call Monitor"
+msgstr "Менеджер соединений"
+
+msgid "One or more messages must be selected before clicking delete."
+msgstr "Одно или несколько сообщений должны быть выбраны перед удалением."
+
+#, php-format
+msgid "Path is not a directory: %s"
+msgstr "Путь к директории %s не найден"
+
+msgid "delete"
+msgstr "удалить"
+
+msgid "duration"
+msgstr "длительность"
+
+msgid "ignore"
+msgstr "игнорировать"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Time"
+msgstr "Время"
+
+msgid "Caller ID"
+msgstr "Caller ID (Caller ID)"
+
+msgid "Source"
+msgstr "Источник"
+
+msgid "Destination"
+msgstr "Назанчение"
+
+msgid "Duration"
+msgstr "Длительность"
+
+msgid "Monitor"
+msgstr "Монитор"
+
+msgid "Play"
+msgstr "Воспроизвести"
+
+msgid "Download"
+msgstr "Скачать"
+
+#, php-format
+msgid "Call Monitor for %s (%s)"
+msgstr "Менеджер соединений для %s (%s)"
+
+msgid "select"
+msgstr "выбрать"
+
+msgid "all"
+msgstr "все"
+
+msgid "none"
+msgstr "нет"
+
+msgid "Only deletes recording files, not cdr log"
+msgstr "Удалить можно только файл записи, но не информацию о соединении"
+
+msgid "VmX&#8482 Locator"
+msgstr "Групповой ящик голоосовой почты"
+
+msgid ""
+"Your Premium VmX Locator service has been disabled, REFRESH your browser to "
+"remove this message"
+msgstr ""
+"Ваш премиум сервис VmX Locator отключен, ОБНОВИТЕ экран браузера чтобы удалить это сообщение."
+
+#, php-format
+msgid ""
+"Check with your Telephone System Administrator if you think there is a "
+"problem"
+msgstr "Уточните у администратора телефонной системы, если Вы предполагает, что есть проблемы."
+
+msgid "Option 0 not changed"
+msgstr "Параметр 0 не изменен"
+
+#, php-format
+msgid ""
+"Number %s must contain dial numbers (characters like '(', '-', and ')' are "
+"ok)"
+msgstr ""
+"Поле %s должно содержать телефоный номер (разрешаются также символы '(', "
+"'-', и ')')"
+
+msgid "Option 1 not changed"
+msgstr "Параметр 1 не изменен"
+
+msgid "Option 2 not changed"
+msgstr "Параметр 2 не изменен"
+
+msgid "Use When:"
+msgstr "Использовать когда:"
+
+msgid ""
+"Menu options below are available during your personal voicemail greeting "
+"playback. <br/><br/>Check both to use at all times."
+msgstr "Параметры меню, доступные при озвучивании Вашего приглашения в Voicemail"
+".<br/><br/>Установите оба что бы использовать всегда."
+
+msgid "unavailable"
+msgstr "Недоступен"
+
+msgid "busy"
+msgstr "Занят"
+
+msgid "Voicemail Instructions:"
+msgstr "Инструкции голосовой почты:"
+
+msgid "Uncheck to play a beep after your personal voicemail greeting."
+msgstr "Не устанавливайте, если хотите воспроизводить гудок после Вашего приглашения "
+"голосовой почты."
+
+msgid "Standard voicemail prompts."
+msgstr "Стандартные подсказки голосовой почты."
+
+msgid "Press 0:"
+msgstr "Нажмите 0:"
+
+msgid ""
+"Pressing 0 during your personal voicemail greeting goes to the Operator. \n"
+"\t\t\t\t\tUncheck to enter another destination here."
+msgstr "Нажатие 0 в Вашем персональном приглашении в голосовую почту отправляет "
+"вызов оператору.\n\t\t\t\tНе устанавливайте этот параметр для указания другого кода."
+
+msgid "Go To Operator"
+msgstr "Переход на оператора"
+
+msgid "Press 1:"
+msgstr "Нажмите 1:"
+
+msgid ""
+"The remaining options can have internal extensions, ringgroups, queues and "
+"external numbers that may be rung. It is often used to include your cell "
+"phone. You should run a test to make sure that the number is functional any "
+"time a change is made so you don't leave a caller stranded or receiving "
+"invalid number messages."
+msgstr "Другие параметры могут быть внутренними номерами, группами дозвона, очередями и "
+"внешними номерами, на которые можно позвонить. Можно указать и Вам мобильный номер. "
+"Вы должны проверить эту настройку при любом изменении, что бы убедиться, что указанный "
+"Вами номер работает, что бы вызывающий не получал обрыв вызова или сообщения о "
+"недоступности номера."
+
+msgid ""
+"Enter an alternate number here, then change your personal voicemail greeting "
+"to let callers know to press 1 to reach that number. <br/><br/>If you'd like "
+"to use your Follow Me List, check \"Send to Follow Me\" and disable Follow "
+"Me above."
+msgstr "Укажите другой номер здесь и измените приглашение голосовой почты, что "
+"бы вызывающий знал о нажатии 1 для вызова на этот номер. <br/><br/>Если Вы "
+"хотите использовать список Follow Me (Следуй за мной), установите 'Отправлять на "
+"Follow-Me' и запрещайте Follow-Me в следующих параметрах."
+
+msgid "Send to Follow-Me"
+msgstr "Отправлять на Follow-Me"
+
+msgid "Press 2:"
+msgstr "Нажмите 2:"
+
+msgid ""
+"Use any extensions, ringgroups, queues or external numbers. <br/><br/"
+">Remember to re-record your personal voicemail greeting and include "
+"instructions. Run a test to make sure that the number is functional."
+msgstr "Используйте любые внутренние номера, номера групп вызовов, очередей или "
+"внешние номера. <br/><br/>Не забудьте перезаписать Ваше собственное приглашение "
+"в голосовой почте и оставьте там инструкции. Протестируйте, что бы убедиться, "
+"что номер указан Вами правильно и работает."
+
+#, php-format
+msgid "VmX Locator&#8482; Settings for %s (%s)"
+msgstr "VmX Locator&#8482; Установки для %s (%s)"
+
+msgid "Phone Features"
+msgstr "Опции телефона"
+
+msgid "Call Waiting"
+msgstr "Ожидание звонка"
+
+msgid "Do Not Disturb"
+msgstr "Не беспокоить"
+
+msgid "Call Forwarding"
+msgstr "Переадресация звонка"
+
+msgid "Unconditional:"
+msgstr "Выключен:"
+
+msgid "Unavailable:"
+msgstr "Недоступен:"
+
+msgid "Busy:"
+msgstr "Занят:"
+
+#, php-format
+msgid "Phone Features for %s (%s)"
+msgstr "Опции телефона для %s (%s)"
+
+msgid "Call forward number not changed"
+msgstr "Номер перенаправления не изменён"
+
+msgid "Call Screening:"
+msgstr "Экранирование звонка:"
+
+msgid ""
+"Call Screening requires external callers to say their name, which will be "
+"played back to the user and allow the user to accept or reject the call.  "
+"Screening with memory only verifies a caller for their caller-id once. "
+"Screening without memory always requires a caller to say their name. Either "
+"mode will always announce the caller based on the last introduction saved "
+"with that callerid. If any user on the system uses the memory option, when "
+"that user is called, the caller will be required to re-introduce themselves "
+"and all users on the system will have that new introduction associated with "
+"the caller's CallerId."
+msgstr ""
+"Экранирование звонка предлагает позвонившему на номер станции представиться: назвать "
+"своё имя, которое затем воспроизводится пользователю получателю вызова чтобы принять "
+"или отклонить вызов. Экранирование с опцией memory представляет позвонившего по имени "
+"проверяя по его Caller ID каждый последующий раз. Экранирование без опции memory заставляет "
+"называть позвонившего своё имя каждый раз, Оба режима всегда представляют позвонившего "
+"по ассоциации с его Caller ID. Если какой либо пользователь в системе задействует опцию "
+"memory, то кто-нибудь позвонивший в это время будет вынужден ещё раз назвать себя, а "
+"всем пользователям системы будет доступна новая ассоцияация анонсированного имени и его "
+"Caller ID." 
+
+msgid "Disable"
+msgstr "Отключено"
+
+msgid "Screen Caller: No Memory"
+msgstr "Экранировать входящий: без опции запоминания"
+
+msgid "Screen Caller: Memory"
+msgstr "Экранировать входящий: с опцией запоминания"
+
+msgid "CallForward Ringtimer:"
+msgstr "Время дозвона при переадресации:"
+
+msgid ""
+"Number of seconds to ring prior to going to voicemail or other fail over "
+"destinations that may be setup by an administrator on this account. The "
+"Always setting will ring the call forward destinaiton until answered or the "
+"caller hangs up. The Default setting will use the value set in Ring Time. "
+"Your setting here will be forced to Always if there is no Voicemail or "
+"alternartive fail over destination for a call to go to."
+msgstr "Время дозвона перед переводом вызова на голосовую почту или на другое направление, "
+"которое может быть установлено администратором этой учётной записи. Если установлено 'Всегда', "
+"вызов номера переадресации будет продолжаться до ответа или до завершения вызова вызывающим. "
+"Ваше выбор будет принудительно установлен 'Всегда', если у Вас не установлена голосовая почта "
+"или альтернативное направление вызова."
+
+msgid "Ringtimer:"
+msgstr "Время дозвона:"
+
+msgid ""
+"Number of seconds to ring prior to going to voicemail or ringing other "
+"numbers that may be configured such as a Call Forward Unavailabe or an "
+"Unavailable destination that may be configured by your administrator. The "
+"Default setting will use the value set for the PBX."
+msgstr "Время дозвона в секундах перед переводом вызова на голосовую почту или на другой номер, "
+"который может быть установлен как номер перевода по недоступности или направление при недоступности "
+"абонента администратором системы. Значение по умолчанию будет взято из настроек PBX."
+
+msgid "Always"
+msgstr "Всегда"
+
+msgid "Voicemail"
+msgstr "Голосовая почта"
+
+msgid "A folder must be selected before the message can be moved."
+msgstr "Необходимо выбрать папку куда будет перемещено сообщение."
+
+msgid "One or more messages must be selected before clicking move_to."
+msgstr "Одно или несколько сообщений должны быть выбраны перед нажатием 'переместить'."
+
+msgid "An extension must be selected before the message can be forwarded."
+msgstr ""
+"Необзодимо выбрать внутренний номер на который будут перенаправляться звонки"
+
+msgid "One or more messages must be selected before clicking forward_to."
+msgstr "Одно или несколько сообщений должны быть выбраны перед нажатием 'перенаправить'."
+
+msgid ""
+"You must enter one or more email addresses (comma-separated) before clicking "
+"email_to."
+msgstr "Вы должны указать один или несколько адрес e-mail (разделять список через ',') "
+"перед нажатием 'Отправить'."
+
+msgid "Warning: "
+msgstr "Предупреждение: "
+
+msgid "is not a valid email address"
+msgstr "Неверный адрес email"
+
+msgid "The file type was not recognized."
+msgstr "Тип файла неопределен."
+
+msgid "Warning: Could not access voicemail.conf.  Using default mailer."
+msgstr "Предупреждение: нет доступа к voicemail.conf, используют отправитель почты по умолчанию."
+
+msgid "Mail operation failed"
+msgstr "Действие с email не выполнено"
+
+msgid "No valid email address given.  Please try again."
+msgstr "Не указан правильный адрес email. Попробуйте еще раз."
+
+msgid "One or more messages must be selected before clicking email_to."
+msgstr "Одно или несколько сообщений должно быть выбраны перед нажатием 'Отправить'."
+
+msgid "move_to"
+msgstr "перенести в"
+
+msgid "Folder"
+msgstr "Папка"
+
+msgid "forward_to"
+msgstr "перенаправить_в"
+
+msgid "email_to"
+msgstr "Отправить"
+
+msgid "Priority"
+msgstr "Приоритет"
+
+msgid "Orig Mailbox"
+msgstr "Мэйлбокс"
+
+msgid "Playback"
+msgstr "Воспроизвести"
+
+msgid "Play message at: "
+msgstr "Воспроизвести сообщение: "
+
+msgid "Voicemail recording(s) was not found."
+msgstr "Не найдено сообщений голосовой почты."
+
+#, php-format
+msgid ""
+"On settings page, change voicemail audio format.  It is currently set to %s"
+msgstr ""
+"Измените аудио формат на вкладке Установки. Сейчас формат установлен в %s"
+
+msgid "Voicemail Login not found."
+msgstr "Логин для голосовой почты не найден."
+
+msgid "No access to voicemail"
+msgstr "Нет доступа к голосовой почте"
+
+msgid "No Voicemail Recordings for Admin"
+msgstr "Нет сообщений голосовой почты для Admin"
+
+#, php-format
+msgid "Voicemail for %s (%s)"
+msgstr "Голосовая почта для %s (%s)"
+
+msgid "Calling: "
+msgstr "Вызываю: "
+
+msgid ". Please wait patiently..."
+msgstr ". Пожалуйста, подождите..."
+
+#, php-format
+msgid "Could not create mailbox folder %s on the server"
+msgstr "Не возможно создать папку для ящика голосовой почты %s на сервере"
+
+#, php-format
+msgid "Permission denied on folder %s or %s"
+msgstr "Не достаточно прав для доступа к папке %s или %s"
+
+msgid "Follow Me"
+msgstr "Следуйте сюда"
+
+msgid ""
+"Your Follow-Me has been disabled, REFRESH your browser to remove this message"
+msgstr "Follow-Me (Следуй за мной) запрещен, обновите страницу для удаления этого сообщения"
+
+msgid "Follow-Me pre-ring time not changed"
+msgstr "Время пред-звонка Follow-Me неизменено"
+
+#, php-format
+msgid "Number %s must be an integer number of seconds"
+msgstr "Число %s должно быть целым количеством секунд"
+
+msgid "Follow-Me list ring time not changed"
+msgstr "Время звонка на Follow-Me не изменено"
+
+msgid "Follow-Me list must contain at least one valid number"
+msgstr "Список Follow-Me (Следуй за мной) должен содержать хотя бы один правильный номер"
+
+#, php-format
+msgid "The following: %s is not valid"
+msgstr "Указанное: %s неверно"
+
+msgid ""
+"Dial-by-name Directory, IVR, and internal \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tcalls will ring the numbers in the FollowMe \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tList. Any FreePBX routes that directly \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\treference a FollowMe are unaffected by this \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tenable/disable setting."
+msgstr ""
+"Набор по имени в директории, Интерактивном меню и внутренних \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tвызовах будут звонить номера из списка Следуйте \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tсюда. Любые маршруты FreePBX, которые указаны напрямую \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tна опцию Следуйте сюда не затрагиваются включением/выключением \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tэтой опции."
+
+msgid "Follow Me List:"
+msgstr "Список Follow-Me (Следуй за мной):"
+
+#, php-format
+msgid "Extensions and outside numbers to ring next."
+msgstr "Абоненты и внешние номера, которые будут вызваны следующими."
+
+#, php-format
+msgid "Include %s to keep it ringing."
+msgstr "Включите %s что он звонил"
+
+#, php-format
+msgid "Ring %s First For:"
+msgstr "Звонит %s первым для:"
+
+#, php-format
+msgid "Time to ring extension %s before ringing the %s Follow Me List %s"
+msgstr "Время звонка абоненту %s перед звонком на %s список Follow Me %s"
+
+msgid "seconds"
+msgstr "секунд"
+
+msgid "Ring Followme List for:"
+msgstr "Звониь на список Follow Me для:"
+
+msgid "Time to ring the Follow Me List."
+msgstr "Время звонка на список Follow Me."
+
+msgid "Use Confirmation:"
+msgstr "Использовать подтверждение:"
+
+msgid ""
+"Outside lines that are part of the Follow Me List will be called and offered "
+"a menu:<br/><br/> \"You have an incoming call. Press 1 to accept or 2 to "
+"decline.\"<br/><br/> This keeps calls from ending up in external voicemail. "
+"Make sure that the List Ring Time is long enough to allow for you to hear "
+"and react to this message."
+msgstr ""
+"Внешние линии, являющиеся частью номеров из списков 'Следуйте сюда' будут набираться "
+"через интерактивное меню:<br/><br/> \"У вас входящий звонок. Нажмите 1 для того, "
+"чтобы принять его, или 2 - чтобы отклонить.\"<br/><br/>Это удерживает вызов от завершения "
+"во внешних сервисах голосовой почты. Убедитесь что значение длительности вызова достаточное, "
+"чтобы хватило времени услышать это сообщение и принять решение."
+
+msgid "Followme Settings"
+msgstr "Установки Followme"
+
+#, php-format
+msgid "Followme Settings for %s (%s)"
+msgstr "Установки опции Следуйте сюда для %s (%s)"
+
+msgid "Feature Codes"
+msgstr "Сервисные коды"
+
+#, php-format
+msgid " for %s (%s)"
+msgstr " для %s (%s)"
+
+msgid "Handset Feature Code"
+msgstr "Сервисный номер для трубки"
+
+msgid "Action"
+msgstr "Действие"
+
+#~ msgid "Call Monitor Settings"
+#~ msgstr "Установки монитора соединений"
+
+#~ msgid "Record INCOMING:"
+#~ msgstr "Записывать ВХОДЯЩИЕ:"
+
+#~ msgid "Never"
+#~ msgstr "Никогда"
+
+#~ msgid "On-Demand"
+#~ msgstr "По запросу"
+
+#~ msgid "Record OUTGOING:"
+#~ msgstr "Записывать ИСХОДЯЩИЕ:"

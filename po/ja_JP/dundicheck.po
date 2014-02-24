@@ -1,0 +1,95 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for dundicheck
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX 2.10.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 19:32+0900\n"
+"PO-Revision-Date: 2013-11-07 13:01+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+msgid "DUNDi: "
+msgstr "DUNDi:"
+
+#, php-format
+msgid "DUNDi Information: %s"
+msgstr "DUNDi 情報： %s"
+
+#, php-format
+msgid ""
+"The number you are trying to use, %s, is currently available from one of the "
+"DUNDi routes you have configured on your system. As a result you cannot use "
+"this number on this system. Even if the route configuration does not pass "
+"this number you will still be blocked from creating it. If this is not an "
+"error, then you will have to un-publish this number on your remote DUNDi "
+"setup, disable the DUNDi trunk in question, or disable this module to avoid "
+"the checks. Otherwise, remove %s from the remote system before creating this "
+"one."
+msgstr ""
+"あなた現在使っている番号、%s はシステムに設定されたDUNDiルートに既存していま"
+"す。そのため、この番号はこのシステムでは使用できません。仮にこの番号はルート"
+"の設定に通さなくてもこの番号の作成は禁止されます。もしこれはエラーではなけれ"
+"ば、リモートDUNDiセットアップでこの番号を非公表する必要があります。その上、質"
+"問からDUNDiトランクを無効にするまたはこのモジュールを無効にしてチェックを回避"
+"します。それ以外の方法では、作成する前にリモートシステムから %s を削除してく"
+"ださい。"
+
+msgid "No matches found"
+msgstr "一致するものがみつかりません"
+
+#, php-format
+msgid "Results from DUNDi trunk: %s"
+msgstr "DUNDiトランクからの結果： %s"
+
+#, php-format
+msgid "DUNDi Lookup"
+msgstr "DUNDi 検索"
+
+msgid "Lookup Number:"
+msgstr "番号検索："
+
+msgid "Lookup Another Number:"
+msgstr "他の番号を検索："
+
+msgid "Lookup"
+msgstr "検索"
+
+msgid "DUNDi Lookup Registry"
+msgstr "DUNDi 検索登録"
+
+msgid "Admin"
+msgstr "アドミン"
+
+msgid ""
+"This module will check all configured and enabled DUNDi trunks as part of "
+"the extension registry function, and report back conflicts if\t\tother sites "
+"have the same extensions. This does not filter against the route patterns - "
+"it will take any number being created and\t\treport a conflict if that trunk "
+"could be used to call that number."
+msgstr ""
+"モジュールは内線登録の機能として全て設定され、有効になったDUNDiトランクを"
+"チェックします。他のサイトも同じ内線がある場合、競合報告をします。これはルー"
+"トパターンを応じるのではなく、作成された番号が適当に取られます。その番号はト"
+"ランクでかけれるのであれば、競合報告をします。"

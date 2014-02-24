@@ -1,0 +1,958 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for ARI
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreepbxnReport-Msgid-Bugs-To:\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-14 07:08+0100\n"
+"PO-Revision-Date: 2014-02-20 21:10+0200\n"
+"Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
+"Language-Team: Japanese <http://example.com/projects/freepbx/ari/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 1.8\n"
+
+msgid "Asterisk Call Manager not responding"
+msgstr "Asterisk コールマネージャーが応答しません"
+
+msgid "Asterisk authentication failed:"
+msgstr "Asterisk 認証エラー:"
+
+msgid "Asterisk command not understood"
+msgstr "Asterisk コマンドが理解できません"
+
+#, php-format
+msgid "Too many files in %s. Not all files processed"
+msgstr ""
+"%s にはファイルが多すぎます。全てのファイルが処理されたわけではありません。"
+
+#, php-format
+msgid "Too many directories in %s. Not all files processed"
+msgstr ""
+"%s にはディレクトリが多すぎます。全てのファイルが処理されたわけではありませ"
+"ん。"
+
+msgid "ARI requires a version of PHP 4.3 or later"
+msgstr "ARIはPHP 4.3かそれ以降のバージョンが必要です。"
+
+msgid ""
+"PHP PEAR must be installed.  Visit http://pear.php.net for help with "
+"installation."
+msgstr ""
+"PHP PEARがインストールされている必要があります。 インストールのヘルプが必要な"
+"場合は http://pear.php.net へアクセスしてください。"
+
+msgid "ARI does not appear to have access to the Asterisk Manager."
+msgstr "ARI にはAsteriskマネージャーへのアクセスがないようです。"
+
+msgid ""
+"Check the ARI 'main.conf.php' configuration file to set the Asterisk Manager "
+"Account."
+msgstr ""
+"Asteriskマネージャーアカウントを設定するために、ARI 'main.conf.php'設定ファイ"
+"ルをチェックしてください。"
+
+msgid "Check /etc/asterisk/manager.conf for a proper Asterisk Manager Account"
+msgstr ""
+" /etc/asterisk/manager.conf に適切なAsterisk Managerアカウントが設定されてい"
+"るかどうかチェックしてください。"
+
+msgid ""
+"make sure [general] enabled = yes and a 'permit=' line for localhost or the "
+"webserver."
+msgstr ""
+"localhost又はウェブサーバーへの[general] enabled = yes と a 'permit='行を確認"
+"してください。"
+
+msgid "Check AMP installation, asterisk, and ARI main.conf"
+msgstr "AMPのインストールと、asteriskとARIのmain.confをチェックしてください"
+
+msgid "Logout"
+msgstr "ログアウト"
+
+msgid "Page Not Found."
+msgstr "ページが見つかりません。"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "Searched for"
+msgstr "検索する"
+
+#, php-format
+msgid "Results %d - %d of %d"
+msgstr "結果 %d - %d of %d"
+
+#, php-format
+msgid "Results %d"
+msgstr "結果 %d"
+
+msgid "First"
+msgstr "最初"
+
+msgid "Last"
+msgstr "最後"
+
+msgid "Incorrect Username or Password"
+msgstr "不正なユーザー名またはパスワード"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Submit"
+msgstr "ログイン"
+
+msgid "Remember Password"
+msgstr "パスワードを思い出す。"
+
+msgid "Use your <b>Voicemail Mailbox and Password</b>"
+msgstr ""
+"あなたの <b>ボイスメールのメールボックスとパスワード</b> を使用してください。"
+
+msgid "This is the same password used for the phone"
+msgstr "これは電話で使用されているパスワードと同じです。"
+
+msgid ""
+"For password maintenance or assistance, contact your Phone System "
+"Administrator."
+msgstr ""
+"パスワードのメンテナンスや助けが必要な場合は、あなたの電話システム管理者にお"
+"問い合わせください。"
+
+msgid "INBOX"
+msgstr "受信箱"
+
+msgid "Family"
+msgstr "ファミリー"
+
+msgid "Friends"
+msgstr "友達"
+
+msgid "Old"
+msgstr "古い"
+
+msgid "Work"
+msgstr "仕事"
+
+msgid "Call Forward All Activate"
+msgstr "コール転送全てアクティブ"
+
+msgid "Call Forward All Deactivate"
+msgstr "コール転送全て非アクティブ化"
+
+msgid "Call Forward All Prompting Deactivate"
+msgstr "全てのプロンプトコール転送非アクティブ化"
+
+msgid "Call Forward Busy Activate"
+msgstr "ビジー時コール転送アクテイブ化"
+
+msgid "Call Forward Busy Deactivate"
+msgstr "ビジー時コール転送非アクティブ化"
+
+msgid "Call Forward Busy Prompting Deactivate"
+msgstr "ビジープロンプトコール転送非アクティブ化"
+
+msgid "Call Forward No Answer/Unavailable Activate"
+msgstr "応答なし/利用不可コール転送アクティブ化"
+
+msgid "Call Forward No Answer/Unavailable Deactivate"
+msgstr "応答なし/利用不可コール転送非アクティブ化"
+
+msgid "Call Waiting - Activate"
+msgstr "キャッチホン - アクティブ化"
+
+msgid "Call Waiting - Deactivate"
+msgstr "キャッチホン - 非アクティブ化"
+
+msgid "Do-Not-Disturb Activate"
+msgstr "Do-Not-Disturb アクティブ化"
+
+msgid "Do-Not-Disturb Deactivate"
+msgstr "Do-Not-Disturb 非アクティブ化"
+
+msgid "My Voicemail"
+msgstr "私のボイスメール"
+
+msgid "Dial Voicemail"
+msgstr "ボイスメールへダイヤル"
+
+msgid "Call Monitor"
+msgstr "コールモニター"
+
+msgid "One or more messages must be selected before clicking delete."
+msgstr ""
+"削除をクリックする前に１つ以上のメッセージが選択されている必要があります。"
+
+#, php-format
+msgid "Path is not a directory: %s"
+msgstr "パスがディレクトリではありません: %s"
+
+msgid "delete"
+msgstr "削除"
+
+msgid "duration"
+msgstr "期間"
+
+msgid "ignore"
+msgstr "無視"
+
+msgid "Date"
+msgstr "日付"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "Caller ID"
+msgstr "発信者ID"
+
+msgid "Source"
+msgstr "発信元"
+
+msgid "Destination"
+msgstr "宛先"
+
+msgid "Context"
+msgstr "コンテキスト"
+
+msgid "Duration"
+msgstr "期間"
+
+msgid "Monitor"
+msgstr "モニター"
+
+msgid "Play"
+msgstr "再生"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+#, php-format
+msgid "Call Monitor for %s (%s)"
+msgstr "%s (%s)へコールモニター"
+
+msgid "select"
+msgstr "選択"
+
+msgid "all"
+msgstr "全て"
+
+msgid "none"
+msgstr "なし"
+
+msgid "Only deletes recording files, not cdr log"
+msgstr "録音ファイルのみ削除します、cdrログは削除しません。"
+
+msgid "Feature Codes"
+msgstr "キーコード"
+
+#, php-format
+msgid " for %s (%s)"
+msgstr "次に対して %s (%s)"
+
+msgid "Handset Feature Code"
+msgstr "ハンドセットキーコード"
+
+msgid "Action"
+msgstr "アクション"
+
+msgid "description"
+msgstr "説明"
+
+msgid "Follow Me"
+msgstr "フォローミー"
+
+msgid ""
+"Your Follow-Me has been disabled, REFRESH your browser to remove this message"
+msgstr ""
+"あなたの フォローミー が無効にされました、このメッセージを削除するにはブラウ"
+"ザをリフレッシュしてください。"
+
+#, php-format
+msgid ""
+"Check with your Telephone System Administrator if you think there is a "
+"problem"
+msgstr ""
+"問題があると思う場合はあなたの電話システム管理者と一緒にチェックしてくださ"
+"い。"
+
+msgid "Follow-Me pre-ring time not changed"
+msgstr "フォローミーの事前リング時間が変更されていません。"
+
+#, php-format
+msgid "Number %s must be an integer number of seconds"
+msgstr "番号 %s は整数の秒数でなければいけません。"
+
+msgid "Follow-Me list ring time not changed"
+msgstr "フォローミーリストのリング時間が変更されていません。"
+
+msgid "Follow-Me list must contain at least one valid number"
+msgstr ""
+"フォローミーリストには少なくとも１つの正しい番号が含まれている必要がありま"
+"す。"
+
+#, php-format
+msgid "The following: %s is not valid"
+msgstr "次の: %s が無効です。"
+
+msgid "Enable"
+msgstr "有効"
+
+msgid ""
+"Dial-by-name Directory, IVR, and internal \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tcalls will ring the numbers in the FollowMe \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tList. Any FreePBX routes that directly \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\treference a FollowMe are unaffected by this \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tenable/disable setting."
+msgstr ""
+"名前によるダイヤルディレクトリ,IVR,と内部\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tコールはフォローミーリスト内の番号を呼び出しま"
+"す。 \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tフォローミーを直接参照するようなFreePBXのルート"
+"は \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tこの有効/無効設定 \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tによる影響をうけません。"
+
+msgid "Follow Me List:"
+msgstr "フォローミーリスト"
+
+#, php-format
+msgid "Extensions and outside numbers to ring next."
+msgstr "次に鳴らす内線と外線番号。"
+
+#, php-format
+msgid "Include %s to keep it ringing."
+msgstr "リングし続けるために、%sを含む。"
+
+#, php-format
+msgid "Ring %s First For:"
+msgstr "%s を最初に鳴らす:"
+
+#, php-format
+msgid "Time to ring extension %s before ringing the %s Follow Me List %s"
+msgstr "内線 %s を鳴らす時間、 %sを鳴らす前にフォローミーリスト %s"
+
+msgid "seconds"
+msgstr "秒"
+
+msgid "Ring Followme List for:"
+msgstr "フォローミーリストを鳴らす:"
+
+msgid "Time to ring the Follow Me List."
+msgstr "フォローミーリストを鳴らす時間。"
+
+msgid "Use Confirmation:"
+msgstr "確認する:"
+
+msgid ""
+"Outside lines that are part of the Follow Me List will be called and offered "
+"a menu:<br/><br/> \"You have an incoming call. Press 1 to accept or 2 to "
+"decline.\"<br/><br/> This keeps calls from ending up in external voicemail. "
+"Make sure that the List Ring Time is long enough to allow for you to hear "
+"and react to this message."
+msgstr ""
+"フォローミーリストの一部が内線以外の場合、呼び出しとメニューが提供されます:"
+"<br/><br/>\"着信があります、受け付ける場合は1を、受け付けない場合は2を押して"
+"ください\"<br/><br/>これによりコールが外部のボイスメールに行きついて終わって"
+"しまわないようにしています。リストのリング時間は、あなたがメッセージを聞いて"
+"リアクションを起こすことができるように十分な時間あるかどうか確認してくださ"
+"い。"
+
+msgid "Followme Settings"
+msgstr "フォローミー設定"
+
+#, php-format
+msgid "Followme Settings for %s (%s)"
+msgstr "%s (%s)に対するフォローミー設定"
+
+msgid "Update"
+msgstr "アップデート"
+
+msgid "Phone Features"
+msgstr "電話機能"
+
+msgid "Call Waiting"
+msgstr "コールウェイティング"
+
+msgid "Do Not Disturb"
+msgstr "Do Not Disturb"
+
+msgid "Call Forwarding"
+msgstr "コール転送"
+
+msgid "Unconditional:"
+msgstr "無条件:"
+
+msgid "Unavailable:"
+msgstr "利用不可:"
+
+msgid "Busy:"
+msgstr "ビジー:"
+
+#, php-format
+msgid "Phone Features for %s (%s)"
+msgstr "%s (%s)への電話機能"
+
+msgid "Call forward number not changed"
+msgstr "コール転送番号は変更されませんでした"
+
+#, php-format
+msgid ""
+"Number %s must contain dial numbers (characters like '(', '-', and ')' are "
+"ok)"
+msgstr ""
+"番号 %s には電話番号が含まれている必要があります( '(', '-', や ')' のような文"
+"字はOKです)"
+
+msgid "Call Screening:"
+msgstr "コールスクリーニング:"
+
+msgid ""
+"Call Screening requires external callers to say their name, which will be "
+"played back to the user and allow the user to accept or reject the call.  "
+"Screening with memory only verifies a caller for their caller-id once. "
+"Screening without memory always requires a caller to say their name. Either "
+"mode will always announce the caller based on the last introduction saved "
+"with that callerid. If any user on the system uses the memory option, when "
+"that user is called, the caller will be required to re-introduce themselves "
+"and all users on the system will have that new introduction associated with "
+"the caller's CallerId."
+msgstr ""
+"コールスクリーニングは、外部からの発信者に対して自分の名前を名乗ることを要求"
+"し、それをユーザーに再生して、ユーザーはその着信を受け付けるか拒否するかを選"
+"べます。記録ありのスクリーニングは最初の一度だけ発信者の発信者IDを検証しま"
+"す。記録なしのスクリーニングは発信者に対して常に自分の名前を名乗ることを要求"
+"します。どちらのモードも常に発信者IDとともに保存された最後の自己紹介に基づい"
+"て発信者を通知します。システム上のいづれかのユーザーが記録オプションを使用し"
+"た場合で、そのユーザーに着信があった場合は、発信者は再度自己紹介を要求され、"
+"システム上の全てのユーザーは、その発信者の発信者IDに関連付いた新しい自己紹介"
+"を使用することになります。"
+
+msgid "Disable"
+msgstr "無効"
+
+msgid "Screen Caller: No Memory"
+msgstr "発信者をスクリーニングする:記録なし"
+
+msgid "Screen Caller: Memory"
+msgstr "発信者をスクリーニングする:記録あり"
+
+msgid "CallForward Ringtimer:"
+msgstr "コール転送リング時間:"
+
+msgid ""
+"Number of seconds to ring prior to going to voicemail or other fail over "
+"destinations that may be setup by an administrator on this account. The "
+"Always setting will ring the call forward destinaiton until answered or the "
+"caller hangs up. The Default setting will use the value set in Ring Time. "
+"Your setting here will be forced to Always if there is no Voicemail or "
+"alternartive fail over destination for a call to go to."
+msgstr ""
+"管理者によって、このアカウントについて設定されたボイスメールや他のフェイル"
+"オーバー宛先に行く前に電話機を鳴らす秒数。「常に」の設定は、応答するか発信者"
+"が電話を切るまでコール転送の宛先を鳴らします。デフォルト値では、リング時間で"
+"設定された値を使用します。ここでコールが行き着くボイスメールや、その代わりと"
+"なるフェイルオーバー宛先を指定しない場合はあなたの設定は強制的に「常に」に設"
+"定されます。"
+
+msgid "Ringtimer:"
+msgstr "リングタイマー:"
+
+msgid ""
+"Number of seconds to ring prior to going to voicemail or ringing other "
+"numbers that may be configured such as a Call Forward Unavailabe or an "
+"Unavailable destination that may be configured by your administrator. The "
+"Default setting will use the value set for the PBX."
+msgstr ""
+"ボイスメールや、管理者によって設定されるコール転送利用不可や利用不可の宛先の"
+"ように設定されたその他番号を鳴らしに行く前に、電話機を鳴らす秒数。デフォルト"
+"設定はPBXに設定された値を使用します。"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Always"
+msgstr "常に"
+
+msgid "Attach voicemail to email"
+msgstr "ボイスメールをEメールに添付する"
+
+msgid "Option to attach audio file to email."
+msgstr "音声ファイルをEメールに添付するオプション。"
+
+msgid "Number of deleted messages to backup"
+msgstr "バックアップのために削除されたメッセージの数"
+
+msgid ""
+"The maximum number of messages that are backed up in the Deleted folder. "
+"This may be 0-9999."
+msgstr "削除フォルダ内でバックアップされたメッセージの最大数。0-9999の範囲。"
+
+msgid "Delete voicemail after emailed"
+msgstr "Eメール送信後にボイスメールを削除する"
+
+msgid ""
+"When enabled the message will be deleted from the voicemailbox after the "
+"notification email is sent. This allows receiving voicemail via email alone, "
+"rather than having the voicemail available from the Web interface or by "
+"telephone. CAUTION: Attach voicemail to email must be enabled, OTHERWISE "
+"YOUR MESSAGES WILL BE LOST FOREVER."
+msgstr ""
+"有効にした場合、通知メール送信後にボイスメールボックスからメッセージが削除さ"
+"れます。これによって、ウェブインターフェイスや電話から利用可能なボイスメール"
+"を持つのではなくEメール経由でのみボイスメールを受信することになります。注意: "
+"「ボイスメールをEメールに添付する」を有効にする必要があります、そうしないとあ"
+"なたのメッセージは永久に失われることになります。"
+
+msgid "Say envelope (date/time)"
+msgstr "冒頭の(日付/時間)読み上げ"
+
+msgid ""
+"When enabled the voicemail system will play the message envelope (date/time) "
+"before playing the voicemail message. This setting does not affect the "
+"operation of the envelope option in the advanced voicemail menu."
+msgstr ""
+"有効にした場合、ボイスメールシステムは、ボイスメールメッセージを再生する前に"
+"日付/時間メッセージを再生します。この設定は、高度なボイスメールメニュー内の冒"
+"頭再生オプションの操作には影響しません。"
+
+msgid "Maximum number of messages"
+msgstr "最大メッセージ数"
+
+msgid ""
+"Maximum number of messages per folder. It may be up to 9999. The default "
+"value is 100."
+msgstr "フォルダ内の最大メッセージ数。最大9999まで。デフォルト値は100。"
+
+msgid "Maximum message length"
+msgstr "最大メッセージ長"
+
+msgid "Maximum length allowed for a voicemail message (in seconds)."
+msgstr "ボイスメールメッセージに許可された最大メッセージ長 (秒)。"
+
+msgid "Move heard messages"
+msgstr "再生済みメッセージの移動"
+
+msgid "Automatically move heard messages to the Old folder."
+msgstr "再生済みメッセージを自動的に旧フォルダに移動します。"
+
+msgid "Review recording"
+msgstr "録音の確認"
+
+msgid "Allow caller to review their voicemail before saving it."
+msgstr "発信者に、自分のボイスメールを確定する前に確認することを許可します。"
+
+msgid "Say caller ID"
+msgstr "発信者IDの読み上げ"
+
+msgid ""
+"After announcing the message date and time, play back the caller's telephone "
+"number before each message."
+msgstr ""
+"日付と時間メッセージを知らせた後に、それぞれのメッセージの再生前に発信者の電"
+"話番号を再生します。"
+
+msgid "Say duration"
+msgstr "メッセージ秒数の読み上げ"
+
+msgid "Announce the message duration before playing the message."
+msgstr "メッセージの再生前にメッセージの秒数を知らせます。"
+
+msgid "Say duration minimum"
+msgstr "メッセージ秒数の読み上げ最小"
+
+msgid ""
+"Do not announce message duration for messages shorter than this number of "
+"minutes."
+msgstr "ここで指定された分より短いメッセージは読み上げません。"
+
+msgid "Email from"
+msgstr "Eメール from"
+
+msgid "Who the e-mail notification should appear to come from."
+msgstr "Eメール通知の送信元。"
+
+msgid "Temporary greeting warning"
+msgstr "一時的なグリーティング警告"
+
+msgid "Warn user when a temporary greeting is active."
+msgstr "一時的なグリーティングが有効な場合にユーザーに警告します。"
+
+msgid "Change attachment volume"
+msgstr "添付のボリューム変更"
+
+msgid ""
+"Change volume of message before attaching it to an email. Values less than "
+"1.0 decrease volume, greater than 1.0 increase volume."
+msgstr ""
+"Eメールに添付する前にメッセージボリュームを変更します。1.0より少ない値はボ"
+"リュームを下げ、1.0より大きな値はボリュームを上げます。"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Voicemail password not changed"
+msgstr " ボイスメールパスワードは変更されませんでした。"
+
+msgid "Password and password confirm must not be blank"
+msgstr "パスワードとパスワード(再確認)は空白は許可されません。"
+
+#, php-format
+msgid "Passwords must be all numbers and greater than %d digits"
+msgstr "パスワードは全て %d 桁以上の数字である必要があります。"
+
+#, php-format
+msgid "Passwords must be all numbers and only %d digits"
+msgstr "パスワードは全て数字で %d桁 である必要があります。"
+
+msgid "Password and password confirm do not match"
+msgstr "パスワードとパスワード(再確認)が一致しません。"
+
+#, php-format
+msgid "%s does not exist or is not writable"
+msgstr "%s が存在しないか、書き込みできません。"
+
+msgid "Voicemail email and pager address not changed"
+msgstr ""
+"ボイスメールEメールアドレスとページャーアドレスは変更されませんでした。"
+
+msgid "Voicemail email settings not changed"
+msgstr "ボイスメールEメール設定は変更されませんでした。"
+
+msgid "Language:"
+msgstr "言語:"
+
+#, php-format
+msgid "Passwords must be all numbers and only %s digits"
+msgstr "パスワードは全て数字で %s桁 である必要があります。"
+
+#, php-format
+msgid "Passwords must be all numbers and at least %s digits"
+msgstr "パスワードは全て数字で、少なくとも %s 桁以上必要です。"
+
+msgid "Password Settings"
+msgstr "パスワード設定"
+
+msgid "Voicemail Password:"
+msgstr "ボイスメールパスワード:"
+
+msgid "Enter again to confirm:"
+msgstr "確認のため再入力:"
+
+msgid "Email Address:"
+msgstr "Eメールアドレス:"
+
+msgid "Email a notification, including audio file if indicated below."
+msgstr "以下で指定された場合に音声ファイルを含む通知をメール送信する。"
+
+msgid "Pager Email Address:"
+msgstr "ページャーEメールアドレス:"
+
+msgid "Email a short notification"
+msgstr "短い通知をEメール送信する"
+
+msgid "Call Me Number:"
+msgstr "コールミー番号:"
+
+msgid ""
+"Call Me Number can be any dialable number, such as an extension or a "
+"cellphone."
+msgstr ""
+"コールミー番号は、例えば内線番号や携帯番号など、なんらかのダイヤル可能な番号"
+"です。"
+
+msgid "Audio Format:"
+msgstr "オーディオフォーマット:"
+
+msgid "Best Quality"
+msgstr "最高な品質"
+
+msgid "Smallest Download"
+msgstr "最小ダウンロード"
+
+msgid "Notification Settings"
+msgstr "通知設定"
+
+msgid "Web Playback Settings"
+msgstr "ウェブ再生設定"
+
+msgid "Phone Playback Settings"
+msgstr "電話再生設定"
+
+msgid "Caller Settings"
+msgstr "発信者設定"
+
+msgid "Mailbox Storage Settings"
+msgstr "メールボックス保存領域設定"
+
+msgid "IMAP Mail Settings"
+msgstr "IMAP メール設定"
+
+msgid "Other Voicemail Settings"
+msgstr "その他ボイスメール設定"
+
+msgid "Call Monitor Settings"
+msgstr "コールモニター設定"
+
+msgid "Record INCOMING:"
+msgstr "着信を録音:"
+
+msgid "Never"
+msgstr "決して無い"
+
+msgid "On-Demand"
+msgstr "オンデマンド"
+
+msgid "Record OUTGOING:"
+msgstr "発信を録音:"
+
+#, php-format
+msgid "Settings for %s (%s)"
+msgstr "%s (%s)の設定"
+
+msgid "VmX&#8482 Locator"
+msgstr "VmX&#8482 Locator"
+
+msgid ""
+"Your Premium VmX Locator service has been disabled, REFRESH your browser to "
+"remove this message"
+msgstr ""
+"あなたのプレミアム VmX Locatorサービスが無効になっています。このメッセージを"
+"削除する場合はブラウザの更新を行ってください。"
+
+msgid "Option 0 not changed"
+msgstr "オプション 0 は変更されませんでした。"
+
+msgid "Option 1 not changed"
+msgstr "オプション 1 は変更されませんでした。"
+
+msgid "Option 2 not changed"
+msgstr "オプション 2 は変更されませんでした。"
+
+msgid "Use When:"
+msgstr "使用タイミング："
+
+msgid ""
+"Menu options below are available during your personal voicemail greeting "
+"playback. <br/><br/>Check both to use at all times."
+msgstr ""
+"以下のメニューオプションはあなたのパーソナルボイスメールグリーティングが再生"
+"されている間に利用することができます。 <br/><br/>常に使用する場合は両右方"
+"チェックしてください。"
+
+msgid "unavailable"
+msgstr "利用不可"
+
+msgid "busy"
+msgstr "ビジー"
+
+msgid "Voicemail Instructions:"
+msgstr "ボイスメール操作説明:"
+
+msgid "Uncheck to play a beep after your personal voicemail greeting."
+msgstr ""
+"あなたのパーソナルボイスメールグリーティングの後にビープ音を再生する場合は"
+"チェックを外してください。"
+
+msgid "Standard voicemail prompts."
+msgstr "標準のボイスメールプロンプト"
+
+msgid "Press 0:"
+msgstr "0を押す:"
+
+msgid ""
+"Pressing 0 during your personal voicemail greeting goes to the Operator. \n"
+"\t\t\t\t\tUncheck to enter another destination here."
+msgstr ""
+"あなたのパーソナルボイスメールグリーティングがオペレータに移動する間に0を押"
+"す。\n"
+"\t\t\t\t\tここで他の宛先を入力するにはチェックを外してください。"
+
+msgid "Go To Operator"
+msgstr "オペレーターへ移動"
+
+msgid "Press 1:"
+msgstr "1を押す:"
+
+msgid ""
+"The remaining options can have internal extensions, ringgroups, queues and "
+"external numbers that may be rung. It is often used to include your cell "
+"phone. You should run a test to make sure that the number is functional any "
+"time a change is made so you don't leave a caller stranded or receiving "
+"invalid number messages."
+msgstr ""
+"残りのオプションは、電話が鳴る可能性のある内線、リンググループ、キューや外部"
+"の番号を持つことが可能です。携帯番号を含める使用方法が一般的です。発信者が取"
+"り残されたり無効な番号ですというメッセージを受け取らないように変更されたかど"
+"うか、番号がいつも機能しているかを確認するためにテストをするべきです。"
+
+msgid ""
+"Enter an alternate number here, then change your personal voicemail greeting "
+"to let callers know to press 1 to reach that number. <br/><br/>If you'd like "
+"to use your Follow Me List, check \"Send to Follow Me\" and disable Follow "
+"Me above."
+msgstr ""
+"ここでは代わりとなる番号を入力してください、次に、その番号に到達するには1番を"
+"押すということを発信者に知らせるために、あなたのパーソナルボイスメールグリー"
+"ティングを変更してください。<br/><br/>もしあなたのフォローミーリストを使用し"
+"たい場合は、\"フォローミーに送る\"をクリックし、上記のフォローミーを無効にし"
+"てください。"
+
+msgid "Send to Follow-Me"
+msgstr "フォローミーに送る"
+
+msgid "Press 2:"
+msgstr "2を押す:"
+
+msgid ""
+"Use any extensions, ringgroups, queues or external numbers. <br/><br/"
+">Remember to re-record your personal voicemail greeting and include "
+"instructions. Run a test to make sure that the number is functional."
+msgstr ""
+"お好みの内線番号、リンググループ、キューや外線番号を使用してください。<br/"
+"><br/>忘れずにあなたのパーソナルボイスメールグリーティングを再度録音しなお"
+"し、使用方法を含めてください。その番号がちゃんと動作するかどうか確認するため"
+"にテストしてください。"
+
+#, php-format
+msgid "VmX Locator&#8482; Settings for %s (%s)"
+msgstr "VmX Locator&#8482; %s (%s)の設定"
+
+msgid "Voicemail"
+msgstr "ボイスメール"
+
+msgid "A folder must be selected before the message can be moved."
+msgstr "メッセージを移動する前にフォルダを選択する必要があります。"
+
+msgid "One or more messages must be selected before clicking move_to."
+msgstr ""
+"move_toをクリックする前に１つ以上のメッセージが選択されている必要があります。"
+
+msgid "An extension must be selected before the message can be forwarded."
+msgstr "メッセージが転送される前に内線番号を選択する必要があります。"
+
+msgid "One or more messages must be selected before clicking forward_to."
+msgstr ""
+"forward_toをクリックする前に１つ以上のメッセージを選択する必要があります。"
+
+msgid ""
+"You must enter one or more email addresses (comma-separated) before clicking "
+"email_to."
+msgstr ""
+"email_toをクリックする前に１つ以上のEメールアドレス(カンマ区切り)を入力する必"
+"要があります。"
+
+msgid "Warning: "
+msgstr "警告:"
+
+msgid "is not a valid email address"
+msgstr "は有効なメールアドレスではありません"
+
+msgid "The file type was not recognized."
+msgstr "ファイルタイプが認識されませんでした。"
+
+msgid "Warning: Could not access voicemail.conf.  Using default mailer."
+msgstr ""
+"警告: voicemail.confへアクセスできませんでした。 デフォルトのメーラーを使用し"
+"ます。"
+
+msgid "Mail operation failed"
+msgstr "メールのオペレーションエラー"
+
+msgid "No valid email address given.  Please try again."
+msgstr "有効なEメールアドレスではありません。再試行してください。"
+
+msgid "One or more messages must be selected before clicking email_to."
+msgstr ""
+"email_toをクリックする前に１つ以上のメッセージを選択しなければなりません。"
+
+msgid "move_to"
+msgstr "move_to"
+
+msgid "Folder"
+msgstr "フォルダー"
+
+msgid "forward_to"
+msgstr "forward_to"
+
+msgid "email_to"
+msgstr "email_to"
+
+msgid "Priority"
+msgstr "優先度"
+
+msgid "Orig Mailbox"
+msgstr "オリジナルメールボックス"
+
+msgid "Playback"
+msgstr "再生"
+
+msgid "Play message at: "
+msgstr "メッセージの再生場所:"
+
+msgid "Voicemail recording(s) was not found."
+msgstr "ボイスメール録音が見つかりませんでした。"
+
+#, php-format
+msgid ""
+"On settings page, change voicemail audio format.  It is currently set to %s"
+msgstr ""
+"設定ページにてボイスメールオーディオフォーマットを変更してください。現在は "
+"%s に設定されています。"
+
+msgid "Voicemail Login not found."
+msgstr "ボイスメールログインが見つかりません。"
+
+msgid "No access to voicemail"
+msgstr "ボイスメールへアクセスできません。"
+
+msgid "No Voicemail Recordings for Admin"
+msgstr "管理者へのボイスメール録音はありません。"
+
+#, php-format
+msgid "Voicemail for %s (%s)"
+msgstr "%s (%s)へのボイスメール"
+
+msgid "Calling: "
+msgstr "呼出し:"
+
+msgid ". Please wait patiently..."
+msgstr "。しばらくお待ちください..."
+
+#, php-format
+msgid "Could not create mailbox folder %s on the server"
+msgstr "サーバー上にメールボックスフォルダー %s を作成できませんでした。"
+
+#, php-format
+msgid "Permission denied on folder %s or %s"
+msgstr "フォルダ %s 又は %s の権限拒否"
+
+msgid "The call was terminated."
+msgstr "通話は切断されました。"
+
+msgid "Folders"
+msgstr "フォルダー"
+
+msgid "Original work based on ARI from Littlejohn Consulting"
+msgstr "Original work based on ARI from Littlejohn Consulting"

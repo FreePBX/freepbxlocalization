@@ -1,0 +1,64 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for endpointman
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-30 00:04+0400\n"
+"PO-Revision-Date: 2012-11-01 22:35+0400\n"
+"Last-Translator: PostMet <ceo@postmet.com>\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Turn Off Safe Mode"
+msgstr "Выключить Безопасный режим"
+
+msgid "PHP Version MUST be greater than"
+msgstr "Версия PHP должна быть выше, чем"
+
+msgid "Sorry, Only Asterisk is supported currently"
+msgstr "Извините, сейчас поддерживается только Asterisk"
+
+msgid "PBX End Point Manager"
+msgstr "Менеджер абонентских устройств"
+
+msgid "Connectivity"
+msgstr "Подключения"
+
+msgid ""
+"PBX End Point Manager supports automated deployment of multiple "
+"manufacturers IP telephones."
+msgstr "Менеджер абонентских устройств управляет автоматической настройкой IP телефонов разных производителей"
+
+msgid "End Point Device List"
+msgstr "Список абонентских устройств"
+
+msgid "End Point Template Manager"
+msgstr "Менеджер шаблонов абонентских устройств"
+
+msgid "End Point Configuration"
+msgstr "Конфигурация абонентского устройства"
+
+msgid "End Point Advanced Settings"
+msgstr "Дополнительные настройки абонентского устройства"
+
+msgid "End Point Manager"
+msgstr "Менеджер абонентских устройств"

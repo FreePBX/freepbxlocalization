@@ -1,0 +1,1013 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for sipstation
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX 2.10.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 19:32+0900\n"
+"PO-Revision-Date: 2014-02-21 03:02+0200\n"
+"Last-Translator: Chise Mishima <c.mishima@qloog.com>\n"
+"Language-Team: Japanese "
+"<http://192.168.30.85/projects/freepbx/sipstation/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 1.8\n"
+
+msgid "UPDATES"
+msgstr "更新"
+
+msgid "ERROR"
+msgstr "エラー"
+
+msgid ""
+"A valid key is required to perform this action and the server must be "
+"available. Error:"
+msgstr ""
+"このアクションを実行するには有効なキーが必要で、サーバーが利用可能である必要"
+"があります。エラー:"
+
+msgid "Refresh Asterisk Account Info"
+msgstr "Asteriskアカウント情報を入手"
+
+msgid "NO CODECS"
+msgstr "コーデックがありません"
+
+msgid "An Error occurred trying to contact the server for account settings."
+msgstr "アカウント設定のためのサーバーとの通信中にエラーが発生しました。"
+
+msgid "SERVER ERROR"
+msgstr "サーバーエラー"
+
+msgid "FIREWALL TEST WARNING"
+msgstr "ファイヤーウォールテスト警告"
+
+msgid "An Error occurred trying run firewall test"
+msgstr "ファイヤーウォールのテスト実行をトライ中にエラーが発生しました。"
+
+msgid "FIREWALL TEST ERROR"
+msgstr "ファイヤーウォールテストエラー"
+
+msgid ""
+"Remote Server Error. Please try again in 10 minutes, If you continue to have "
+"problems please contact support and give them this error code"
+msgstr ""
+"リモートサーバー側のエラーがありました。10分後にもう一度お試しください。問題"
+"が解決しない場合は、サポートの担当者に連絡して、次のエラーコードをお伝え下さ"
+"い。"
+
+msgid "Updated Master E911."
+msgstr "Master E911を更新しました。"
+
+#, fuzzy
+msgid ""
+"You may have to wait up to 15 minutes for your changes to take effect. It is "
+"your responsibility to test and confirm your E911 Address. You do this by "
+"dialing 933 and transmitting this number as the Caller ID and the address "
+"will be read back to you from the E911 center."
+msgstr ""
+"変更が適応されるまで15分ほどかかる場合があります。E911アドレスを試験・確認す"
+"るのは、あなたの責任です。確認するには、933を発信し、この番号を発信者番号通知"
+"（CID）として送信します。アドレスはE911センターから繰り返されますので、ご確認"
+"ください。"
+
+#, fuzzy
+msgid "No Key"
+msgstr "キーがありません"
+
+msgid "Added Routes"
+msgstr "ルートを追加しました"
+
+msgid "Nothing Changed"
+msgstr "変更はありません"
+
+#, php-format
+msgid ""
+"The prefix you entered, %s, is not a proper prefix or the wrong length. It "
+"should be a 3 digit prefix."
+msgstr ""
+"入力されたプリフィックス %s は適切でないか、長さが間違えてます。数字3桁のプリ"
+"フィックスである必要があります。"
+
+#, php-format
+msgid "Successfully configured %s routes to use your SIP trunks"
+msgstr "%s ルートをあなたのSIPトランクに設定することに成功しました。"
+
+#, php-format
+msgid "Your Area Code was updated to %s"
+msgstr "あなたのエリアコードが%sに更新されました。"
+
+msgid "No updates were required, no routes or areacode were changed"
+msgstr "更新が要求されませんでした、ルートやエリアコードは変更されません。"
+
+#, php-format
+msgid ""
+"Your trunks are not configured. Click on the Get Account Info button in "
+"order to re-pull your account information and generate the required trunks "
+"and then try again."
+msgstr ""
+"あなたのトランクは設定されていません。アカウントを取得ボタンをクリックしてあ"
+"なたのアカウント情報を再取得し、要求されたトランクを生成して、再度実行してく"
+"ださい。"
+
+#, php-format
+msgid "Successfully updated or created %s inbound routes for your DIDs"
+msgstr "ダイヤルインのインバウンド経路 %s の更新または作成に成功しました。"
+
+#, fuzzy, php-format
+msgid "Successfully updated or set failover for your %s DIDs"
+msgstr "ダイヤルインのインバウンド経路 %s の更新または作成に成功しました。"
+
+#, php-format
+msgid ""
+"There were %s validation failures on the requested DIDs, no updates performed"
+msgstr ""
+"要求されたダイヤルインで、%s個の検証エラーがありました。更新できません。"
+
+msgid "Nothing was changed"
+msgstr "変更しませんでした"
+
+#, fuzzy
+msgid "You did not agree to our charges and policies on E911"
+msgstr "E911の料金・条件に同意しないといけません。"
+
+#, fuzzy
+msgid ""
+"Remote Server Error. Please try again in 10 minutes. If you continue to have "
+"problems please contact support and give them this error code"
+msgstr ""
+"リモートサーバー側のエラーがありました。10分後にもう一度お試しください。問題"
+"が解決しない場合は、サポートの担当者に連絡して、次のエラーコードをお伝え下さ"
+"い。"
+
+#, fuzzy
+msgid "Updated E911 information for"
+msgstr "ダイヤルイン設定を更新"
+
+msgid "To check your E911 settings please dial 933"
+msgstr "E911の設定を確認するには、933を発信してください。"
+
+#, fuzzy
+msgid "Deleted E911 information for"
+msgstr "〜のE911情報を削除しました："
+
+msgid "Not Registered"
+msgstr "登録されていません"
+
+msgid "Checking routes for trunks.."
+msgstr "トランクの経路をチェック中.."
+
+msgid "ok"
+msgstr "ok"
+
+msgid "error detected"
+msgstr "エラーが検出されました。"
+
+#, php-format
+msgid ""
+"an erroneous entry, %s,  was found in extensions table that should not be "
+"there"
+msgstr "誤ったエントリー %s が内線テーブルで見つかりました。"
+
+#, php-format
+msgid "found %s"
+msgstr "%s が見つかりました。"
+
+msgid "checking for phantoms.."
+msgstr "ファントムをチェック中.."
+
+#, php-format
+msgid "removed %s phantoms"
+msgstr "%s個のファントムを削除しました。"
+
+msgid "none"
+msgstr "なし"
+
+msgid ""
+"No Free Ports in Asterisk RTP Port Range available for testing, you can try "
+"later"
+msgstr ""
+"テストに使用できるAsteriskのRTPポート範囲に空きがありません、後で再度試してく"
+"ださい。"
+
+msgid ""
+"The test timed out which means your firewall is probably configured wrong. "
+"If subsequent tests fail, check your port forwarding on the firewall."
+msgstr ""
+"テストがタイムアウトしました。恐らくファイヤーウォールの設定が原因です。続き"
+"のテストが失敗した場合は、ファイヤーウォールのポート転送を確認してください。"
+
+msgid "An unexpected token was returned, try the test again"
+msgstr "予期せぬトークンが戻りました。再度テストを試行してください。"
+
+#, php-format
+msgid ""
+"Your module version is not compatible with the current API requirements and "
+"needs to be updated. Expecting XML version %s and received version %s."
+msgstr ""
+"あなたのモジュールバージョンは現在のAPI動作要件と互換性がないため、アップデー"
+"トする必要があります。必要XMLバージョン %s 受けとったバージョン %s"
+
+#, fuzzy
+msgid "SIPSTATION"
+msgstr "SIPSTATION"
+
+msgid "Connectivity"
+msgstr "接続"
+
+msgid ""
+"This module is used to configure, manage and troubleshoot your SIPSTATION"
+"(tm) FreePBX.com SIP trunks and DIDs. The license on this source code is NOT "
+"GPL Open Source, it is a proprietary Free to Use license."
+msgstr ""
+"このモジュールはあなたのSIPSTATION(tm) FreePBX.com SIP トランクと ダイヤルイ"
+"ン番号の設定と管理をするのに使用します。このソースコードのライセンスはGPL "
+"Open Sourceではありません、ライセンスを使用するための独自利用は無料です。"
+
+msgid "KEYS AND TRUNKS REMOVED!"
+msgstr "キーをトランクを削除しました！"
+
+#, fuzzy
+msgid ""
+"Your SIPStation trunks and key have been removed from your system, make sure "
+"to Apply Configuration Changes for this to take effect"
+msgstr ""
+"あなたのシステム内にあるSIPSTATIONトランクとキーはもう削除されました。これを"
+"有効にするために自動変更の設定を実行してください。"
+
+#, php-format
+msgid "%s Account Access"
+msgstr "%s アカウントアクセス"
+
+#, fuzzy, php-format
+msgid ""
+"To disable account access, click %s. The auto generated trunk, route and DID "
+"configurations will remain active even if the key is removed. \n"
+"\t\t\tTo also remove the Trunks, chose the %s options instead"
+msgstr ""
+"アカウントアクセスを無効にする場合は、 %s をクリックしてください。キーを削除"
+"しても自動生成されたトランク、ルートやDID設定はアクティブのまま残ります。トラ"
+"ンクを削除する場合は、%sのオプションを選択してください。"
+
+msgid "Remove Key"
+msgstr "キーを削除"
+
+msgid "Remove Key & Delete Trunks"
+msgstr "キーとトランクを削除"
+
+msgid "System Status"
+msgstr "システムステータス"
+
+msgid "WARNING"
+msgstr "WARNING"
+
+msgid ""
+"Your key is no longer valid. Click below to remove the current key. To "
+"obtain a new key and use this module, visit the portal at https://store."
+"freepbx.com and log into your account."
+msgstr ""
+"あなたのキーは既に有効ではありません。以下をクリックして現在のキーを削除して"
+"ください。新規キーを取得してこのモジュールを使用するには、https://store."
+"freepbx.comにあるポータルサイトを訪れてあなたのアカウントへログインしてくださ"
+"い。"
+
+msgid ""
+"The server is currently unavailable and we can not process your request. "
+"Please check back with us later. We apologize for the inconvenience."
+msgstr ""
+"サービスは現在利用できません、あなたのリクエストを進めることができません。後"
+"程再びチェックしてください。ご不便をおかけして大変申し訳ございません。"
+
+msgid ""
+"The server is currently not responding. It is either unavailable or access "
+"is being blocked. If the server is unavailable, please try again later."
+msgstr ""
+"現在サービスからの応答がありません。利用できないか、アクセスがブロックされて"
+"おります。サーバーが利用不可能な場合は、後程再試行してみてください。"
+
+#, fuzzy, php-format
+msgid ""
+"This module requires %s trunking service available at %s or click on the "
+"image above. \n"
+"\t\t\t\tOnce you have service a key will be available in the portal. Enter "
+"it below to use this module. \n"
+"\t\t\t\tThe key is very long, use \"Copy\" &amp; \"Paste\" to copy it here. "
+"The key will be stored securely and can be removed at any time to stop "
+"access. \n"
+"\t\t\t\tIf the key is compromised, you can contact us at our %s and have a "
+"new one re-generated."
+msgstr ""
+"このモジュールを使用するには %s トランクサービスが必要で、 %s 若しくは上の画"
+"像をクリックして利用することができます。一度サービスを使用すると、ポータルサ"
+"イト内でキーが利用可能となります。それを以下に入力してこのモジュールの使用を"
+"開始してください。キーはとても長いため、 \"コピー\" & \"ペースト\"を使用して"
+"キーをここにコピーしてください。 キーは安全に保存され、アクセスを止めたい時に"
+"はいつでも削除することができます。キーのセキュリティが危険にさらされた場合"
+"は、カスタマーサポートに問い合わせて新規に生成されたキーを取得することができ"
+"ます。"
+
+msgid "Account Key"
+msgstr "アカウントキ"
+
+#, fuzzy
+msgid ""
+"In order to use this service you must have a SIPStation FreePBX.com portal "
+"account and service (https://store.freepbx.com). \n"
+"\t\t\tFrom there you can obtain a unique secure key which you should copy "
+"and paste into this key field. \n"
+"\t\t\tOnce entered, you can access your services from within this module "
+"without exposing your account username and password. \n"
+"\t\t\tYou can remove the key at any time"
+msgstr ""
+"このサービスを利用するためには、SIPSTATION FreePBX.comポータルアカウントと"
+"サービスが必要です。(https://store.freepbx.com)このサイトで一意のセキュリ"
+"ティーキーを入手できますので、このキーフィールドにコピー&ペーストしてくださ"
+"い。一度入力すると、あなたのユーザー名とパスワードをさらけ出す必要なくこのモ"
+"ジュールよりサービスにアクセスすることができます。キーはいつでも削除できま"
+"す。"
+
+msgid "Add Key"
+msgstr "キーを追加"
+
+#, fuzzy, php-format
+msgid ""
+"To disable account access, click %s. To update account information, click "
+"%s. If port forwarding is configured on your firewall/router, you can test "
+"it with the %s button. \n"
+"\t\t\t\t\t\t\tPort forwarding can provide more reliable service and better "
+"quality and we recommend setting it up. \n"
+"\t\t\t\t\t\t\tThe test sends a packet to an unused Asterisk RTP port at your "
+"WAN address and results in a PASS if the packet is properly received."
+msgstr ""
+"アカウントアクセスを無効にする場合は、 %sをクリックしてください。アカウント情"
+"報を更新する場合は、 %sをクリックしてください。あなたのファイヤーウォール/"
+"ルーターでポートフォワーディングが有効な場合は、 %sボタンを使用してテストする"
+"ことが可能です。ポートフォワーディングによってより信頼性が高くより良い品質が"
+"提供されますので、設定することをお勧めいたします。テストによってあなたのWAN側"
+"アドレスの使用されていないAsterisk RTPポートにパケットが送信され、パケットが"
+"正常に受信されると PASSという結果が表示されます。"
+
+msgid "Update Account Info"
+msgstr "アカウント情報をアップデート"
+
+msgid "Run Firewall Test"
+msgstr "ファイヤーウォールテストを実行"
+
+#, php-format
+msgid "Questions or Issues can be directed to our %s at %s"
+msgstr "お問い合わせは、 %s at %s　までお願いします。"
+
+msgid "Trunk Status"
+msgstr "トランクステータス"
+
+#, fuzzy
+msgid ""
+"Provides Gateway Side and Client side realtime status information on your "
+"trunks and SIP registrations. More details on the tooltips below."
+msgstr ""
+"あなたのトランクやSIP登録のゲートウェイ側とクライアント側のリアルタイムステー"
+"タス情報を提供します。FreePBXのトランク設定ページへのクイックリンクも提供され"
+"ます。より詳細なツールチップは以下にあります。"
+
+msgid "Primary"
+msgstr "プライマリ"
+
+msgid "Secondary"
+msgstr "セカンダリ"
+
+#, fuzzy
+msgid "Asterisk Registration Status"
+msgstr "Asterisk登録ステータス"
+
+#, fuzzy
+msgid ""
+"Realtime Status of Registration as reported by Asterisk on your local system."
+msgstr ""
+"あなたのローカルシステムのAsteriskによってレポートされたレジストステータス"
+
+#, php-format
+msgid ""
+"Warning: The Asterisk configuration: %s, is set wrong. Change this to 0 to "
+"continually retry registrations until successful. You can use the Asterisk "
+"SIP Settings module to set this."
+msgstr ""
+"警告: Asterisk設定: %s, が正常に設定されていません。成功するまでレジストのリ"
+"トライを継続するにはこの値を 0 に設定してください。Asterisk SIP設定モジュール"
+"を使用してこの設定を行うことができます。"
+
+#, fuzzy
+msgid "Your Contact IP"
+msgstr "コンタクトIP"
+
+#, fuzzy
+msgid ""
+"This is the contact IP as seen on the gateway and provides warnings if "
+"errors are detected. These two addresses SHOULD be your external IP as seen "
+"on the WAN side of your router. If they are not, or if they do not match "
+"your Network IP, you should configure your NAT settings in the Asterisk SIP "
+"Settings module"
+msgstr ""
+"これはゲートウェイ上で確認されたコンタクトIPで、エラーが検出された場合に警告"
+"が提供されます。これらはあなたのルーターのWAN側で確認できるあなたの外部IPであ"
+"る必要があります。そうでない場合やこれらがあなたのネットワークIPと一致しない"
+"場合はAsterisk SIP設定モジュールやこのモジュールを使用していない場合は、"
+"sip_nat.conf内のNAT設定を調整してください。"
+
+msgid "Not Available"
+msgstr "利用不可"
+
+#, fuzzy
+msgid "Your Network IP"
+msgstr "ネットワークIP"
+
+#, fuzzy
+msgid ""
+"This is the network IP as seen on the gateway and provides warnings if "
+"errors are detected. These two addresses SHOULD be your external IP as seen "
+"on the WAN side of your router. If they are not, or if they do not match "
+"your Network IP, you should configure your NAT settings in the Asterisk SIP "
+"Settings module"
+msgstr ""
+"これはゲートウェイ上で確認されたネットワークIPで、エラーが検出された場合に警"
+"告が提供されます。これらはあなたのルーターのWAN側で確認できるあなたの外部IPで"
+"ある必要があります。そうでない場合やこれらがあなたのネットワークIPと一致しな"
+"い場合はAsterisk SIP設定モジュールやこのモジュールを使用していない場合は、"
+"sip_nat.conf内のNAT設定を調整してください。"
+
+msgid ""
+"Warning: The SIP Contact header is not set to your WAN IP. It is set to your "
+"internal private IP behind NAT. The gateway will attempt to decipher your "
+"proper address but your configuration is incorrect. You should review the "
+"NAT settings in the Asterisk SIP Settings module, or sip_nat.conf if not "
+"using that module."
+msgstr ""
+"警告: SIP ContactヘッダーがあなたのWAN側IPに設定されておりません。NATの配下に"
+"あるあなたの内部のプライベートIPに設定されています。ゲートウェイはあなたの適"
+"切なアドレスを解読することを試みておりますが、あなたの設定が正しくないようで"
+"す。Asterisk SIP設定モジュールやこのモジュールを使用していない場合は、"
+"sip_nat.conf内のNAT設定を再確認してください。"
+
+msgid ""
+"ERROR: Your SIP Contact header is a non-private IP address that does not "
+"match your network IP. Your system will probably fail typically resulting in "
+"one way audio issues. This is usually caused because of an externip setting "
+"that is not the same as you WAN IP, or an externhost setting with dynamic "
+"DNS information that is not updated. You should check the Asterisk SIP "
+"Settings Module or your sip_nat.conf file for the proper settings."
+msgstr ""
+"エラー: あなたのSIP Contactヘッダーは、あなたのネットワークIPと一致しないプラ"
+"イベートでないIPアドレスになっています。あなたのシステムはおそらく音声が片側"
+"のみというエラー現象が発生しています。これは大抵の場合外部IP設定があなたのWAN"
+"側IPと同じになっていないためや、ダイナミックDNS情報を持った外部ホスト設定が更"
+"新されていないために発生します。。Asterisk SIP設定モジュールやsip_nat.conf"
+"ファイルをチェックして適切な設定にしなおしてください。"
+
+msgid "SIP Ping"
+msgstr "SIP Ping"
+
+msgid ""
+"Roundtrip signaling delay to SIP server as determined by the Asterisk "
+"'qualify' command. This is only signaling delay. The voice connections (RTP "
+"media streams) are routed from your system to the closest POP (point of "
+"presence) where the call enters the PSTN. This assures the optimal minimum "
+"latency but can't be reported because it's dependent on each call."
+msgstr ""
+"Asterisk 'qualify' コマンドによって決定される、SIPサーバーへのラウンドトリッ"
+"プシグナリングの遅延。これはシグナリング(制御情報)の遅延のみです。音声コネク"
+"ション(RTPメディアストリーム)は、あなたのシステムからコールがPSTNに入るもっと"
+"も近いPOP(プレゼンスのポイント)へルーティングされます。これは最適な最小の遅延"
+"を保証しますが、それぞれのコールに依存するため、レポートされません。"
+
+msgid "Codec Priorities"
+msgstr "コーデックの優先順位"
+
+msgid ""
+"Codec Priority Asterisk reports for these trunks. This is filtered to only "
+"show codecs supported by the gateways. The Codecs can be edited on the trunk "
+"page to make changes to priority or available codecs."
+msgstr ""
+"Asteriskがレポートした、これらのトランクに対するコーデックの優先順位。これ"
+"は、ゲートウェイによってサポートされているコーデックのみを表示するようにフィ"
+"ルタリングされます。優先順位や利用可能なコーデックを変更するために、トランク"
+"ページでコーデックの編集を行うことが可能です。"
+
+msgid "Firewall Test"
+msgstr "ファイヤーウォールのテスト"
+
+#, php-format
+msgid ""
+"Status result of Firewall Test. If %s, it means we successfully received the "
+"RTP packet that was sent from the remote server. If %s, it means the packet "
+"sent from the remote server was blocked by your firewall or lost in the "
+"Internet. You can retry the test."
+msgstr ""
+"ファイヤーウォールテストのステータス。もし %s の場合、リモートサーバーから送"
+"信されたRTPパケットの受信に成功したことを意味します。もし %s の場合、リモート"
+"サーバーから送信されたRTPパケットはあなたのファイヤーウォールにブロックされた"
+"かインターネット上でロストしたことを意味します。テストを再試行することができ"
+"ます。"
+
+msgid "PASS"
+msgstr "パス"
+
+msgid "FAIL"
+msgstr "フェイル"
+
+msgid "Status"
+msgstr "ステータス"
+
+#, fuzzy
+msgid "External IP"
+msgstr "外向けIP："
+
+msgid "Account Settings"
+msgstr "アカウント設定"
+
+#, fuzzy
+msgid "Credentials"
+msgstr "SIP証明書"
+
+#, fuzzy
+msgid ""
+"The SIP Username and Password (secret) for this account along with the "
+"associated email address to log into the SIPStation store. You can change "
+"the password in the SIPStation portal at https://store.freepbx.com"
+msgstr ""
+"このアカウントのSIPユーザー名とパスワード(secret)です。パスワードはhttps://"
+"store.freepbx.comのSIPSTATION(TM) ポータルより変更できます。"
+
+#, fuzzy
+msgid "SIP Username:"
+msgstr "ユーザー名："
+
+#, fuzzy
+msgid "SIP Password:"
+msgstr "パスワード："
+
+#, fuzzy
+msgid "Email Address:"
+msgstr "住所1"
+
+msgid "Gateways"
+msgstr "ゲートウェイ"
+
+msgid ""
+"Primary and Secondary servers to send SIP traffic to. These are used in the "
+"automatic trunk configuration."
+msgstr ""
+"SIPトラフィックの送信先プライマリとセカンダリのサーバー。これらは自動トランク"
+"設定で使用されます。"
+
+msgid "Service Information"
+msgstr "サービス情報"
+
+#, fuzzy
+msgid ""
+"The number of concurrent calls that have been purchased and are configured "
+"for your service. Sometimes called trunks and similar to the number of PRI "
+"channels or POTS lines in a traditional telco environment."
+msgstr ""
+"同時にできるコールの数。トランクとも呼ばれます。従来の通信環境だと、PRIチャン"
+"ネルやアナログ回線に例えることができます。"
+
+msgid "Channels"
+msgstr "チャネル"
+
+#, fuzzy
+msgid "Account Services"
+msgstr "アカウント設定"
+
+#, fuzzy
+msgid ""
+"Here you can set the global failover number for all of your associated DIDs "
+"if your Asterisk server is unable to connect to SIPStation"
+msgstr ""
+"全ての連携したDIDに対して、AsteriskサーバーがSIPStationに接続できない場合に使"
+"用する「グローバルフェイルオーバー番号」を指定できます。"
+
+msgid "Global Failover Number"
+msgstr "グローバルフェイルオーバー番号"
+
+msgid "Global Failover IP/FQDN"
+msgstr "グローバルフェイルオーバーIP・FQDN"
+
+#, fuzzy
+msgid "E911 Master Location"
+msgstr "E911(緊急通報)所在地"
+
+#, fuzzy
+msgid ""
+"This is your primary E911 address. It must be a valid US or Canadian address "
+"and must be setup to user this service. You are responsible for the accuracy "
+"of this information as well as confirming that the E911 service is working. "
+"You can configure and dial 933 transmitted to any of the SIPStation trunks "
+"to validate the address."
+msgstr "主要なE911住所です。アメリカ・カナダの有効住所しか使用できません。"
+
+#, fuzzy
+msgid ""
+"When you call 911 on a SIPStation trunk, it will ignore any Caller ID you "
+"send if that number has not been explicitly enabled for E911 service and "
+"transmit this Caller ID instead. This will result in the E911 operator "
+"seeing this Caller ID as a call back number and this address when they are "
+"properly equipped to receive address information which is usually the case"
+msgstr ""
+"SIPStationトランクから911を発信したとき、E911サービスに対して有効になっていな"
+"いCIDだと、元のCIDを無視してこのCIDを送信します。よって、このCIDに関連した情"
+"報が911のオペレーターに見えるようになります。"
+
+#, fuzzy
+msgid ""
+"You can enable other SIPStation DIDs with E911 if you have additional "
+"addresses you want associated with other DIDs, or if you explicitly want the "
+"E911 operator to see those numbers as call back numbers vs. this number. "
+"Each additional E911 enabled DID incurs a small monthly fee. You can also "
+"choose a different DID to be the Master E911 DID by first enabling it and "
+"then setting it as the Master. Each change incurs a small fee and then each "
+"DID that is explicitly E911 enabled will incur a small monthly fee except "
+"this Master E911 DID which is included with your service cost."
+msgstr "他のDIDをE911に対応させることができます。"
+
+msgid "E911 Caller ID"
+msgstr "E911(緊急通報)発信者番号"
+
+#, fuzzy
+msgid "Name"
+msgstr "名前"
+
+msgid "Address 1"
+msgstr "住所1"
+
+msgid "Address 2"
+msgstr "住所2"
+
+msgid "City"
+msgstr "市"
+
+msgid "State"
+msgstr "州"
+
+msgid "Zip"
+msgstr "郵便番号"
+
+#, fuzzy
+msgid "Update Account Settings"
+msgstr "アカウント設定"
+
+msgid "Route and Trunk Configuration"
+msgstr "経路とトランク設定"
+
+msgid ""
+"Check/Uncheck the boxes and submit to add/remove this service as the primary "
+"trunks to any listed route. Both gateways should be configured to allow for "
+"redundancy. If gateways are already configured in the route, the box will be "
+"checked, even if they are not the primary trunks for that route. Click on "
+"the route name to link directly to the Outbound Routes page for any route."
+"<br />An Area Code can be set to enable 7 digit dialing for any route "
+"configured to pass 7 digits."
+msgstr ""
+"ボックスのチェックを付け/チェックを外し、このサービスをいずれかの列挙された"
+"ルートの主トランクとして追加/削除するために投稿します。冗長性を許可するために"
+"両方のゲートウェイが設定される必要があります。経路上のゲートウェイがもし既に"
+"設定されている場合、もしそれらがそのルートの主トランクでない場合でもボックス"
+"はチェックされます。いずれかのルートのアウトバウンドルートページへダイレクト"
+"にリンクするにはルート名をクリックしてください。<br />7桁をパスするように設定"
+"されたルートへ、7桁ダイヤルを有効にするために地域コードを設定することが可能で"
+"す。"
+
+#, php-format
+msgid ""
+"Check Primary (%s) and Secondary (%s) Trunk for each route that should be "
+"configured with the %s service. The trunks will be inserted into the "
+"corresponding routes upon clicking the %s button. You can enable 7 digit "
+"dialing with the trunk by entering your area code as well."
+msgstr ""
+"それぞれのルートへの主トランク (%s) と副トランク (%s) をチェックします。ルー"
+"トは %s サービスで設定されています。%s ボタンをクリックすることで、トランクは"
+"一致するルートに対して追加されます。エリアコードを入力することで、トランクの7"
+"桁ダイヤリングを有効にすることも可能です。"
+
+msgid "Update Route/Trunk Configurations"
+msgstr "ルート/トランク設定を更新"
+
+msgid "Area Code"
+msgstr "エリアコー"
+
+msgid ""
+"Provide your 3 digit area code if you would like your trunks to allow 7 "
+"digit dialing and automatically prepend your area code. This requires the "
+"route to be configured to send a 7 digit number."
+msgstr ""
+"もしトランクに7桁ダイヤリングを許可し、自動的にあなたのエリアコードを補完した"
+"い場合にあなたの3桁のエリアコードを提供します。ここでは7桁番号を送信するため"
+"のルートの設定がされている必要があります。"
+
+#, php-format
+msgid "Edit: %s"
+msgstr "編集: %s"
+
+msgid "Add Default SIPStation Routes"
+msgstr "デフォルトSIPStationルートを追加"
+
+msgid "DID Configuration"
+msgstr "DID 設定"
+
+#, fuzzy
+msgid "Here you can manage your DIDs<br>Specifically you can do the follow: "
+msgstr "ここではDIDの管理ができます。<br>具体的には、以下の操作ができます："
+
+msgid "DID"
+msgstr "DID"
+
+#, fuzzy
+msgid ""
+"Your DID, Clicking here will take you to the inbound route setup for this DID"
+msgstr ""
+"設定するDID。ここにクリックすると、このDIDのインバウンドルート設定に移動しま"
+"す。"
+
+#, fuzzy
+msgid "Set E911"
+msgstr "E911を設定"
+
+#, fuzzy
+msgid ""
+"Set and manage your per DID E911 Addresses (Fees Apply for Multiple E911 "
+"Addresses)"
+msgstr "DIDごとのE911住所を設定・管理します（複数ある場合は料金がかかります）"
+
+#, fuzzy
+msgid "Failover Number"
+msgstr "フェールオーバー #"
+
+#, fuzzy
+msgid "Set and manage your per DID Failover Numbers"
+msgstr "DIDフェイルオーバー番号ごとの設定・管理"
+
+msgid "Description"
+msgstr "説明"
+
+#, fuzzy
+msgid "Set A Description for the Inbound Routes Page"
+msgstr "インバウンドルートページで使用する説明を設定します。"
+
+msgid "Route To"
+msgstr "次へのルート"
+
+#, fuzzy
+msgid "Route Your DID to a specified location"
+msgstr "あなたのDIDを特定の宛先にルートします。"
+
+msgid "Set CID"
+msgstr "発信者番号を設定"
+
+#, fuzzy
+msgid ""
+"Automatically set the CID of the Extension to the DID if this DID is routed "
+"to an extension"
+msgstr ""
+"内線にルートされているDIDであれば、内線のCIDを自動的にそのDIDに設定します。"
+
+#, fuzzy
+msgid "Set ECID"
+msgstr "発信者番号を設定"
+
+#, fuzzy
+msgid "Set the Emergency CID of the Extension to an E911 enabled DID"
+msgstr "内線の緊急CIDを、E911が有効なDIDに設定します。"
+
+#, fuzzy
+msgid "Failover Num"
+msgstr "フェールオーバー #"
+
+#, fuzzy
+msgid "Emergency CID"
+msgstr "緊急CID"
+
+msgid "Update DID Configurations"
+msgstr "ダイヤルイン設定を更新"
+
+#~ msgid "An error was encountered updating DID destinations"
+#~ msgstr "ダイヤルインの宛先をアップデート中にエラーが発生しました。"
+
+#~ msgid ""
+#~ "There are %s invalid entries, only updated or created %s inbound routes "
+#~ "for your DIDs"
+#~ msgstr ""
+#~ "無効なエントリーが%s個あります、ダイヤルインのインバウンド経路を%s個のみ更"
+#~ "新または作成しました。"
+
+#~ msgid "Reset Trunks"
+#~ msgstr "トランクのリセット"
+
+#~ msgid "Asterisk Reg."
+#~ msgstr "Asterisk Reg."
+
+#~ msgid "Services"
+#~ msgstr "サービス"
+
+#~ msgid ""
+#~ "The number of concurrent calls that have been purchased and are "
+#~ "configured for your service. Sometimes called trunks and similar to the "
+#~ "number of PRI channels or POTS lines in a traditional telco environment."
+#~ "<br /> Your monthly charge includes all costs for DIDs and unlimited "
+#~ "trunks.<br /> The Caller ID Number can be configured in the https://store."
+#~ "freepbx.com portal to send either standard 10 Digit NPA (for North "
+#~ "American Numbers) or the E164 standard which is +1NXXNXXXXXX for NPA "
+#~ "numbers and +NN XXXXXX.. for other countries where +NN is the Country "
+#~ "Code."
+#~ msgstr ""
+#~ "あなたのサービスのために購入され設定された現在のコールの番号。時には、発信"
+#~ "されたトランクやPRIチャネルの番号に似た番号であったり、伝統的な電話環境で"
+#~ "はPOTSラインであったりします。<br />あなたの月額料金にはDIDや無制限なトラ"
+#~ "ンク全てのコストが含まれます。<br />標準の10桁のNPA(北米番号)や、NPA番号の"
+#~ "ための+1NXXNXXXXXXなどのE164標準や、 +NN XXXXXX..等々、(その他の国は +NNが"
+#~ "国コード)を送信するための発信者番号は ttps://store.freepbx.com 内ポータル"
+#~ "で設定することが可能です。"
+
+#~ msgid "Monthly Cost"
+#~ msgstr "月間費用"
+
+#~ msgid "CID Format"
+#~ msgstr "発信者番号フォーマット"
+
+#~ msgid ""
+#~ "This the E911 registered address. It is critical the E911 information is "
+#~ "accurate and a valid US address, or leave it blank. You are responsible "
+#~ "for the accuracy of this information and there may be substantial "
+#~ "penalties by your local authorities if it is not accurate when E911 "
+#~ "service is used. The settings can be changed from the https://store."
+#~ "freepbx.com account portal.<br />The E911 Caller ID will be transmitted "
+#~ "to the E911 operator for ALL calls made to 911 Emergency Services and any "
+#~ "CID you set will be ignored, whether it is one of your account DIDs or "
+#~ "any other CID. You must have E911 address information entered to use E911 "
+#~ "services."
+#~ msgstr ""
+#~ "これはE911への登録アドレスです。E911情報が正確で有効なUSのアドレスであるこ"
+#~ "とは重要で、そうできない場合は空白にしておいてください。あなたはこの情報の"
+#~ "正確さに責任を負い、E911サービスが使用された場合に正確でなかったら、お住ま"
+#~ "いの自治体によってかなりのペナルティがあるかもしれません。設定はhttps://"
+#~ "store.freepbx.comアカウントポータルから変更することができます。<br />E911"
+#~ "発信者番号は、911緊急サービスへ発信された全てのコールにおいてE911オペレー"
+#~ "タに転送され、あなたが設定したいかなるCIDも、それがあなたのアカウントのDID"
+#~ "の一つであろうが、他のCIDであろうが、無視されます。あなたはE911サービスを"
+#~ "使用するために、E911アドレス情報を入力しなければなりません。"
+
+#~ msgid ""
+#~ "You can assign each DID to any of your extensions on this screen to "
+#~ "generate a route to that extension with default settings. If you check "
+#~ "the \"Set CID\" box you will set the extension's outbound CID to this DID "
+#~ "also. (Note the Outbound CID on an extension will not be deleted if you "
+#~ "subsequently change the assignment of that DID, unless another DID is "
+#~ "assigned with the box checked. You will need to go to the extension and "
+#~ "modify it otherwise.) If the DID is already assigned to something other "
+#~ "than an extension, the destination will be listed and can be changed "
+#~ "here. To assign to other destination types, click the DID link to go "
+#~ "direct to the Inbound route for that DID or to create a new one."
+#~ msgstr ""
+#~ "このスクリーンではあなたの内線番号へ各DIDを割り当てて、デフォルト設定を持"
+#~ "つこの内線へのルートを生成することができます。もし\"発信者番号を設定\"ボッ"
+#~ "クスにチェックをいれた場合、あなたは内線のアウトバウンド発信者番号をこのダ"
+#~ "イヤルイン番号に設定することにもなります。(もしあなたがその後内線のダイヤ"
+#~ "ルイン番号の割り当てを変更した場合、チェックされたボックスと他のダイヤルイ"
+#~ "ン番号が割り当てられない限り、アウトバウンド発信者番号は削除されないことに"
+#~ "注意してください。もしくは、内線に移動して修正する必要があります。)もしダ"
+#~ "イヤルイン番号が既に内線以外の何かに割り当てられている場合、宛先がリスト"
+#~ "アップされここで変更することが可能です。他の宛先タイプに割当てをするには、"
+#~ "そのダイヤルイン番号のインバウンドルートへ直接移動するためにダイヤルイン番"
+#~ "号リンクをクリックするか、新しいダイヤルイン番号を作成してください。"
+
+#~ msgid "An Error occurred trying Submit"
+#~ msgstr "投稿をトライ中にエラーが発生しました。"
+
+#~ msgid "NOTICE"
+#~ msgstr "通知"
+
+#~ msgid ""
+#~ "You will no longer have access to your account unless you re-enter your "
+#~ "key. It will be removed from the system. Your configured trunks will "
+#~ "still remain active. Do you want to continue?"
+#~ msgstr ""
+#~ "あなたのキーを再度入力しない限り、あなたにはもうアカウントへのアクセス権が"
+#~ "ありません。システムから削除されます。続行しますか？"
+
+#~ msgid ""
+#~ "This will delete the trunks from your configuration and you will no "
+#~ "longer have access to your account unless you re-enter your key. Do you "
+#~ "really want to continue and delete your trunks?"
+#~ msgstr "追加:"
+
+#~ msgid "Add: "
+#~ msgstr "編集:"
+
+#~ msgid "Edit: "
+#~ msgstr "作成されておりません"
+
+#~ msgid "Not Created"
+#~ msgstr "作成されておりません"
+
+#~ msgid "Generated Primary Trunk: "
+#~ msgstr "生成された主トランク:"
+
+#~ msgid "Generated Secondary Trunk: "
+#~ msgstr "生成された副トランク"
+
+#~ msgid "Trunks can be added to routes below."
+#~ msgstr "トランクは以下のルートに追加されました。"
+
+#~ msgid "Account DIDs can be configured below."
+#~ msgstr "アカウントのダイヤルイン番号は以下で設定することが可能です。"
+
+#~ msgid ""
+#~ "There are trunks configured with identical credentials. They must be "
+#~ "removed to use this module for Routing and Trunk Configuration."
+#~ msgstr ""
+#~ "同じ資格情報をもつトランクが存在します。ルーティングとトランクの設定をする"
+#~ "ためにこのモジュールを使用するには、それらは削除されなければなりません。"
+
+#~ msgid "Trunk: "
+#~ msgstr "トランク："
+
+#~ msgid ""
+#~ "Trunk settings have been updated or you have made changes. You may want "
+#~ "to press the \"Reset Trunks\" button. The effected trunks are listed and "
+#~ "you can click to edit them:"
+#~ msgstr ""
+#~ "トランク設定が更新されたか、あなたによって変更されました。\"トランクをリ"
+#~ "セット\"ボタンを押してリセットすることもできます。影響するトランクがリスト"
+#~ "アップされています、クリックしてそれらを編集することが可能です。"
+
+#~ msgid "Primary Trunk"
+#~ msgstr "プライマリトランク"
+
+#~ msgid "Secondary Trunk"
+#~ msgstr "セカンダリトランク"
+
+#~ msgid "UPDATE"
+#~ msgstr "アップデート"
+
+#~ msgid ""
+#~ "Trunks have been reset to the default configuration. All codecs and other "
+#~ "setups have been preserved."
+#~ msgstr ""
+#~ "トランクがデフォルト設定にリセットされました。全てのコーデックと他の設定は"
+#~ "保存されています。"
+
+#~ msgid "Primary Trunk Reset"
+#~ msgstr "プライマリトランクリセット"
+
+#~ msgid "Secondary Trunk Reset"
+#~ msgstr "セカンダリトランクリセット"
+
+#~ msgid "You did not enter a key, Please enter a key to add."
+#~ msgstr "キーが入力されていません、追加するキーを入力してください。"
+
+#~ msgid ""
+#~ "You have entered an invalid key. You can find your key in the portal and "
+#~ "should copy and paste it below."
+#~ msgstr ""
+#~ "無効なキーが入力されました。キーはポータルで見つけることができますので、以"
+#~ "下にコピー & ペーストしてください。"
+
+#~ msgid ""
+#~ "%s: This module can not reach the server to obtain your account "
+#~ "information. If you can navigate to <a href='https://store.freepbx."
+#~ "com'>https://store.freepbx.com</a> from a browser then there is an issue "
+#~ "with your firewall or DNS resolution. If this is a first time install you "
+#~ "might be able to reboot to rectify the issue. If you have an aggressive "
+#~ "firewall with content filtering or equivalent, you may have to disable "
+#~ "that feature for this server or white list the store.freepbx.com site if "
+#~ "possible."
+#~ msgstr ""
+#~ "%s: このモジュールはあなたのアカウント情報を取得するためにサーバーへアクセ"
+#~ "スすることができません。もしブラウザで <a href='https://store.freepbx."
+#~ "com'>https://store.freepbx.com</a> にアクセスできるようであれば、あなたの"
+#~ "ファイヤーウォールまたはDNSの名前解決に問題があります。もし今回が初回イン"
+#~ "ストールであれば、再起動をして問題が修正される可能性があります。もしコンテ"
+#~ "ンツのフィルタリングやそれ同等の積極的なファイヤーウォールを使用している場"
+#~ "合は、このサーバーに対するこれらの機能を無効にするか、可能であれば store."
+#~ "freepbx.comサイトをホワイトリスト登録してください。"
+
+#~ msgid "There is a problem with your key: %s"
+#~ msgstr "あなたのキーに問題が見つかりました: %s"
+
+#~ msgid "Not Set"
+#~ msgstr "未設定"

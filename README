@@ -1,0 +1,21 @@
+THIS IS THE README.
+
+Weblate github/gitlab webhook modifications:
+
+To support GitLab:
+
+Test 1
+
+(Changes in api.py)
+
+1st part I changed:
+        payload = request.body
+        # payload = request.POST['payload']
+
+2nd part I changed:
+    #owner = data['repository']['owner']['name']
+    #slug = data['repository']['name']
+    repo_url = data['repository']['url']
+    repos = [repo_url]
+    #repos = [repo % {'owner': owner, 'slug': slug} for repo in GITHUB_REPOS]
+

@@ -1,0 +1,610 @@
+#    This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for campon
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FreePBX 2.10.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-05 19:32+0900\n"
+"PO-Revision-Date: 2014-02-21 01:01+0200\n"
+"Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
+"Language-Team: Japanese <http://example.com/projects/freepbx/campon/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 1.8\n"
+
+msgid "Camp-On"
+msgstr "Camp-On"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid ""
+"This module implements the Call Completion Supplemental Services (CCSS) "
+"often referred to as Call Camping or Camp-On. It allows a caller to request "
+"the system call them back when a busy or non-responding extension becomes "
+"available. Requires Asterisk 1.8 or higher."
+msgstr ""
+"モジュールはCall Completion Supplemental Services (CCSS)をインプリメントしま"
+"す。それはよく Call Camping または Camp-Onと呼ばれます。発信者はシステムに使"
+"用中または応答なしの内線が空いている時に折り返し電話してくれるようにリクエス"
+"トします。"
+
+msgid "Maximum Active Camp-On Requests"
+msgstr "アクティブ Camp-Onリクエストの最大限"
+
+msgid "Camp-On Module"
+msgstr "Camp-Onモジュール"
+
+msgid ""
+"System wide maximum number of outstanding Camp-On requests that can be "
+"active. This limit is useful on a system that may have memory constraints "
+"since the internal state machine takes up system resources relative to the "
+"number of active requests it has to track. Restart Asterisk for changes to "
+"take effect."
+msgstr ""
+"システムは未対応のCamp-Onリクエストをアクティブすることができる最大限数。機械"
+"の内部状態ではシステムの資源は追跡するアクティブリクエストと同じぐらい取り組"
+"まれているのでこの制限はメモリ制限があるシステムに役に立ちます。変更を反映さ"
+"せるため、Asteriskを再起動する必要があります。"
+
+msgid "Non Extensions Callee Policy"
+msgstr "内線の呼び出しを禁止するポリシー"
+
+msgid ""
+"If this is set to 'generic' or 'always' then it will be possible to attempt "
+"call completion requests when dialing non-extensions such as ring groups and "
+"other possible destinations that could work with call completion. Setting "
+"this will bypass any Callee Policies and can result in inconsistent "
+"behavior. If set, 'generic' is the most common, 'always' will attempt to use "
+"technology specific capabilities if the called extension uses a channel that "
+"supports that."
+msgstr ""
+"もしこれは'generic'またはalways'に設定され、内線ではない場合、例えばring "
+"groupsと他に通話接続可能な宛先にダイヤルする時に通話接続リクエストが可能で"
+"す。この設定は呼び出しポリシーをバイパスするので不一致な行動の発生になるかも"
+"しれません。'generic'では通常の設定で、'always'ではもし内線のチャンネルが許さ"
+"れるるのであればテクノロジーの特殊機能が使われます。"
+
+msgid "Only Use Default Camp-On Settings"
+msgstr "デフォルトCamp-On設定のみを使用します"
+
+msgid ""
+"You can force all extensions on a system to only used the default Camp-On "
+"settings. When in this mode, the individual settings will not be shown on "
+"the extension page. If there were unique settings previously configured, the "
+"data will be retained but not used unless you switch this back to false. "
+"With this set, the Caller Policy (cc_agent_policy) and Callee Policy "
+"(cc_monitor_policy) settings will still be configurable for each user so you "
+"can still enable/disable Call Camping ability on select extensions."
+msgstr ""
+"システムにある全ての内線をデフォルトCamp-Onのみを使うように強制的に設定するこ"
+"とができます。このモードでは、各設定は内線ページに表示されません。もし前に特"
+"殊な設定が設定されてた場合、データは保留されますがfalseに変えなければ使用する"
+"ことができません。(cc_monitor_policy)設定は各ユーザーによって設定することがで"
+"き、選択した内線のコールCamping機能を有効／無効にすることができます。"
+
+msgid "Caller Policy Default"
+msgstr "デフォルト発信者ポリシー"
+
+msgid ""
+"Asterisk: cc_agent_policy. Used to enable Camp-On for a user and set the "
+"Technology Mode that will be used when engaging the feature. In most cases "
+"'generic' should be chosen unless you have phones designed to work with "
+"channel specific capabilities."
+msgstr ""
+"cc_agent_policyはユーザーがCamp-Onを有効にすることができ、機能を利用する時に"
+"テクノロジーモードを設定することができるように使用されます。チャンネルの特殊"
+"機能を使われている電話以外、通常では'generic'が選択されます。"
+
+msgid "Callee Policy Default"
+msgstr "デフォルト呼び出しポリシー"
+
+msgid ""
+"Asterisk: cc_monitor_policy. Used to control if other phones are allowed to "
+"Camp On to an extension. If so, it sets the technology mode used to monitor "
+"the availability of the extension. If no specific technology support is "
+"available then it should be set to a 'generic'. In this mode, a callback "
+"will be initiated to the extension when it changes from an InUse state to "
+"NotInUse. If it was busy when first attempted, this will be when the current "
+"call has eneded. If it simply did not answer, then this will be the next "
+"time this phone is used to make or answer a call and then hangs up. It is "
+"possible to set this to take advantage of 'native' technology support if "
+"available and automatically fallback to 'generic' whe not by setting it to "
+"'always'."
+msgstr ""
+"Asterisk:cc_monitor_policyは他の電話に内線へのCamp Onの許可をコントロールする"
+"ために使用されます。その場合、空いている内線を監視するテクノロジーモードが設"
+"定されます。もし特にテクノロジーサポートが指定されていない場合、'generic'に設"
+"定されます。このモードでは、使用中の状態から未使用状態に変更すると、内線に"
+"コールバックが開始されます。使用中の場合、これは今の通話を終了した時になりま"
+"す。応答されない場合、次にこの電話が利用され、電話を応答した時、または電話が"
+"切れた時になります。もし'native'テクノロジーサポートがある場合、これを設定す"
+"ることが可能で、'always'に設定されてない場合自動的に'generic'に設定されます。"
+"　"
+
+msgid "Caller Timeout to Request Default"
+msgstr "リクエストデフォルトになるまでの発信者タイムアウト"
+
+msgid ""
+"Asterisk: cc_offer_timer. How many seconds after dialing an extenion a user "
+"has to make a call completion request."
+msgstr ""
+"cc_offer_timer：ユーザーが内線をダイヤルする時に通話接続リクエストになるまで"
+"の秒数"
+
+msgid "Max Camp-On Life Busy Default"
+msgstr "最大Camp-On Life Busyデフォルト"
+
+msgid ""
+"Asteirsk: ccbs_available_timer. How long a call completion request will "
+"remain active, in seconds, before expiring if the phone rang busy when first "
+"attempting the call."
+msgstr ""
+"Asteirsk: ccbs_available_timer：最初電話した時に電話が使用中の時に通話接続リ"
+"クエストはアクティブの状態に続くまで、時間切れになるまでの秒数"
+
+msgid "Max Camp-On Life No Answer Default"
+msgstr "最大Camp-On Life応答なしデフォルト"
+
+msgid ""
+"Asteirsk: ccnr_available_timer. How long a call completion request will "
+"remain active, in seconds, before expiring if the phone was simply "
+"unanswered when first attempting the call."
+msgstr ""
+"Asteirsk: ccnr_available_timer：最初電話した時に応答されなかった時に通話接続"
+"リクエストはアクティブの状態に続くまで、時間切れになるまでの秒数"
+
+msgid "Default Time to Ring Back Caller"
+msgstr "発信者に折り返し電話するまでのデフォルトタイム"
+
+msgid ""
+"Asterisk: cc_recall_timer. How long in seconds to ring back a caller who's "
+"Caller Policy is set to 'Generic Device'. This has no affect if set to any "
+"other setting."
+msgstr ""
+"Asterisk: cc_recall_timer：発信者ポリシーが'Generic Device'に設定された発信者"
+"に折り返し電話をするまで何秒の秒数。他の設定に設定されると無効になります。"
+
+msgid "Default Caller Callback Mode"
+msgstr "デフォルト発信者コールバックモード"
+
+msgid ""
+"Affects Asterisk: cc_agent_dialstring. If not set a callback request will be "
+"dialed straight to the speciifc device that made the call. If using 'native' "
+"technology support this may be the peferred mode. The 'internal' (Callback "
+"Standard) option will intiate a call back to the caller just as if someone "
+"else on the system placed the call, which means the call can pursue Follow-"
+"Me. To avoid Follow-Me setting, choose 'extension' (Callback Extension)."
+msgstr ""
+"Affects　Asterisk: cc_agent_dialstring。もしコールバックリクエストはコール"
+"バックするデバイスが設定されていない場合、直接発信してきたデバイスに発信しま"
+"す。'native'テクノロジーサポートが使用されている場合、このモードのほうが好ま"
+"しいです。'internal'(標準コールバック)オプションはシステムで誰かが電話をした"
+"ように発信者にコールバックします。つまり、電話はFollow-Meを実行することができ"
+"ます。Follow-Me設定を回避する場合、'extension'を選択してください。（コール"
+"バック内線）"
+
+msgid "Default Max Camped-On Extensions"
+msgstr "デフォルト最大Camped-On内線"
+
+msgid ""
+"Asterisk: cc_max_agents. Only valid for when using 'native' technology "
+"support for Caller Policy. This is the number of outstanding Call Completion "
+"requests that can be pending to different extensions. With 'generic' device "
+"mode you can only have a single request outstanding and this will be ignored."
+msgstr ""
+"Asterisk: cc_max_agentsは'native'テクノロジーサポートを使用する時にのみ有効に"
+"なります。これは違う内線に未対応通話接続リクエストの数です。'generic'デバイス"
+"モードででは未対応リクエストは一つのみ、その他のは無視されます。"
+
+msgid "Default Callback Alert-Info"
+msgstr "デフォルトコールバックアラート情報"
+
+msgid ""
+"An optional Alert-Info setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to 'generic' device'"
+msgstr ""
+"オプションナルアラート情報設定はコールバックは開始する時に使用されます。'発信"
+"者ポリシー'が'generic'デバイス'に設定された時にのみ有効になります。"
+
+msgid "Default Callback CID Prepend"
+msgstr "デフォルトコールバックCIDプリペンド"
+
+msgid ""
+"An optional CID Prepend setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to a 'generic' device'"
+msgstr ""
+"オプションナルCIDプリペンド設定はコールバックを開始する時に使用されます。'発"
+"信者ポリシー'が'generic'デバイスに設定された時のみ有効になります。"
+
+msgid "Announce the Callee Extension"
+msgstr "呼ばれた内線をアナウンスします。"
+
+msgid ""
+"When set to true the target extension being called will be announced upone "
+"answering the Callback prior to ringing the extension. Setting this to false "
+"will go directly to ringing the extension, the CID information will still "
+"reflect who is being called back."
+msgstr ""
+"trueに設定されるとターゲット内線が鳴った時に、コールバックする前にアナウンス"
+"されます。これをfalseに設定すると直接内線に電話することになります。CID情報は"
+"コールバックされた人の名前を表示します。"
+
+msgid "Default Callee Alert-Info"
+msgstr "デフォルト呼び出しアラート情報"
+
+msgid ""
+"An optional Alert-Info setting that can be used to send to the extension "
+"being called back."
+msgstr "コールバックされた内線に使用できるオプションナルアラート情報設定"
+
+msgid "Default Callee CID Prepend"
+msgstr "デフォルト呼び出しCIDプリペンド"
+
+msgid ""
+"An optional CID Prepend setting that can be used to send to the extension "
+"being called back.'"
+msgstr "コールバックされた内線に使用できるオプションナルCIDプリペンド設定"
+
+msgid "Default Max Queued Callers"
+msgstr "デフォルト最大発信者キュー"
+
+msgid ""
+"Asterisk: cc_max_monitors. This is the maximum number of callers that are "
+"allowed to queue up call completion requests against this extension."
+msgstr ""
+"Asterisk: cc_max_monitors。これがこの内線に通話接続リクエストにキューできる最"
+"大の数です。"
+
+msgid "BLF Camp-On Available State"
+msgstr "BLF Camp-On空いている状態"
+
+msgid ""
+"This is the state that will be set for BLF subscriptions after attempting a "
+"call while it is still possible to Camp-On to the last called number, prior "
+"to the offer_timer expiring. Restart Asterisk for changes to take effect."
+msgstr ""
+"これがoffer_timerはまだ時間切れてなく、最後の番号にまだCamp-Onが可能で電話を"
+"かけた時のBLF申し込みに設定される状態。"
+
+msgid "BLF Camp-On Pending State"
+msgstr "BLF Camp-On未決の状態"
+
+msgid ""
+"This is the state that will be set for BLF subscriptions upon a successful "
+"Camp-On request, pending a callback when the party becomes available. "
+"Restart Asterisk for changes to take effect."
+msgstr ""
+"これがCamp-Onリクエストに成功し、未決なコールバック相手が空いているようになっ"
+"た時のBLF申し込みに設定される状態。Asteriskを反映させるために再起動してくださ"
+"い。"
+
+msgid "BLF Camp-On Busy Caller State"
+msgstr "BLF Camp-Onビジー発信者の状態"
+
+msgid ""
+"This is the state that will be set for BLF subscriptions once the callee "
+"becomes available if the caller is not busy. Restart Asterisk for changes to "
+"take effect."
+msgstr ""
+"これが発信者がビジーでなく、呼ばれた側も空いているようになった時のBLF申し込み"
+"に設定される状態"
+
+msgid "BLF Camp-On Recalling State"
+msgstr "BLF Camp-On再発信の状態"
+
+msgid "Camp-On Request"
+msgstr "Camp-Onリクエスト"
+
+msgid "Camp-On Cancel"
+msgstr "Camp-On取り消し"
+
+msgid "Camp-On Toggle"
+msgstr "Camp-Onトグル"
+
+msgid "Disable Camp-On"
+msgstr "Camp-Onを無効にします。"
+
+msgid "Generic Device"
+msgstr "Genericデバイス"
+
+msgid "Native Technology Support"
+msgstr "Nativeテクノロジーサポート"
+
+msgid "20 sec"
+msgstr "20秒"
+
+msgid "30 sec"
+msgstr "30秒"
+
+msgid "45 sec"
+msgstr "45秒"
+
+msgid "1 min"
+msgstr "1分"
+
+msgid "2 min"
+msgstr "2分"
+
+msgid "3 min"
+msgstr "3分"
+
+msgid "4 min"
+msgstr "4分"
+
+msgid "5 min"
+msgstr "5分"
+
+msgid "10 min"
+msgstr "10分"
+
+msgid "20 min"
+msgstr "20分"
+
+msgid "40 min"
+msgstr "40分"
+
+msgid "60 min"
+msgstr "60分"
+
+msgid "80 min"
+msgstr "80分"
+
+msgid "100 min"
+msgstr "100分"
+
+msgid "2 hrs"
+msgstr "2時間"
+
+msgid "3 hrs"
+msgstr "3時間"
+
+msgid "4 hrs"
+msgstr "4時間"
+
+msgid "5 hrs"
+msgstr "5時間"
+
+msgid "6 hrs"
+msgstr "6時間"
+
+msgid "7 hrs"
+msgstr "7時間"
+
+msgid "8 hrs"
+msgstr "8時間"
+
+#, php-format
+msgid "%s sec"
+msgstr "%s秒"
+
+#, php-format
+msgid "%s Outgoing Requests"
+msgstr "%sリクエストの発信"
+
+msgid "Callback Device Directly"
+msgstr "デバイスに直接コールバック"
+
+msgid "Callback Standard"
+msgstr "標準コールバック"
+
+msgid "Callback Extension (no Follow-Me)"
+msgstr "コールバック内線(no Follow-Me)"
+
+msgid "Native Where Available"
+msgstr "空いている所をNativeにします。"
+
+msgid "Announce"
+msgstr "アナウンス"
+
+msgid "Silent"
+msgstr "サイレント"
+
+#, php-format
+msgid "%s Incoming Requests"
+msgstr "%sリクエストの受信"
+
+msgid "Caller Policy"
+msgstr "発信者ポリシー"
+
+msgid "Callee Policy"
+msgstr "呼ばれる側ポリシー"
+
+msgid "Caller Timeout to Request"
+msgstr "発信者のリクエストがタイムアウトになる"
+
+msgid "Max Camp-On Life Busy"
+msgstr "最大Camp-On　Life　ビジー"
+
+msgid "Max Camp-On Life No Answer"
+msgstr "最大Camp-On Life応答なし"
+
+msgid "Time to Ring Back Caller"
+msgstr "発信者に折り返し電話する時間"
+
+msgid "Max Camped-On Extensions"
+msgstr "最大Camped-On内線"
+
+msgid "Caller Callback Mode"
+msgstr "発信者コールバックモード"
+
+msgid "Max Queued Callers"
+msgstr "最大発信者キュー"
+
+msgid "Announce Callback Extension"
+msgstr "コールバック内線をアナウンス"
+
+msgid "Callback Alert-Info"
+msgstr "コールバックアラート情報"
+
+msgid "Callback CID Prepend"
+msgstr "コールバックCIDプリペンド"
+
+msgid "Callee Alert-Info"
+msgstr "呼ばれた側アラート情報"
+
+msgid "Callee CID Prepend"
+msgstr "呼ばれた側CIDプリペンド"
+
+msgid ""
+"Asterisk: cc_agent_policy. Used to enable Camp-On for this user and set the "
+"Technology Mode that will be used when engaging the feature. In most cases "
+"'Generic Device' should be chosen unless you have phones designed to work "
+"with channel specific capabilities."
+msgstr ""
+"cc_agent_policy。このユーザーはCamp-Onの使用ができ、機能を使う時に使用できる"
+"テクノロジーモードが設定されます。チャンネルの特殊機能と一緒に使う電話でなけ"
+"れば、一般的に'Generic Device'が使用されます。"
+
+msgid ""
+"Asterisk: cc_monitor_policy. Used to control if other phones are allowed to "
+"Camp On to this extension. If so, it sets the technology mode used to "
+"monitor the availability of the extension. If no specific technology support "
+"is available then it should be set to a 'Generic Device'. In this mode, a "
+"callback will be initiated to this extension when it changes from an InUse "
+"state to NotInUse. If it was busy when first attempted, this will be when "
+"the current call has ended. If it simply did not answer, then this will be "
+"the next time this phone is used to make or answer a call and then hangs up. "
+"It is possible to set this to take advantage of 'Native Technology Support' "
+"if available and automatically fallback to the 'Generic Mode' when not."
+msgstr ""
+"Asterisk: cc_monitor_policy。他の電話がこの内線にCamp Onすることが許可された"
+"場合にコントロールするために使用されます。もしそうであれば、テクノロジーモー"
+"ドが内線が空いているかどうかをモニターするように設定されます。指定されたテク"
+"ノロジサポートがなければ、'Generic Device'に設定されます。このモードでは、こ"
+"の内線が使用中から未使用に変更された時にコールバックが開始されます。最初に電"
+"話掛けた時が使用中の場合、これが今の電話が終わった時になります。応答なしの場"
+"合、これが次にこの電話が使用れる時、または電話を出て切った時になります。使用"
+"中の場合、これは今の通話を終了した時になります。応答されない場合、次にこの電"
+"話が利用され、電話を応答した時、または電話が切れた時になります。も"
+"し'native'テクノロジーサポートがある場合、これを設定することが可能"
+"で、'always'に設定されてない場合自動的に'generic'に設定されます。　"
+
+msgid "Call Camp-On Services"
+msgstr "コールCamp-Onサービス"
+
+msgid "Forcing default settings"
+msgstr "強制的なデフォルト設定"
+
+msgid ""
+"The following settings are being used for all extensions. To configure "
+"individually set 'Only Use Default Camp-On Settings' to false on the "
+"Advanced Settings page. Active settings:"
+msgstr ""
+"以下の設定は全ての内線に使われます。各内線を設定する場合、高度な設定ページに"
+"ある'Only Use Default Camp-On Settings'をfalseに設定してください。アクティブ"
+"設定："
+
+msgid ""
+"Asterisk: cc_offer_timer. How long after dialing an extension a user has to "
+"make a call completion request."
+msgstr ""
+"Asterisk: cc_offer_timer。内線に電話を掛けてから通話接続リクエストができるま"
+"での時間。"
+
+msgid ""
+"Asterisk: ccbs_available_timer. How long a call completion request will "
+"remain active before expiring if the phone rang busy when first attempting "
+"the call."
+msgstr ""
+"Asterisk: ccbs_available_timer。最初電話した時に使用中時に通話接続リクエスト"
+"のアクティブの状態"
+
+msgid ""
+"Asterisk: ccnr_available_timer. How long a call completion request will "
+"remain active before expiring if the phone was simply unanswered when first "
+"attempting the call."
+msgstr ""
+"最初電話した時に応答されなかったら通話接続リクエストのアクティブの状態に続く"
+"までの時間"
+
+msgid ""
+"Asterisk: cc_recall_timer. How long to ring back a caller who's Caller "
+"Policy is set to 'Generic Device'. This has no affect if to any other "
+"setting."
+msgstr ""
+"Asterisk: cc_recall_timer。'Generic Device'に設定された発信者ポリシーに折り返"
+"し電話をするまでどれぐらい時間かかるのか。これは他の設定に影響を及びません。"
+
+msgid ""
+"Asterisk: cc_max_agents. Only valid for when using 'Native Technology "
+"Support' for Caller Policy. This is the number of outstanding Call "
+"Completion requests that can be pending to different extensions. With "
+"'Generic Device' mode you can only have a single request outstanding and "
+"this will be ignored."
+msgstr ""
+"Asterisk: cc_max_agents。発信者ポリシーが'Native Technology Support'に設定さ"
+"れた時のみ使われます。これが違う内線で未決な未対応通話接続リクエストの数にな"
+"ります。'Generic Device'モードでは未対応リクエストは一つしかできません。他の"
+"は無視されます。"
+
+msgid ""
+"Affects Asterisk: cc_agent_dialstring. With 'Callback Device Directly' a "
+"callback request will be dialed straight to the specific device that made "
+"the call. If using 'Native Technology Support' this may be the preferred "
+"mode. The 'Callback Standard' option will initiate a call back to the caller "
+"just as if someone else on the system placed the call, which means the call "
+"can pursue Follow-Me. To avoid Follow-Me setting, choose 'Callback "
+"Extension'."
+msgstr ""
+"Affects Asterisk: cc_agent_dialstring、'Callback Device Directly'ではコール"
+"バックリクエストは直接電話したデバイスに電話します。もし'Native Technology "
+"Support'が使われている場合、このモードのほうが良いです。'Callback Standard'オ"
+"プションが発信者にシステムの誰かが電話をしたようにコールバックします。つま"
+"り、電話はFollow-Meを実行することができます。Follow-Me設定を回避する場"
+"合、'extension'を選択してください。（コールバック内線）"
+
+msgid ""
+"Whether or not to announce the extension that is being called back when the "
+"phone is picked up."
+msgstr "コールバックされた内線が出たときにアナウンスするかどうか。"
+
+msgid ""
+"An optional Alert-Info setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to a 'Generic Device' and 'Caller "
+"Callback Mode' is not set to 'Callback Device Directly'."
+msgstr ""
+"コールバックを開始する時に使用できるオプションナルアラート情報設定。'Caller "
+"Policy'が'Generic Device'に設定し、'CallerCallback Mode' が'Callback Device "
+"Directly'に設定されない時のみ有効になります。"
+
+msgid ""
+"An optional CID Prepend setting that can be used when initiating a callback. "
+"Only valid when 'Caller Policy' is set to a 'Generic Device' and 'Caller "
+"Callback Mode' is not set to 'Callback Device Directly'."
+msgstr ""
+"コールバックを開始する時に使用できるオプションナルCIDプリペンド設定で"
+"す。'Caller Policy'が'Generic Device'に設定し、'CallerCallback Mode' "
+"が'Callback Device Directly'に設定されない時のみ有効になります。"
+
+msgid ""
+"An optional CID Prepend setting that can be used to send to the extension "
+"being called back."
+msgstr ""
+"オプションナルCIDプリペンド設定はコーるバックされた内線に送る時に使用できま"
+"す。"
+
+msgid "Please enter a valid Alert-Info"
+msgstr "有効なアラート情報を入力してください。"
+
+msgid "Please enter a valid CID Prefix"
+msgstr "有効なCID　Prefixを入力してください。"

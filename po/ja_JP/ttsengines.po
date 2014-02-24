@@ -1,0 +1,90 @@
+# This file is part of FreePBX.
+#
+#    FreePBX is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    FreePBX is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
+#
+# FreePBX language template for ttsengines
+# Copyright (C) 2008, 2009, 2010 Bandwith.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-28 15:52+0900\n"
+"PO-Revision-Date: 2014-02-21 03:46+0200\n"
+"Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
+"Language-Team: Japanese "
+"<http://192.168.30.85/projects/freepbx/ttsengines/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 1.8\n"
+
+msgid "Text to Speech Engines"
+msgstr "テキスト読み上げエンジン"
+
+msgid "Add Engine"
+msgstr "エンジンを追加"
+
+msgid ""
+"On this page you can manage text to speech engines on your system. When you "
+"add an engine you give it a name, and the full path to the engine on your "
+"system. After doing this the engine will be available on the text to speech "
+"page."
+msgstr ""
+"このページでは、システムのテキスト読み上げエンジン(TTS)を管理できます。エンジンを追加する際、名前、システム上のエンジンへのフルパスを入力してくださ"
+"い。設定が完了すると テキスト読み上げページでエンジンが利用できるようになります。"
+
+msgid "Engine name"
+msgstr "エンジン名"
+
+msgid ""
+"The name you enter will be shown in a drop down box on the Text to Speech "
+"page so you can select which engine you want to play your text."
+msgstr "「テキスト読み上げ」ページの選択メニューに表示される名前です。"
+
+msgid "Engine path"
+msgstr "パス"
+
+msgid ""
+"The full path to the binary of your text to speech engine. For example: /usr/"
+"sbin/magic_speech_engine."
+msgstr ""
+"テキスト読み上げエンジンのバイナリへのフルパス。例：/usr/sbin/"
+"magic_speech_engine"
+
+msgid "Submit"
+msgstr "送信"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Text To Speech Engines"
+msgstr "テキスト読み上げエンジン"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Allows you to configure text to speech engines"
+msgstr "テキスト読み上げエンジンの設定ができます。"
+
+msgid "Text-to-Speech Engine:"
+msgstr "テキスト読み上げエンジン："
+
+msgid ""
+"Choose either the free Flite engine (requires flite and app_flite) or the "
+"paid Cepstral engine (requires app_cepstral)"
+msgstr ""
+"無料のFliteエンジン（flite及びapp_fliteが必要）、又は有料のCepstralエンジン(app_cepstralが必要）を選択して下さい"
