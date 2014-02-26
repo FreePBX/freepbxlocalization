@@ -17,7 +17,7 @@ WORKDIR=`pwd`
 [ $# -eq 0 ] && { echo "Usage: $0 language_code"; echo "Example language code: ja_JP for Japanese, fr_FR for French..."; exit 1;}
 
 echo "Compiling .po files into .mo binaries for use…"
-pushd po/ja_JP;
+pushd po/$LANGCODE;
 for pofile in `find . -name "*.po"`; do 
 	# FNAME is "./<pofilenamehere>" without its .po extension
 	FNAME=${pofile%.po}; 
@@ -30,7 +30,7 @@ for pofile in `find . -name "*.po"`; do
 	# Find ./admin/modules/$FNAME (with no ./ in front)
 	REALPATH=`find -maxdepth 3 -type d -name "${FNAME#\.\/}"`;
 	#cp -v /var/lib/asterisk/freepbx-weblate/po/ja/${FNAME#\.\/}* $REALPATH/i18n/ja_JP/LC_MESSAGES/	
-	cp -v $WORKDIR/po/ja/${FNAME#\.\/}* $REALPATH/i18n/$LANGCODE/LC_MESSAGES/
+	cp -v $WORKDIR/po/$LANGCODE/${FNAME#\.\/}* $REALPATH/i18n/$LANGCODE/LC_MESSAGES/
 	# Now we need to handle amp.po
 	#cp -v ~/freepbx-weblate/po/ja/amp.* /var/www/html/admin/i18n/ja_JP/LC_MESSAGES/
 	# Now we need to handle ari.po
@@ -39,9 +39,9 @@ for pofile in `find . -name "*.po"`; do
 done
 pushd /var/www/html/;
 # Now we need to handle amp.po
-cp -v $WORKDIR/po/ja/amp.* /var/www/html/admin/i18n/$LANGCODE/LC_MESSAGES/
+cp -v $WORKDIR/po/$LANGCODE/amp.* /var/www/html/admin/i18n/$LANGCODE/LC_MESSAGES/
 # Now we need to handle ari.po
-cp -v $WORKDIR/po/ja/ari.* /var/www/html/recordings/locale/$LANGCODE/LC_MESSAGES/
+cp -v $WORKDIR/po/$LANGCODE/ari.* /var/www/html/recordings/locale/$LANGCODE/LC_MESSAGES/
 popd
 popd
 #   Now all we have to do is copy the .po and .mo files together into the right place
