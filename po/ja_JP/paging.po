@@ -21,9 +21,9 @@ msgstr ""
 "Project-Id-Version: FreePBX 2.10.0.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-05 19:32+0900\n"
-"PO-Revision-Date: 2014-02-20 21:27+0200\n"
-"Last-Translator: Chise Mishima <c.mishima@qloog.com>\n"
-"Language-Team: Japanese <http://example.com/projects/freepbx/paging/ja/>\n"
+"PO-Revision-Date: 2014-02-24 06:39+0200\n"
+"Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
+"Language-Team: Japanese <http://192.168.30.85/projects/freepbx/paging/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,17 +75,14 @@ msgstr "ユーザーインターコムを禁止"
 msgid "Paging and Intercom settings"
 msgstr "ページング & インターコム設定"
 
-#, fuzzy
 msgid "Auto-answer defaults"
 msgstr "自動応答デフォルト"
 
 msgid "Announcement"
 msgstr "アナウンス"
 
-#, fuzzy
 msgid "Annoucement to be played to remote part. Default is a beep"
-msgstr ""
-"発信者に対して再生するアナウンス。デフォルトは「ぴー」という発信音です。"
+msgstr "リモートパートに対して再生するアナウンス。デフォルトはビープ音です"
 
 msgid "Save"
 msgstr "保存"
@@ -99,9 +96,8 @@ msgstr "内線の競合"
 msgid "Modify Paging Group"
 msgstr "ページンググループを修正"
 
-#, fuzzy
 msgid "Add Paging Group"
-msgstr "新規ページンググループ"
+msgstr "ページンググループ追加"
 
 msgid "Paging Extension"
 msgstr "ページング内線"
@@ -115,47 +111,36 @@ msgstr "グループ説明"
 msgid "Provide a descriptive title for this Page Group."
 msgstr "このページンググループの説明タイトル。"
 
-#, fuzzy
 msgid "Device List"
 msgstr "デバイスリスト"
 
-#, fuzzy
 msgid ""
 "Devices to page. Please note, paging calls the actual device (and not the "
 "user). Amount of pagable devices is restricted by the advanced setting key "
 "PAGINGMAXPARTICIPANTS and is currently set to "
 msgstr ""
-"ページングする端末。注意：「ページング」とは、ユーザー宛ではなく、端末宛に行"
-"われる操作です。ページングが可能なデバイス数は、詳細設定のキー"
-"「PAGINMAXPARTICIPANTS」によって指定されます。現在の数値は"
+"ページングする端末。注意：ページングとは、ユーザー宛ではなく、実端末宛に行われる物です。ページングが可能なデバイス数は、詳細設定のキー "
+"PAGINMAXPARTICIPANTS によって指定されています。現在の設定は次の通りです： "
 
-#, fuzzy
 msgid "Selected"
-msgstr "選択中"
+msgstr "選択済み"
 
-#, fuzzy
 msgid "Not Selected"
-msgstr "選択していない"
+msgstr "未選択"
 
-#, fuzzy
 msgid ""
 "\"Skip\" will not page any busy extension. All other extensions will be "
 "paged as normal"
-msgstr ""
-"「スキップ」に設定すると、通話中の内線にはページングを行いません。他の内線は"
-"通常通りページングします。"
+msgstr "「スキップ」に設定すると、通話中の内線宛にはページングを行いません。他の内線は通常通りページングします"
 
-#, fuzzy
 msgid ""
 "\"Force\" will not check if the device is in use before paging it. This "
 "means conversations can be interrupted by a page (depending on how the "
 "device handles it). This is useful for \"emergency\" paging groups."
 msgstr ""
-"「強制する」に設定すると、通話中のステータスを事前に確認せずにページングを行"
-"います。これによって、宛先の相手が通話中でも、通話に割り込むことができるた"
-"め、緊急連絡などの場合に役立ちます。"
+"「強制する」に設定すると、機器が通話中かどうかを確認せずにページングを行います。これによって、宛先の相手が通話中でも、通話に割り込むことができるため、緊"
+"急グループページングなどの場合に役立ちます。"
 
-#, fuzzy
 msgid ""
 "\"Whisper\" will attempt to use the ChanSpy capability on SIP channels, "
 "resulting in the page being \"sent to the device's earpiece \"whispered\" to "
@@ -163,21 +148,15 @@ msgid ""
 "the device or otherwise fails, no page will get through. It probably does "
 "not make too much sense to choose duplex if using Whisper mode."
 msgstr ""
-"「はい」を選択した場合、デバイスにページングする前にそのデバイスが使用中かど"
-"うかのチェックをしません。これは、会話がページングによって割り込まれることを"
-"意味します。(デバイスがどうハンドリングするかに依存します)。これは、\"緊急"
-"\"ページンググループに有効です。'ささやき'に設定することでSIPチャネル上で"
-"ChanSpy機能を使用しようと試み、ページングがデバイスの耳の部分に送信されます"
-"が、リモート側には聞かれません。デバイスにChanSpyがサポートされていない場合や"
-"他にエラーがおきた場合は、ページングは実行されません。ささやきモードを使用し"
-"ている場合はデュプレックスを選択してもおそらくあまり意味がありません。"
+"「ウィスパー」を選択した場合、SIPチャネル上でChanSpy機能を使用しようと試み、このデバイスにページングし、又そのデバイスの耳元にささやきますが、"
+"相手には聞こえません。もしChanSpyがサポートされていない場合や、他にエラーがおきた場合は、ページングは実行されません。ささやきモードを使用している"
+"場合はデュプレックスを選択してもおそらくあまり意味がありません。"
 
 msgid "Skip"
 msgstr "スキップ"
 
-#, fuzzy
 msgid "Force"
-msgstr "強制する"
+msgstr "強制"
 
 msgid "Whisper"
 msgstr "ウィスパー"
@@ -227,34 +206,26 @@ msgstr ""
 "す。常に自動応答するように設定されている電話機とも動作します。(例：コンソール"
 "内線が設定されている場合)。"
 
-#, fuzzy
 msgid "Example usage:"
 msgstr "使用例："
 
-#, fuzzy
 msgid "Intercom extension nnn"
-msgstr "インターフォン内線 nnn"
+msgstr "インターコム内線 nnn"
 
-#, fuzzy
 msgid "Enable all extensions to intercom you (except those explicitly denied)"
-msgstr ""
-"強制的に拒否した内線を除いて、すべての内線からのページングを可能にします。"
+msgstr "明示的に拒否された物を除き、すべての内線からあなたへのインターコムを可能にします"
 
-#, fuzzy
 msgid ""
 "Explicitly allow extension nnn to intercom you (even if others are disabled)"
-msgstr ""
-"他の内線の設定にかかわらず、内線 nnn からのページングを強制的に許可します。"
+msgstr "もし他の設定が無効になっていた場合でも、内線 nnn からあなたへのインターコムを明示的に許可します"
 
-#, fuzzy
 msgid ""
 "Disable all extensions from intercom you (except those explicitly allowed)"
-msgstr "強制的に許可した内線を除いて、全ての内線からのページングを拒否します。"
+msgstr "明示的に許可した内線を除き、全ての内線からあなたへインターカムを無効にします"
 
-#, fuzzy
 msgid ""
 "Explicitly deny extension nnn to intercom you (even if generally enabled)"
-msgstr "一般設定を無視して、内線 nnn を強制的に拒否します。"
+msgstr "全般設定が有効になっていた場合でも、内線 nnn からあなたへのインターコムを明示的に拒否します"
 
 msgid ""
 "Intercom mode is currently disabled, it can be enabled in the Feature Codes "
@@ -263,7 +234,6 @@ msgstr ""
 "インターコムモードは現在無効になっております、キーコードパネルより有効にする"
 "ことができます。"
 
-#, fuzzy
 msgid "Overview"
 msgstr "一覧"
 

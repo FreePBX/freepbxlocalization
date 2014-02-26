@@ -17,7 +17,7 @@ WORKDIR=`pwd`
 [ $# -eq 0 ] && { echo "Usage: $0 language_code"; echo "Example language code: ja_JP for Japanese, fr_FR for French..."; exit 1;}
 
 echo "Compiling .po files into .mo binaries for use…"
-pushd po/ja;
+pushd po/ja_JP;
 for pofile in `find . -name "*.po"`; do 
 	# FNAME is "./<pofilenamehere>" without its .po extension
 	FNAME=${pofile%.po}; 
