@@ -3,10 +3,7 @@ README - Updated on February 24th, 2014
 TODO: Check on whether there needs to be an update from POT files on old
 translations. Some of those guys are really OLD and use strings that don't
 exist in the current UI, or are also likely missing current new strings that
-do.
-
-TODO: Write a script to place the files in the appropriate directories.
-update_xlation.sh will probably help.
+do. Apparently one can use msgmerge from gettext for this.
 
 ===ABOUT THIS REPOSITORY==
 
@@ -29,3 +26,21 @@ more complete translations.
 
 NOTE AGAIN: .po files aren't worth anything until they've been compiled as
 binary .mo files by gettext.
+
+===ABOUT THE SCRIPTS===
+makelangdirs.sh
+	This creates the appropriate xx_XX/LC_MESSAGES directory in
+	module dirs that already have i18n, meaning they can be
+	localized.
+
+update_xlation.sh
+	This takes all po files of a specific xx_XX language code,
+	compiles them to mo binaries, and places them in the right
+	folder in /var/www/html/...
+
+update_i18n_*.sh
+	This is a modified version of the script that has been
+	under progress for the last few months to scan FreePBX
+	code for localizable strings and create POT templates
+	to translate from. Hopefully this will be the most recent
+	version.
