@@ -29,7 +29,7 @@
 
 # Test for correct usage
 
-LANGCODE = $1
+LANGCODE=$1
 [ $# -eq 0 ] && { echo "Usage: $0 language_code"; echo "Example language code: ja_JP for Japanese, fr_FR for French..."; exit 1;}
 
 # This dir is hardcoded for now! We might need to change this to match new
