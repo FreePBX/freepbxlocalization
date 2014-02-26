@@ -34,7 +34,7 @@ LANGCODE = $1
 
 # This dir is hardcoded for now! We might need to change this to match new
 # working processes.
-cd /var/www/html/admin/
+pushd /var/www/html/admin/
 
 # Find directories named i18n and make a new directory based on input 
 for testdir in `find . -type d -name "i18n"`
@@ -42,3 +42,5 @@ do
 	[ -d $testdir/ja_JP/LC_MESSAGES ] || echo $testdir "was missing a" $LANGCODE "directory";
         [ -d $testdir/ja_JP/LC_MESSAGES ] || mkdir -p $testdir/$LANGCODE/LC_MESSAGES;	
 done
+
+popd
