@@ -53,6 +53,7 @@ for pofile in `find . -name "*.po"`; do
 if [ -z "$REALPATH" ]
 then
 	echo ${FNAME#\.\/}" doesn't have a matching directory. Doing nothing!"
+	popd
 else
 	#cp -v /var/lib/asterisk/freepbx-weblate/po/ja/${FNAME#\.\/}* $REALPATH/i18n/ja_JP/LC_MESSAGES/
 
