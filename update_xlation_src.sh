@@ -46,6 +46,14 @@ for pofile in `find . -name "*.po"`; do
 
 	#  ^^ This doesn't work in our case with git so I changed
 	REALPATH=`find -maxdepth 1 -type d -name "${FNAME#\.\/}"`;
+
+# If the po file is here but the directory (module) isn't included in the git source,
+# then $REALPATH will be blank. We will test if it is blank and send a message letting
+# us know that this particular po file has been "left behind"...
+if [ -z "$REALPATH" ]
+then
+	echo ${FNAME#\.\/}" doesn't have a matching directory. Doing nothing!"
+else
 	#cp -v /var/lib/asterisk/freepbx-weblate/po/ja/${FNAME#\.\/}* $REALPATH/i18n/ja_JP/LC_MESSAGES/
 
 	# Added test to create directories if needed based on language code
@@ -61,6 +69,8 @@ for pofile in `find . -name "*.po"`; do
 	# Now we need to handle ari.po
 	#cp -v ~/freepbx-weblate/po/ja/ari.* /var/www/html/recordings/locale/ja_JP/LC_MESSAGES/ 
 	popd;
+
+fi
 done
 pushd $USEDIR;
 # Now we need to handle amp.po
