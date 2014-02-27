@@ -113,5 +113,5 @@ echo "Deleting .mo files…"
 for oldmos in `find . -name "*.mo"`; do rm -f $oldmos; done
 #   I think we are done now…
 NOW=$(date)
-echo "Local translation was updated and applied at " $NOW >> translationupdate.log #Remove this if you want later
+#echo "Local translation was updated and applied at " $NOW >> translationupdate.log #Remove this if you want later
 echo "Done, now refresh the browser and check out your work. Don't forget to commit your changes."
