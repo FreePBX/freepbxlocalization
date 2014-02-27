@@ -38,6 +38,14 @@ update_xlation.sh
 	compiles them to mo binaries, and places them in the right
 	folder in /var/www/html/...
 
+update_xlation_src.sh
+	This is like update_xlation.sh in that it is made to add 
+	.po and .mo files to modules, but is formatted to work
+	with the git source code structure where things are a
+	little bit different. It also makes the directories that
+	need to be made like makelangdirs.sh
+	Made especially for GameGamer43. 
+
 update_i18n_*.sh
 	This is a modified version of the script that has been
 	under progress for the last few months to scan FreePBX
