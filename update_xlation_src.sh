@@ -64,7 +64,7 @@ else
 	  mkdir -p $REALPATH/i18n/$LANGCODE/LC_MESSAGES;
 	fi	
 
-	cp -v $WORKDIR/po/$LANGCODE/${FNAME#\.\/}* $REALPATH/i18n/$LANGCODE/LC_MESSAGES/
+	cp -v $WORKDIR/po/$LANGCODE/${FNAME#\.\/}.* $REALPATH/i18n/$LANGCODE/LC_MESSAGES/
 	# Now we need to handle amp.po
 	#cp -v ~/freepbx-weblate/po/ja/amp.* /var/www/html/admin/i18n/ja_JP/LC_MESSAGES/
 	# Now we need to handle ari.po
