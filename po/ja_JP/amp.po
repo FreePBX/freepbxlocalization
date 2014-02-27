@@ -1,3 +1,20 @@
+# CREDITS for JAPANESE TRANSLATION
+# ================================
+# Current translation & maintenance: QLOOG, Inc. (Kobe, Japan)
+# Inquiries: info@qloog.com / www.qloog.com
+# 
+# This translation is a culmination of the hard work of
+# several outstanding individuals, which started in 2009 with the 
+# first-ever Japanese localization of FreePBX by Kenichi Fukaumi 
+# and Kazuhiro Tokuyama (FreePBX Japanized Project).
+#
+# Beginning in 2013, with the approval of the original authors, 
+# QLOOG undertook a large scale overhaul of the translation to 
+# expand it for compatibility with FreePBX 2.11. Our work is, 
+# of course, released under the same GPLv2 license as FreePBX. 
+# We only ask that you kindly retain these credits in honor of 
+# the time and effort that all of us have contributed. Enjoy!
+# 
 # This file is part of FreePBX.
 #
 #    FreePBX is free software: you can redistribute it and/or modify
@@ -21,8 +38,8 @@ msgstr ""
 "Project-Id-Version: FreePBX\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-05 19:32+0900\n"
-"PO-Revision-Date: 2014-02-25 21:36+0200\n"
-"Last-Translator: Chise Mishima <c.mishima@qloog.com>\n"
+"PO-Revision-Date: 2014-02-26 23:27+0200\n"
+"Last-Translator: Kevin McCoy <kevin@qloog.com>\n"
 "Language-Team: Japanese <http://192.168.30.85/projects/freepbx/amp/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -5256,10 +5273,10 @@ msgid "A user will enter this password when logging onto a device."
 msgstr "ユーザーはデバイスにログオンする時にこのパスワードを入力します。"
 
 msgid "logs into a device."
-msgstr "デバイスへログイン"
+msgstr "デバイスへログイン。"
 
 msgid "logs out of a device."
-msgstr "デバイスからログアウト"
+msgstr "デバイスからログアウト。"
 
 msgid "Conflicting Extensions"
 msgstr "内線の競合"
@@ -5358,9 +5375,8 @@ msgid ""
 "ring. Default will use the current Ring Time. If voicemail is disabled and "
 "their is not destination specified, it will be forced into Always mode"
 msgstr ""
-"通話転送着信秒数。Alwaysに設定すると、電話を返さずに鳴りっぱなしになります。"
-"デフォルトで現在呼び出し時が使われます、ボイスメールを無効した、または宛先が"
-"不明の場合、強制的にAlwaysモードになります。"
+"通話転送着信秒数。Alwaysに設定すると、電話を返さずに鳴りっぱなしになります。デフォルトで現在呼び出し時が使われます、ボイスメールを無効した、または"
+"宛先が不明の場合、強制的にAlwaysモードになります"
 
 msgid "Outbound Concurrency Limit"
 msgstr "アウトバウンド同時通話制限"
@@ -5379,9 +5395,7 @@ msgid "Call Waiting"
 msgstr "コールウェイティング"
 
 msgid "Set the initial/current Call Waiting state for this user's extension"
-msgstr ""
-"このユーザーの内線への初期/現在の コールウェイティングステータスを設定しま"
-"す。"
+msgstr "このユーザーの内線への初期/現在の コールウェイティングステータスを設定します"
 
 msgid "Internal Auto Answer"
 msgstr "内部自動応答"
@@ -5433,9 +5447,7 @@ msgstr "ピンレスダイヤル"
 msgid ""
 "Enabling Pinless Dialing will allow this extension to bypass any pin codes "
 "normally required on outbound calls"
-msgstr ""
-"ピンレスダイヤリングを有効にすると、この内線は通常外線発信で要求されるピン"
-"コード認証を回避することが許可されます。"
+msgstr "ピンレスダイヤリングを有効にすると、この内線は通常外線発信で必要となるピンコード認証の回避が許可されます"
 
 msgid "Assigned DID/CID"
 msgstr "割り当てられたDID/CID"
@@ -5455,10 +5467,8 @@ msgid ""
 "10x4, etc).<br><br>Format should be: <b>XXXXXXXXXX</b><br><br>.An optional "
 "CID can also be associated with this DID by setting the next box"
 msgstr ""
-"この内線に割り当てられたダイレクトDID。DIDはプロバイダーから提供されているの"
-"と同じフォーマットでなければいけません(例: フルナンバー、4桁 10x4、その他)。"
-"<br><br>フォーマットは次のようになります: <b>XXXXXXXXXX</b><br><br>.次のボッ"
-"クスを設定することによりオプションのCIDをこのDIDと関連付けることもできます。"
+"この内線に割り当てられたダイレクトDID。DIDはプロバイダーから提供される同フォーマットで設定します(例：フルナンバー、4桁 10x4、等)。<br>"
+"<br>フォーマット形式は以下：<b>XXXXXXXXXX</b><br><br>次のボックスの設定でオプションCIDと、このDIDと関連付けができます"
 
 msgid "Add Inbound CID"
 msgstr "インバウンドCIDを追加"
@@ -5529,12 +5539,11 @@ msgid ""
 "it. The higher of the two determines the policy, on a tie the global policy "
 "(caller or callee) determines the policy."
 msgstr ""
-"通話録音要求する時に内線の間に競合が起きった時、または相手は通話録音を拒否し"
-"た時の内線へのレコード優先度のポリシー。優先度を区別できない場合、グロバール"
-"ポリシーが使われます。（発信者または受信者）"
+"通話録音要求する時に内線の間に競合が起きった時、または相手は通話録音を拒否した時の内線へのレコード優先度のポリシー。優先度を区別できない場合、グロバール"
+"ポリシーが使われます（発信者または受信者）。"
 
 msgid "Optional Destinations"
-msgstr "オプションの宛先"
+msgstr "オプション宛先"
 
 msgid ""
 "Optional destination call is routed to when the call is not answered on an "
@@ -5559,8 +5568,7 @@ msgstr "CIDプリフィックス"
 
 msgid ""
 "Optional CID Prefix to add before sending to this no answer destination."
-msgstr ""
-"この応答なしの宛先に送られる前に追加されるオプションのCIDプリフィックス"
+msgstr "不在先に送られる前に追加されるオプションのCIDプリフィックス。"
 
 msgid ""
 "Optional destination the call is routed to when the phone is busy or the "
@@ -5619,10 +5627,10 @@ msgstr ""
 "当にシークレットを空のままにしておきますか？"
 
 msgid "Please enter a Secret for this device"
-msgstr "このデバイスのシークレットを入力してください。"
+msgstr "このデバイスのシークレットを入力してください"
 
 msgid "The Zap channel number for this port."
-msgstr "このポートに対するZap チャネル番号"
+msgstr "このポートのZapチャネル番号。"
 
 msgid ""
 "Asterisk context this device will send calls to. Only change this is you "
@@ -5687,7 +5695,7 @@ msgstr ""
 "い場合は変更するべきではありません。"
 
 msgid "Accountcode for this device."
-msgstr "このデバイスに対するアカウントコード"
+msgstr "このデバイスのアカウントコード。"
 
 msgid ""
 "Callgroup(s) that this device is part of, can be one or more callgroups, e."
@@ -5714,7 +5722,7 @@ msgstr ""
 "更するべきではありません。"
 
 msgid "The DAHDi channel number for this port."
-msgstr "このポートに対するDAHDiチャネル番号"
+msgstr "このポートのDAHDiチャネル番号。"
 
 msgid "DAHDi immediate mode setting, see DAHDi documentation for details."
 msgstr "DAHDi即時モード設定、詳細はDAHDiドキュメントを参照ください。"
@@ -5874,10 +5882,10 @@ msgstr ""
 "い」にします。"
 
 msgid "Send Remote-Party-ID header"
-msgstr "Remote-Party-IDヘッダーを送信する。"
+msgstr "Remote-Party-IDヘッダー送信"
 
 msgid "Send P-Asserted-Identity header"
-msgstr "P-Asserted-Identityヘッダーを送信する。"
+msgstr "P-Asserted-Identityヘッダー送信"
 
 msgid ""
 "Whether Asterisk should send RPID (or PAI) info to the device. Usually "
@@ -6001,9 +6009,8 @@ msgid ""
 "outgoing calls to a peer. Calls will fail with HANGUPCAUSE=58 if the peer "
 "does not support SRTP. Defaults to no."
 msgstr ""
-"ピアに対する発信コールでSRTP暗号化されたメディア(そしてSRTP暗号化メディアの"
-"み)を提供するかどうか。もしピアがSRTPをサポートしない場合は、コールは "
-"HANGUPCAUSE=58 で失敗します。デフォルトは「なし」"
+"ピアに対する発信コールでSRTP暗号化されたメディア(そしてSRTP暗号化メディアのみ)を提供するかどうか。もしピアがSRTPをサポートしない場合は、コ"
+"ールは HANGUPCAUSE=58 で失敗します。デフォルトは「なし」。"
 
 msgid ""
 "Asterisk dialplan extension to reach voicemail for this device. Some devices "
@@ -6022,8 +6029,8 @@ msgid ""
 "device which is really a remote SIP URI might be configured such as SIP/"
 "joe@somedomain.com"
 msgstr ""
-"どのようにこのデバイスをダイヤルするか。これはデバイス依存です。例: SIP/"
-"joe@somedomain.comのように本当にリモートSIP URIが設定されるカスタムデバイス。"
+"このデバイスへのダイヤル方法は？特定デバイス。例: SIP/joe@somedomain.comのように本当にリモートSIP "
+"URIが設定されるカスタムデバイス"
 
 msgid "Generic SIP Device"
 msgstr "一般的なSIPデバイス"
@@ -6053,7 +6060,7 @@ msgid "Add an Extension"
 msgstr "内線を追加"
 
 msgid "Please select your Device below then click Submit"
-msgstr "以下よりあなたのデバイスを選択して送信をクリックしてください。"
+msgstr "以下よりデバイスを選択し送信をクリックしてください"
 
 #, php-format
 msgid "Delete Device %s"
@@ -6079,7 +6086,7 @@ msgid "Please enter a device id."
 msgstr "デバイスIDを入力してください。"
 
 msgid "Please enter a valid Description for this device"
-msgstr "このデバイスの有効な説明を入力してください。"
+msgstr "このデバイスの有効な説明を入力してください"
 
 msgid "Please enter a valid Emergency CID"
 msgstr "有効な緊急CIDを入力してください。"
@@ -6194,7 +6201,7 @@ msgid "True"
 msgstr "True"
 
 msgid "False"
-msgstr "誤り"
+msgstr "False"
 
 msgid "No Default Provided"
 msgstr "デフォルト値がありません。"
