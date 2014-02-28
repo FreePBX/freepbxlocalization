@@ -1,3 +1,20 @@
+# CREDITS for JAPANESE TRANSLATION
+# ================================
+# Current translation & maintenance: QLOOG, Inc. (Kobe, Japan)
+# Inquiries: info@qloog.com / www.qloog.com
+# 
+# This translation is a culmination of the hard work of
+# several outstanding individuals, which started in 2009 with the 
+# first-ever Japanese localization of FreePBX by Kenichi Fukaumi 
+# and Kazuhiro Tokuyama (FreePBX Japanized Project).
+#
+# Beginning in 2013, with the approval of the original authors, 
+# QLOOG undertook a large scale overhaul of the translation to 
+# expand it for compatibility with FreePBX 2.11. Our work is, 
+# of course, released under the same GPLv2 license as FreePBX. 
+# We only ask that you kindly retain these credits in honor of 
+# the time and effort that all of us have contributed. Enjoy!
+# 
 # This file is part of FreePBX.
 #
 #    FreePBX is free software: you can redistribute it and/or modify
@@ -21,7 +38,7 @@ msgstr ""
 "Project-Id-Version: FreePBX endpointman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-09 18:14+0900\n"
-"PO-Revision-Date: 2014-02-23 23:04+0200\n"
+"PO-Revision-Date: 2014-02-24 06:17+0200\n"
 "Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
 "Language-Team: Japanese "
 "<http://192.168.30.85/projects/freepbx/endpointman/ja/>\n"
@@ -87,9 +104,8 @@ msgstr "削除"
 msgid "Check for Updates"
 msgstr "アップデートをチェックする"
 
-#, fuzzy
 msgid "Package Last Modified"
-msgstr "最後の発信者をブラックリストに登録"
+msgstr "最終修正パッケージ"
 
 msgid "Uninstall"
 msgstr "アンインストール"
@@ -115,15 +131,12 @@ msgstr "無効"
 msgid "Enable"
 msgstr "有効"
 
-#, fuzzy
 msgid "The Endpoint Configuration Manager was originally written by"
-msgstr "元の端末管理モジュールは、以下の方に作られました："
+msgstr "元々、端末設定管理ツールは、次の者によって作成されました："
 
-#, fuzzy
 msgid "The project is maintained at"
-msgstr "プロジェクトは以下のサイトで管理されています："
+msgstr "このプロジェクトは次のサイトで管理されています："
 
-#, fuzzy
 msgid "Upload"
 msgstr "アップロード"
 
@@ -133,82 +146,68 @@ msgstr "端末設定管理"
 msgid "IP address of phone server"
 msgstr "電話サーバーのIPアドレス"
 
-#, fuzzy
 msgid "Determine for me"
-msgstr "自動判定する"
+msgstr "決定する"
 
 msgid "Configuration Type"
 msgstr "設定タイプ"
 
-#, fuzzy
 msgid "Global Final Config & Firmware Directory"
-msgstr "グローバル最終設定とファームウェアのディレクトリ"
+msgstr "グローバル•最終設定とファームウェアのディレクトリ"
 
 msgid "Time Zone"
 msgstr "時間帯"
 
-#, fuzzy
 msgid "like"
-msgstr "〜の様に"
+msgstr "次の様に"
 
 msgid "Time Server (NTP Server)"
 msgstr "時刻サーバー（NTPサーバー）"
 
-#, fuzzy
 msgid "executable path"
 msgstr "実行パス："
 
 msgid "Enable FreePBX ARI Module"
 msgstr "FreePBX ARIモジュールを有効"
 
-#, fuzzy
 msgid "Enable Debug Mode"
 msgstr "デバッグモードを有効"
 
 msgid "Disable Tooltips"
 msgstr "ヒントを無効にする。"
 
-#, fuzzy
 msgid "Allow Duplicate Extensions"
-msgstr "複製内線を許可"
+msgstr "内線の複製許可"
 
-#, fuzzy
 msgid "Allow Saving Over Default Configuration Files"
-msgstr "標準設定の上書きを可能にする"
+msgstr "標準設定ファイルの上書き許可"
 
-#, fuzzy
 msgid "Disable TFTP Server Check"
-msgstr "TFTPサーバーチェックを無効"
+msgstr "TFTPサーバーのチェックを無効"
 
-#, fuzzy
 msgid "Disable Configuration File Backups"
 msgstr "設定ファイルのバックアップを無効"
 
-#, fuzzy
 msgid "Use GITHUB Live Repo (Requires git to be installed)"
-msgstr "GITHUB Live Repoを使用（gitをインストールする必要があります）"
+msgstr "GITHUB Live Repoを使用（gitのインストール必要）"
 
 msgid "Update Globals"
 msgstr "グローバル設定を更新"
 
-#, fuzzy
 msgid "Export CSV file of devices"
-msgstr "端末のCSVファイルをエクスポートします。"
+msgstr "端末のCSVファイルをエクスポートします"
 
-#, fuzzy
 msgid "Export CSV"
-msgstr "CSVへエクスポート"
+msgstr "CSVをエクスポート"
 
-#, fuzzy
 msgid "Import CSV file of devices"
 msgstr "端末のCSVファイルをインポート"
 
 msgid "Import"
 msgstr "インポート"
 
-#, fuzzy
 msgid "Note: CSV file should look like this"
-msgstr "参考：CSVファイルはこのような形です。"
+msgstr "注意：CSVファイルはこのような形式である必要があります"
 
 msgid "Brand"
 msgstr "ブランド"
@@ -216,27 +215,23 @@ msgstr "ブランド"
 msgid "Model"
 msgstr "モデル"
 
-#, fuzzy
 msgid "Extension"
 msgstr "内線"
 
 msgid "Line"
-msgstr "シリーズ"
+msgstr "ライン"
 
-#, fuzzy
 msgid "Line can be blank"
-msgstr "フィールドを空白に設定可能"
+msgstr "ラインを空白に設定可能"
 
 msgid "Select Product"
 msgstr "製品を選択"
 
-#, fuzzy
 msgid "Select"
 msgstr "選択"
 
-#, fuzzy
 msgid "File Configuration Editor"
-msgstr "ファイル設定編集"
+msgstr "ファイル設定エディター"
 
 msgid "Custom Template Files"
 msgstr "カスタムテンプレートファイル"
@@ -256,11 +251,9 @@ msgstr "カスタムを追加"
 msgid "Add"
 msgstr "追加"
 
-#, fuzzy
 msgid "Search for new devices in netmask"
-msgstr "netmask中に新しいデバイスを探す"
+msgstr "ネットマスクの中で新しいデバイスを探す"
 
-#, fuzzy
 msgid "Go"
 msgstr "次へ"
 
@@ -286,23 +279,19 @@ msgid "Unmanaged Extensions"
 msgstr "管理されない内線"
 
 msgid "Add Selected Phones"
-msgstr "選択中の電話機を追加"
+msgstr "選択した電話機を追加"
 
-#, fuzzy
 msgid "Current Managed Extensions"
-msgstr "管理する内線"
+msgstr "現在管理されている内線"
 
-#, fuzzy
 msgid "Selected Phone(s) Options"
 msgstr "選択した電話機の設定"
 
-#, fuzzy
 msgid "Rebuild Configs for Selected Phones"
-msgstr "選択中の電話機設定を再出力"
+msgstr "選択した電話機の設定を再構築"
 
-#, fuzzy
 msgid "Change Selected Phones to"
-msgstr "選択中の電話機を変更"
+msgstr "選択中の電話機を次へ変更："
 
 msgid "Update Phones"
 msgstr "電話機を変更を適用"
@@ -310,24 +299,20 @@ msgstr "電話機を変更を適用"
 msgid "Global Phone Options"
 msgstr "グローバル電話機設定"
 
-#, fuzzy
 msgid "Rebuild Configs for All Phones"
-msgstr "全ての電話機設定を再出力"
+msgstr "全電話機の設定を再構築"
 
 msgid "Reboot This Brand"
 msgstr "このブランドを再起動"
 
-#, fuzzy
 msgid "Reconfigure all"
 msgstr "全て再設定"
 
-#, fuzzy
 msgid "with"
-msgstr "一致"
+msgstr "次の物と一緒に"
 
-#, fuzzy
 msgid "Rebuild"
-msgstr "再出力"
+msgstr "再構築"
 
 msgid "Settings"
 msgstr "設定"
@@ -338,22 +323,18 @@ msgstr "OUIマネージャー"
 msgid "Product Options/Configuration Editor"
 msgstr "製品オプション・設定編集"
 
-#, fuzzy
 msgid "Import/Export My Devices List"
-msgstr "デバイスリストをインポート・エクスポート"
+msgstr "デバイスリストのインポート/エクスポート"
 
-#, fuzzy
 msgid "Manual Endpoint Modules Upload/Export"
-msgstr "手動で端末モジュールをアップロード・エクスポート"
+msgstr "手動で端末モジュールをアップロード/エクスポート"
 
-#, fuzzy
 msgid "Show/Hide Brands/Models"
-msgstr "ブランド・モデルを表示（非表示）"
+msgstr "ブランド/モデルを表示/非表示"
 
 msgid "Show"
 msgstr "表示"
 
-#, fuzzy
 msgid "Hide"
 msgstr "隠す"
 

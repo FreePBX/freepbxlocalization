@@ -1,3 +1,20 @@
+# CREDITS for JAPANESE TRANSLATION
+# ================================
+# Current translation & maintenance: QLOOG, Inc. (Kobe, Japan)
+# Inquiries: info@qloog.com / www.qloog.com
+# 
+# This translation is a culmination of the hard work of
+# several outstanding individuals, which started in 2009 with the 
+# first-ever Japanese localization of FreePBX by Kenichi Fukaumi 
+# and Kazuhiro Tokuyama (FreePBX Japanized Project).
+#
+# Beginning in 2013, with the approval of the original authors, 
+# QLOOG undertook a large scale overhaul of the translation to 
+# expand it for compatibility with FreePBX 2.11. Our work is, 
+# of course, released under the same GPLv2 license as FreePBX. 
+# We only ask that you kindly retain these credits in honor of 
+# the time and effort that all of us have contributed. Enjoy!
+# 
 # This file is part of FreePBX.
 #
 #    FreePBX is free software: you can redistribute it and/or modify
@@ -21,7 +38,7 @@ msgstr ""
 "Project-Id-Version: FreePBX 2.10.0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-09 18:14+0900\n"
-"PO-Revision-Date: 2014-02-21 03:42+0200\n"
+"PO-Revision-Date: 2014-02-24 06:09+0200\n"
 "Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
 "Language-Team: Japanese <http://192.168.30.85/projects/freepbx/parking/ja/>\n"
 "Language: ja\n"
@@ -81,24 +98,20 @@ msgstr "パーキングロットオプション"
 msgid "Parking Lot Extension:"
 msgstr "パーキングロット内線："
 
-#, fuzzy
 msgid "This is the extension where you will transfer a call to park it"
-msgstr "コールをパーク保留するために押す内線特番です。"
+msgstr "呼をパーク保留するための内線番号"
 
 msgid "Parking Lot Name:"
 msgstr "パーキングロット名"
 
-#, fuzzy
 msgid "Provide a Descriptive Title for this Parking Lot"
-msgstr "このパーキングロットの詳細な名前を入力します。"
+msgstr "このパーキングロットに詳細な名称を与える"
 
-#, fuzzy
 msgid "Parking Lot Starting Position:"
-msgstr "パーキングロット内線："
+msgstr "パーキングロット開始位置："
 
-#, fuzzy
 msgid "The starting postion of the parking lot"
-msgstr "パーキングロットが始まる位置"
+msgstr "パーキングロットの開始位置"
 
 msgid "Number of Slots:"
 msgstr "スロット数"
@@ -111,17 +124,13 @@ msgstr ""
 "定して、スロット数を8スロットとした場合、パーキングスロットは71-78になりま"
 "す。"
 
-#, fuzzy
 msgid "Parking Timeout (seconds):"
-msgstr "パーキングタイムアウト："
+msgstr "パーキングタイムアウト（秒）："
 
-#, fuzzy
 msgid ""
 "The timeout period in seconds that a parked call will attempt to ring back "
 "the original parker if not answered"
-msgstr ""
-"パーク中のコールを取得しない場合に、パーク中のコールを最初にパークした人を再"
-"度呼び出す時のタイムアウト"
+msgstr "応答が無い場合、パーク中の呼を、パークした者に戻すまでのタイムアウト（秒）"
 
 msgid "Parked Music Class:"
 msgstr "パーク音楽クラス："
@@ -139,41 +148,29 @@ msgstr ""
 msgid "default"
 msgstr "デフォルト"
 
-#, fuzzy
 msgid "BLF Capabilities:"
-msgstr "ビジーランプフィールド機能を有効にする："
+msgstr "BLF機能："
 
-#, fuzzy
 msgid "Enable this to have Asterisk 'hints' generated to use with BLF buttons."
-msgstr ""
-"ビジーランプフィールドボタンで使用するために生成されたAsteriskの'hints'を持た"
-"せるにはこのチェックボックスをオンにします。"
+msgstr "BLFボタンで使用するために生成されたAsteriskの'ヒント'を有効にする。"
 
-#, fuzzy
 msgid "Find Slot:"
-msgstr "スロットを検索："
+msgstr "スロット検索："
 
-#, fuzzy
 msgid ""
 "Next: If you want the parking lot to seek the next sequential parking slot "
 "relative to the the last parked call instead of seeking the first available "
 "slot. First: Use the first parking lot slot available"
-msgstr ""
-"Asterisk： スロットを探す機能です。パーキングロットに、最初に使用できるスロッ"
-"トを探させる代わりに最後にパークしたコールに対してシーケンシャルなパーキング"
-"スロットを探させたい場合はチェックボックスをオンにします。"
+msgstr "次：最初に使用できるロットを探させる代わりに、最後にパークしたロットを探す。　最初:利用可能な最初のパーキングロットを探す"
 
-#, fuzzy
 msgid "Next"
 msgstr "次"
 
-#, fuzzy
 msgid "First"
 msgstr "最初"
 
-#, fuzzy
 msgid "Returned Call Behavior"
-msgstr "パーク戻り時の挙動："
+msgstr "呼の戻り時の挙動"
 
 msgid "Pickup Courtesy Tone:"
 msgstr "ピックアップ時\"ピー\"音再生"
@@ -224,20 +221,16 @@ msgstr ""
 "初めに応答した人や、代わりの宛先に送り戻す前にコールに追加するアラート情報。"
 
 msgid "CallerID Prepend:"
-msgstr "発信者IDの書き換え："
+msgstr "CallerID付与："
 
 msgid ""
 "String to prepend to the current Caller ID associated with the parked call "
 "prior to sending back to the Originator or the Alternate Destination."
-msgstr ""
-"初めに応答した人や、代わりの宛先に送り戻す前にパークされたコールに関連づけさ"
-"れた現在の発信者情報を装う文字列。"
+msgstr "初めに応答した人や、代わりの宛先に送り戻す前に、パークされたコールに付与された現在のCaller ID文字列。"
 
-#, fuzzy
 msgid "Auto CallerID Prepend:"
-msgstr "発信者IDの書き換え："
+msgstr "CallerID自動付与："
 
-#, fuzzy
 msgid ""
 "These options will be appended after CallerID Prepend if set. Otherwise they "
 "will appear first. The automatic options are as follows:<ul><li><strong>None:"
@@ -246,16 +239,14 @@ msgid ""
 "that parked the call</li><li><strong>Name:</strong> The user who parked the "
 "call</li></ul>"
 msgstr ""
-"設定すると、以下のオプションをCaller ID Prependに付け加えます。設定しない場合"
-"は先に表示されます。自動オプションは以下のとおりです：<ul><li><strong>なし："
-"</strong> 自動付加えしない</li><li><strong>スロット：</strong> パーキングされ"
-"たパーキングロット</li><li><strong>内線：</strong> パーキングした内線</"
-"li><li><strong>名前：</strong> パーキングしたユーザー</li></ul>"
+"設定した場合、これらのオプションはCaller IDを前に付与した後、追加します。設定しない場合は先に表示されます。自動オプションは次のとおりです：<u"
+"l><li><strong>なし：</strong> 自動付与しない</li><li><strong>スロット：</strong> "
+"パーキングされたパーキングロット</li><li><strong>内線：</strong> "
+"パーキングされた内線</li><li><strong>名前：</strong> パーキングしたユーザー</li></ul>"
 
 msgid "None"
 msgstr "なし"
 
-#, fuzzy
 msgid "Slot"
 msgstr "スロット"
 
@@ -288,7 +279,6 @@ msgstr "代わりの宛先："
 msgid "Come Back to Origin:"
 msgstr "発信元に戻る"
 
-#, fuzzy
 msgid ""
 "Where to send a parked call that has timed out. If set to yes then the "
 "parked call will be sent back to the originating device that sent the call "
@@ -296,9 +286,8 @@ msgid ""
 "Destination selected below. If set to no then we will send the call directly "
 "to the destination selected below"
 msgstr ""
-"タイムアウトしたコールの転送先。「はい」に設定すると、このコールをパーキング"
-"ロットに転送しようとした内線に戻します。原点が通話中の場合、以下の宛先に転送"
-"します。「いいえ」に設定すると、以下の宛先に直接転送します。"
+"パーク保留でタイムアウトした呼の転送先。「はい」に設定すると、このコールをパーク保留した内線に戻します。もしパーク保留元が通話中の場合、次で選択した宛先"
+"に転送します。「いいえ」に設定すると、次の宛先に直接転送します"
 
 msgid "Yes"
 msgstr "はい"
@@ -312,54 +301,41 @@ msgstr "宛先："
 msgid "Submit Changes"
 msgstr "変更を適用"
 
-#, fuzzy
 msgid "This module is used to configure Parking Lot(s) in Asterisk."
-msgstr ""
-"このモジュールでは、Asteriskのパーキングロットの設定を行うことができます。"
+msgstr "このモジュールでは、Asteriskのパーキングロットの設定使用します。"
 
-#, fuzzy
 msgid ""
 "Simply transfer the call to said parking lot extension. Asterisk will then "
 "read back the parking lot number the call has been placed in. To retrieve "
 "the call simply dial that number back."
 msgstr ""
-"指定のパーキングロット内線にコールを転送します。その後、Asteriskはコールが"
-"パーキングされたロットの番号を教えます。コールを取り戻すには、その番号に発信"
-"します。"
+"パーキングロット用内線番号を言わせる為に呼を転送します。Asteriskは、コールがパーク保留されたロット番号を読み上げます。呼を再取得するには、その番"
+"号に発信します。"
 
-#, fuzzy
 msgid ""
 "There are also different levels of Parking. To see what level you have and "
 "to see options and features you'd get from other modules please see the "
 "chart below"
 msgstr ""
-"パーキングには、様々な機能があります。現在利用できる機能や、他のモジュールを"
-"利用した場合に利用できるようになる機能を確認するには、以下の表をご覧くださ"
-"い。"
+"パーキングには、様々なレベルがあります。利用可能レベルや、他のモジュールを利用した場合に利用できるようになる機能を確認するには、以下の表をご覧ください"
 
-#, fuzzy
 msgid "Paging"
 msgstr "ページング"
 
-#, fuzzy
 msgid "Paging Provides the Ability to setup Park and Announce"
-msgstr "「ページング」では、パークとアナウンスの設定ができます。"
+msgstr "ページングでは、パークとアナウンスを設定する機能を提供"
 
-#, fuzzy
 msgid "Paging Pro"
-msgstr "パーキングロット"
+msgstr "ページングプロ"
 
-#, fuzzy
 msgid "Paging Pro enables the Ability to setup Park and Announce"
-msgstr "「ページング・プロ」では、パークとアナウンスの設定ができます。"
+msgstr "ページングプロでは、パークとアナウンスを設定する機能が有効"
 
-#, fuzzy
 msgid "Park Pro"
-msgstr "パークプレフィックス"
+msgstr "パーク保留プロ"
 
-#, fuzzy
 msgid "Park Pro enables the Ability to setup Park and Announce"
-msgstr "「パーク・プロ」では、パークとアナウンスの設定ができます。"
+msgstr "パーク保留プロでは、パークとアナウンスを設定する機能が有効"
 
 msgid "Parking Lot"
 msgstr "パーキングロット"

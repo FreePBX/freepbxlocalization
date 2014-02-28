@@ -1,3 +1,20 @@
+# CREDITS for JAPANESE TRANSLATION
+# ================================
+# Current translation & maintenance: QLOOG, Inc. (Kobe, Japan)
+# Inquiries: info@qloog.com / www.qloog.com
+# 
+# This translation is a culmination of the hard work of
+# several outstanding individuals, which started in 2009 with the 
+# first-ever Japanese localization of FreePBX by Kenichi Fukaumi 
+# and Kazuhiro Tokuyama (FreePBX Japanized Project).
+#
+# Beginning in 2013, with the approval of the original authors, 
+# QLOOG undertook a large scale overhaul of the translation to 
+# expand it for compatibility with FreePBX 2.11. Our work is, 
+# of course, released under the same GPLv2 license as FreePBX. 
+# We only ask that you kindly retain these credits in honor of 
+# the time and effort that all of us have contributed. Enjoy!
+# 
 # This file is part of FreePBX.
 #
 #    FreePBX is free software: you can redistribute it and/or modify
@@ -21,9 +38,9 @@ msgstr ""
 "Project-Id-Version: FreePBX faxpro\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-05 19:32+0900\n"
-"PO-Revision-Date: 2014-02-21 01:05+0200\n"
+"PO-Revision-Date: 2014-02-26 05:54+0200\n"
 "Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
-"Language-Team: Japanese <http://example.com/projects/freepbx/faxpro/ja/>\n"
+"Language-Team: Japanese <http://192.168.30.85/projects/freepbx/faxpro/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,140 +48,116 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 1.8\n"
 
-#, fuzzy
 msgid "Fax"
 msgstr "Fax"
 
 msgid "Store Localy"
-msgstr ""
+msgstr "ローカルに保存"
 
 msgid ""
 "Chose this option to have faxes stored by the server; accesable via the ARI."
-msgstr ""
+msgstr "このオプションは、サーバーによってFaxが保存されます。ARI経由で接続可能です。"
 
-#, fuzzy
 msgid "Outgoing Station ID"
-msgstr "E911(緊急通報)発信者番号"
+msgstr "発信Station ID"
 
-#, fuzzy
 msgid "The outgoing Fax Machine Identifier. This is usualy your fax number."
-msgstr "送信するFAXのID。通常あなたのfax番号。"
+msgstr "送信用FAX機ID。通常の場合はあなたのFax番号です。"
 
-#, fuzzy
 msgid "Outgoing Header"
-msgstr "発信設定"
+msgstr "発信ヘッダー"
 
 msgid ""
 "The outgoing Fax Machine Headers. This usualy contains the name of the "
 "person or entity sending the fax."
-msgstr ""
+msgstr "送信用Fax機ヘッダー。通常の場合Faxを送信する個人の名前か、組織の名前を含めます。"
 
-#, fuzzy
 msgid "Coversheet Name"
-msgstr "ディスプレイ名"
+msgstr "カバーシート名"
 
 msgid "The name that should appear on the outbound coversheet."
-msgstr ""
+msgstr "送信用カバーシートに表示される名前。"
 
 msgid "Coversheet Tel"
-msgstr ""
+msgstr "カバーシート 電話番号"
 
 msgid "The Phone number that will appear on the cover sheet."
-msgstr ""
+msgstr "送信用カバーシートに表示される電話番号。"
 
-#, fuzzy
 msgid "Coversheet Email"
-msgstr "Eメールをアップデート"
+msgstr "カバーシート Eメール"
 
 msgid "The email address that will appear on the coversheet."
-msgstr ""
+msgstr "送信用カバーシートに表示されるEメール。"
 
 msgid "Preview"
-msgstr ""
+msgstr "プレビュー"
 
-#, fuzzy
 msgid "Fax Licenses"
-msgstr "Fax設定"
+msgstr "Faxライセンス"
 
-#, fuzzy
 msgid "License number"
-msgstr "発信者番号"
+msgstr "ライセンス番号"
 
-#, fuzzy
 msgid "Concurrent Faxes"
-msgstr "Faxを検知"
+msgstr "同時Fax"
 
-#, fuzzy
 msgid "Total"
-msgstr "総コール数"
+msgstr "合計"
 
-#, fuzzy
 msgid "Fax Cover Page Options"
-msgstr "Faxキーコードオプション"
+msgstr "Faxカバーページオプション"
 
-#, fuzzy
 msgid "ERROR:"
-msgstr "エラー"
+msgstr "エラー："
 
-#, fuzzy
 msgid "Company Logo"
-msgstr "社内"
+msgstr "会社ロゴ"
 
 msgid "Company Logo. Filetype MUST be JPG"
-msgstr ""
+msgstr "会社ロゴ。ファイル形式はJPGのみ対応"
 
-#, fuzzy
 msgid "Company Name"
-msgstr "ディスプレイ名"
+msgstr "会社名"
 
-#, fuzzy
 msgid "Company Address 1"
-msgstr "デフォルトアドレス："
+msgstr "会社アドレス１"
 
-#, fuzzy
 msgid "Company Address 2"
-msgstr "デフォルトアドレス："
+msgstr "会社アドレス２"
 
-#, fuzzy
 msgid "Company Address 3"
-msgstr "デフォルトアドレス："
+msgstr "会社アドレス３"
 
-#, fuzzy
 msgid "Company Phone"
-msgstr "電話帳"
+msgstr "会社電話番号"
 
-#, fuzzy
 msgid "Company Web Site"
-msgstr "FreePBX ウェブアドレス"
+msgstr "会社ホームページ"
 
-#, fuzzy
 msgid "Company Footer"
-msgstr "画像： フッター"
+msgstr "会社フッター"
 
 msgid "This text will appear at the bottom of every outbound fax."
-msgstr ""
+msgstr "この文は、送信するFax毎に下部に表示されます。"
 
-#, fuzzy
 msgid "Preview Cover Page"
-msgstr "デフォルトページンググループ"
+msgstr "カバーページプレビュー"
 
 msgid "Preview cover page, will save your settings first"
-msgstr ""
+msgstr "カバーページのプレビュー、設定の保存"
 
-#, fuzzy
 msgid "Local Storage Options"
-msgstr "内部のオプション & 設定"
+msgstr "内部ストレージオプション"
 
-#, fuzzy
 msgid "Max Pages"
-msgstr "最大試行数"
+msgstr "最大ページ数"
 
 msgid "The maximum amount of pages a user is allowed to store locally."
-msgstr ""
+msgstr "ユーザーがローカルに保存可能な最大ページ数。"
 
-#, fuzzy
 msgid "Excess Faxes"
-msgstr "Faxを検知"
+msgstr "超過Fax"
 
 msgid ""
 "How the system should respond when a new fax arrives for a user whos quota "
@@ -173,17 +166,18 @@ msgid ""
 "incoming fax, starting from the oldest.</li></ul>With either option, a fax "
 "larger that the quota will be deleted after it was recived."
 msgstr ""
+"新しいFaxが到着時、ユーザーに割り当てられた領域が一杯になった場合のシステム挙動を設定。<ul><li>拒否：拒否は新しいFaxの受信を拒否し、通話を"
+"切断。</li><li>古い物から削除：Fax受信が出来る様、古いFaxから順に削除</li></ul>どちらも：大きなFaxは、受信後に削除。"
 
 msgid ""
 " Submit Changes needs to be pressed before this option can become available."
-msgstr ""
+msgstr " このオプションが利用可能になる前に、変更を適用ボタンを押せる様にする。"
 
-#, fuzzy
 msgid "T38-Gateway Enabled"
-msgstr "有効にできません。"
+msgstr "T38ゲートウェイが有効になりました"
 
 msgid "Set this to yes if you are using a t38 gateway device."
-msgstr ""
+msgstr "もしT38ゲートウェイ機器を使用したい場合には、はいに設定して下さい。"
 
 msgid "Yes"
 msgstr "はい"
@@ -191,67 +185,57 @@ msgstr "はい"
 msgid "No"
 msgstr "いいえ"
 
-#, fuzzy
 msgid "File"
 msgstr "ファイル"
 
 msgid "Select a file to upload. Supported formats are: "
-msgstr ""
+msgstr "アップロードするファイルを選択して下さい。サポートされている形式は次の通りです： "
 
-#, fuzzy
 msgid "attach another file"
-msgstr "ファイル %s が必要です。"
+msgstr "他のファイルを添付"
 
 msgid "Destination"
 msgstr "宛先"
 
 msgid "Coversheet?"
-msgstr ""
+msgstr "カバーシート？"
 
-#, fuzzy
 msgid "Recipient Name"
-msgstr "ディスプレイ名"
+msgstr "受信者名"
 
-#, fuzzy
 msgid "Message"
 msgstr "メッセージ"
 
-#, fuzzy
 msgid "My Details"
-msgstr "ピア詳細"
+msgstr "詳細"
 
-#, fuzzy
 msgid "My Name"
-msgstr "ディスプレイ名"
+msgstr "名前"
 
-#, fuzzy
 msgid "My Tel"
-msgstr "マイボイスメール"
+msgstr "電話番号"
 
-#, fuzzy
 msgid "My Email"
-msgstr "Eメールをアップデート"
+msgstr "Eメール"
 
-#, fuzzy
 msgid "Send Fax"
-msgstr "Fax設定"
+msgstr "Fax送信"
 
 #, php-format
 msgid "You are using %s%% of your fax storage quota. "
-msgstr ""
+msgstr "使用状況 %s%% (Faxストレージ容量)。 "
 
 msgid "A full quota will cause new faxes to be rejected by the system."
-msgstr ""
+msgstr "システムによって、新規Faxが受信拒否される全容量。"
 
 msgid ""
 "A full quota will cause the system to delete stored fax to make room for "
 "the  ones."
-msgstr ""
+msgstr "場所を確保する為、システムによって、保存済みFaxが削除される 全容量。"
 
 msgid "Please ensure you have adequate space remaining."
-msgstr ""
+msgstr "十分な残りスペースがある事を確認してください。"
 
-#, fuzzy
 msgid "Date"
 msgstr "日付"
 

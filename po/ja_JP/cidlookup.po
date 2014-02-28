@@ -1,3 +1,20 @@
+# CREDITS for JAPANESE TRANSLATION
+# ================================
+# Current translation & maintenance: QLOOG, Inc. (Kobe, Japan)
+# Inquiries: info@qloog.com / www.qloog.com
+# 
+# This translation is a culmination of the hard work of
+# several outstanding individuals, which started in 2009 with the 
+# first-ever Japanese localization of FreePBX by Kenichi Fukaumi 
+# and Kazuhiro Tokuyama (FreePBX Japanized Project).
+#
+# Beginning in 2013, with the approval of the original authors, 
+# QLOOG undertook a large scale overhaul of the translation to 
+# expand it for compatibility with FreePBX 2.11. Our work is, 
+# of course, released under the same GPLv2 license as FreePBX. 
+# We only ask that you kindly retain these credits in honor of 
+# the time and effort that all of us have contributed. Enjoy!
+# 
 # This file is part of FreePBX.
 #
 #    FreePBX is free software: you can redistribute it and/or modify
@@ -21,8 +38,8 @@ msgstr ""
 "Project-Id-Version: FreePBX 2.10.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-05 19:32+0900\n"
-"PO-Revision-Date: 2014-02-21 03:13+0200\n"
-"Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
+"PO-Revision-Date: 2014-02-25 05:01+0200\n"
+"Last-Translator: Chise Mishima <c.mishima@qloog.com>\n"
 "Language-Team: Japanese "
 "<http://192.168.30.85/projects/freepbx/cidlookup/ja/>\n"
 "Language: ja\n"
@@ -66,10 +83,10 @@ msgid "not present"
 msgstr "存在しません"
 
 msgid "removed"
-msgstr "削除されました"
+msgstr "削除済み"
 
 msgid "Adding opencnam account columns to the cidlookup table..."
-msgstr "opencnamアカウントコラムをcidlookupテーブルに追加中…"
+msgstr "opencnamアカウントコラムをcidlookupテーブルに追加中.."
 
 msgid "Could not add opencnam_account_sid column to cidlookup table."
 msgstr "opencnam_account_sidコラムをcidlookupテーブルに追加できませんでした。"

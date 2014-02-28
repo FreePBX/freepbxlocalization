@@ -1,3 +1,20 @@
+# CREDITS for JAPANESE TRANSLATION
+# ================================
+# Current translation & maintenance: QLOOG, Inc. (Kobe, Japan)
+# Inquiries: info@qloog.com / www.qloog.com
+# 
+# This translation is a culmination of the hard work of
+# several outstanding individuals, which started in 2009 with the 
+# first-ever Japanese localization of FreePBX by Kenichi Fukaumi 
+# and Kazuhiro Tokuyama (FreePBX Japanized Project).
+#
+# Beginning in 2013, with the approval of the original authors, 
+# QLOOG undertook a large scale overhaul of the translation to 
+# expand it for compatibility with FreePBX 2.11. Our work is, 
+# of course, released under the same GPLv2 license as FreePBX. 
+# We only ask that you kindly retain these credits in honor of 
+# the time and effort that all of us have contributed. Enjoy!
+# 
 # This file is part of FreePBX.
 #
 #    FreePBX is free software: you can redistribute it and/or modify
@@ -21,8 +38,8 @@ msgstr ""
 "Project-Id-Version: FreePBX 2.10.0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-05 19:32+0900\n"
-"PO-Revision-Date: 2014-02-21 03:02+0200\n"
-"Last-Translator: Chise Mishima <c.mishima@qloog.com>\n"
+"PO-Revision-Date: 2014-02-26 04:21+0200\n"
+"Last-Translator: Kenichi Fukaumi <k.fukaumi@qloog.com>\n"
 "Language-Team: Japanese "
 "<http://192.168.30.85/projects/freepbx/sipstation/ja/>\n"
 "Language: ja\n"
@@ -77,19 +94,15 @@ msgstr ""
 msgid "Updated Master E911."
 msgstr "Master E911を更新しました。"
 
-#, fuzzy
 msgid ""
 "You may have to wait up to 15 minutes for your changes to take effect. It is "
 "your responsibility to test and confirm your E911 Address. You do this by "
 "dialing 933 and transmitting this number as the Caller ID and the address "
 "will be read back to you from the E911 center."
 msgstr ""
-"変更が適応されるまで15分ほどかかる場合があります。E911アドレスを試験・確認す"
-"るのは、あなたの責任です。確認するには、933を発信し、この番号を発信者番号通知"
-"（CID）として送信します。アドレスはE911センターから繰り返されますので、ご確認"
-"ください。"
+"変更が反映されるまで15分ほどかかる場合があります。E911アドレスをテスト・確認するのは、あなたの責任です。確認するには、933をダイヤルし、この番号"
+"をCaller IDとして送信します。そのアドレスはE911センターからあなたに、読み返されます。"
 
-#, fuzzy
 msgid "No Key"
 msgstr "キーがありません"
 
@@ -132,9 +145,9 @@ msgstr ""
 msgid "Successfully updated or created %s inbound routes for your DIDs"
 msgstr "ダイヤルインのインバウンド経路 %s の更新または作成に成功しました。"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Successfully updated or set failover for your %s DIDs"
-msgstr "ダイヤルインのインバウンド経路 %s の更新または作成に成功しました。"
+msgstr "%s DIDsのフェイルオーバー設定もしくは更新に成功しました"
 
 #, php-format
 msgid ""
@@ -145,29 +158,24 @@ msgstr ""
 msgid "Nothing was changed"
 msgstr "変更しませんでした"
 
-#, fuzzy
 msgid "You did not agree to our charges and policies on E911"
-msgstr "E911の料金・条件に同意しないといけません。"
+msgstr "E911の料金・ポリシーに同意していません"
 
-#, fuzzy
 msgid ""
 "Remote Server Error. Please try again in 10 minutes. If you continue to have "
 "problems please contact support and give them this error code"
 msgstr ""
-"リモートサーバー側のエラーがありました。10分後にもう一度お試しください。問題"
-"が解決しない場合は、サポートの担当者に連絡して、次のエラーコードをお伝え下さ"
-"い。"
+"リモートサーバーのエラーが発生しました。10分後にもう一度お試しください。もし問題が解決しない場合は、サポートの担当者に連絡し、次のエラーコードをお伝え"
+"下さい"
 
-#, fuzzy
 msgid "Updated E911 information for"
-msgstr "ダイヤルイン設定を更新"
+msgstr "次についてのE911情報を更新"
 
 msgid "To check your E911 settings please dial 933"
 msgstr "E911の設定を確認するには、933を発信してください。"
 
-#, fuzzy
 msgid "Deleted E911 information for"
-msgstr "〜のE911情報を削除しました："
+msgstr "次についてのE911情報を削除しました"
 
 msgid "Not Registered"
 msgstr "登録されていません"
@@ -226,7 +234,6 @@ msgstr ""
 "あなたのモジュールバージョンは現在のAPI動作要件と互換性がないため、アップデー"
 "トする必要があります。必要XMLバージョン %s 受けとったバージョン %s"
 
-#, fuzzy
 msgid "SIPSTATION"
 msgstr "SIPSTATION"
 
@@ -245,27 +252,24 @@ msgstr ""
 msgid "KEYS AND TRUNKS REMOVED!"
 msgstr "キーをトランクを削除しました！"
 
-#, fuzzy
 msgid ""
 "Your SIPStation trunks and key have been removed from your system, make sure "
 "to Apply Configuration Changes for this to take effect"
-msgstr ""
-"あなたのシステム内にあるSIPSTATIONトランクとキーはもう削除されました。これを"
-"有効にするために自動変更の設定を実行してください。"
+msgstr "あなたのSIPStationトランクとキーは、あなたのシステムから既に削除されました。この設定変更を有効にし反映するために確認して下さい"
 
 #, php-format
 msgid "%s Account Access"
 msgstr "%s アカウントアクセス"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "To disable account access, click %s. The auto generated trunk, route and DID "
 "configurations will remain active even if the key is removed. \n"
 "\t\t\tTo also remove the Trunks, chose the %s options instead"
 msgstr ""
-"アカウントアクセスを無効にする場合は、 %s をクリックしてください。キーを削除"
-"しても自動生成されたトランク、ルートやDID設定はアクティブのまま残ります。トラ"
-"ンクを削除する場合は、%sのオプションを選択してください。"
+"アカウントアクセスを無効にする場合は、 %s "
+"をクリックしてください。もしキーが削除されても、自動生成されたトランク、ルート、そしてDID設定は有効のままとなります。 \t\t\t"
+"トランクを削除する場合は、次にかわって %sのオプションを選択してください"
 
 msgid "Remove Key"
 msgstr "キーを削除"
@@ -303,7 +307,7 @@ msgstr ""
 "現在サービスからの応答がありません。利用できないか、アクセスがブロックされて"
 "おります。サーバーが利用不可能な場合は、後程再試行してみてください。"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "This module requires %s trunking service available at %s or click on the "
 "image above. \n"
@@ -315,19 +319,15 @@ msgid ""
 "\t\t\t\tIf the key is compromised, you can contact us at our %s and have a "
 "new one re-generated."
 msgstr ""
-"このモジュールを使用するには %s トランクサービスが必要で、 %s 若しくは上の画"
-"像をクリックして利用することができます。一度サービスを使用すると、ポータルサ"
-"イト内でキーが利用可能となります。それを以下に入力してこのモジュールの使用を"
-"開始してください。キーはとても長いため、 \"コピー\" & \"ペースト\"を使用して"
-"キーをここにコピーしてください。 キーは安全に保存され、アクセスを止めたい時に"
-"はいつでも削除することができます。キーのセキュリティが危険にさらされた場合"
-"は、カスタマーサポートに問い合わせて新規に生成されたキーを取得することができ"
-"ます。"
+"このモジュールを使用するには %s トランクサービスが必要で、 %s 若しくは上の画像をクリックして利用することができます。\n"
+"\t\t\t\t一度サービスを手にしたら、ポータルサイト内でキーが利用可能となります。それを以下に入力してこのモジュールの使用を開始してください。\n"
+"\t\t\t\tキーはとても長いため、 \"コピー\" & \"ペースト\"を使用して、キーをここにコピーしてください。 "
+"キーは安全に保存され、アクセスを止めたい時にはいつでも削除することができます。\n"
+"\t\t\t\tキーのセキュリティが侵害された場合は、私たちの %s　にて問い合わせて、新規に再生成されたキーを取得することができます。"
 
 msgid "Account Key"
 msgstr "アカウントキ"
 
-#, fuzzy
 msgid ""
 "In order to use this service you must have a SIPStation FreePBX.com portal "
 "account and service (https://store.freepbx.com). \n"
@@ -337,17 +337,16 @@ msgid ""
 "without exposing your account username and password. \n"
 "\t\t\tYou can remove the key at any time"
 msgstr ""
-"このサービスを利用するためには、SIPSTATION FreePBX.comポータルアカウントと"
-"サービスが必要です。(https://store.freepbx.com)このサイトで一意のセキュリ"
-"ティーキーを入手できますので、このキーフィールドにコピー&ペーストしてくださ"
-"い。一度入力すると、あなたのユーザー名とパスワードをさらけ出す必要なくこのモ"
-"ジュールよりサービスにアクセスすることができます。キーはいつでも削除できま"
-"す。"
+"このサービスを利用するためには、SIPStation "
+"FreePBX.comポータルアカウントとサービスが必要です(https://store.freepbx.com)。\n"
+"\t\t\tこのサイトでユニークセキュリティーキーを入手できますので、このキーフィールドにコピー&ペーストしてください。\n"
+"\t\t\t一度入力すると、あなたのユーザー名とパスワードを公開する必要なく、このモジュールからサービスにアクセスすることができます。\n"
+"\t\t\tキーはいつでも削除できます"
 
 msgid "Add Key"
 msgstr "キーを追加"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "To disable account access, click %s. To update account information, click "
 "%s. If port forwarding is configured on your firewall/router, you can test "
@@ -357,13 +356,11 @@ msgid ""
 "\t\t\t\t\t\t\tThe test sends a packet to an unused Asterisk RTP port at your "
 "WAN address and results in a PASS if the packet is properly received."
 msgstr ""
-"アカウントアクセスを無効にする場合は、 %sをクリックしてください。アカウント情"
-"報を更新する場合は、 %sをクリックしてください。あなたのファイヤーウォール/"
-"ルーターでポートフォワーディングが有効な場合は、 %sボタンを使用してテストする"
-"ことが可能です。ポートフォワーディングによってより信頼性が高くより良い品質が"
-"提供されますので、設定することをお勧めいたします。テストによってあなたのWAN側"
-"アドレスの使用されていないAsterisk RTPポートにパケットが送信され、パケットが"
-"正常に受信されると PASSという結果が表示されます。"
+"アカウントアクセスを無効にする場合は、 %sをクリックしてください。アカウント情報を更新する場合は、 %"
+"sをクリックしてください。もしあなたのファイヤーウォール/ルーターでポートフォワーディングを設定済みの場合は、 %sボタンでテストすることが出来ます。\n"
+"\t\t\t\t\t\t\tポートフォワーディングによって、より信頼性が高いサービス、より良い品質が提供されますので、設定することをお勧めいたします。\n"
+"\t\t\t\t\t\t\tテストの際、あなたのWAN側アドレスの使用されていないAsterisk "
+"RTPポートを使って、パケットが送信され、パケットが正常に受信されると PASSに結果が表示されます。"
 
 msgid "Update Account Info"
 msgstr "アカウント情報をアップデート"
@@ -378,14 +375,10 @@ msgstr "お問い合わせは、 %s at %s　までお願いします。"
 msgid "Trunk Status"
 msgstr "トランクステータス"
 
-#, fuzzy
 msgid ""
 "Provides Gateway Side and Client side realtime status information on your "
 "trunks and SIP registrations. More details on the tooltips below."
-msgstr ""
-"あなたのトランクやSIP登録のゲートウェイ側とクライアント側のリアルタイムステー"
-"タス情報を提供します。FreePBXのトランク設定ページへのクイックリンクも提供され"
-"ます。より詳細なツールチップは以下にあります。"
+msgstr "あなたのトランクとSIP登録で、ゲートウェイ側とクライアント側のリアルタイムステータス情報を提供します。より詳細のヒントは以下の通りです。"
 
 msgid "Primary"
 msgstr "プライマリ"
@@ -393,15 +386,12 @@ msgstr "プライマリ"
 msgid "Secondary"
 msgstr "セカンダリ"
 
-#, fuzzy
 msgid "Asterisk Registration Status"
 msgstr "Asterisk登録ステータス"
 
-#, fuzzy
 msgid ""
 "Realtime Status of Registration as reported by Asterisk on your local system."
-msgstr ""
-"あなたのローカルシステムのAsteriskによってレポートされたレジストステータス"
+msgstr "あなたのローカルシステムのAsteriskによってレポートされたリアルタイム登録ステータス。"
 
 #, php-format
 msgid ""
@@ -413,11 +403,9 @@ msgstr ""
 "トライを継続するにはこの値を 0 に設定してください。Asterisk SIP設定モジュール"
 "を使用してこの設定を行うことができます。"
 
-#, fuzzy
 msgid "Your Contact IP"
 msgstr "コンタクトIP"
 
-#, fuzzy
 msgid ""
 "This is the contact IP as seen on the gateway and provides warnings if "
 "errors are detected. These two addresses SHOULD be your external IP as seen "
@@ -425,20 +413,16 @@ msgid ""
 "your Network IP, you should configure your NAT settings in the Asterisk SIP "
 "Settings module"
 msgstr ""
-"これはゲートウェイ上で確認されたコンタクトIPで、エラーが検出された場合に警告"
-"が提供されます。これらはあなたのルーターのWAN側で確認できるあなたの外部IPであ"
-"る必要があります。そうでない場合やこれらがあなたのネットワークIPと一致しない"
-"場合はAsterisk SIP設定モジュールやこのモジュールを使用していない場合は、"
-"sip_nat.conf内のNAT設定を調整してください。"
+"これはゲートウェイ上から見た際のコンタクトIPで、エラーが検出された場合に警告が提供されます。これら2つのアドレスは、あなたのルーターのWAN側から見た"
+"際の外部IPである必要があります。そうでない場合や、これらがあなたのネットワークIPと一致しない場合、Asterisk "
+"SIP設定モジュールでNAT設定を行う必要があります"
 
 msgid "Not Available"
 msgstr "利用不可"
 
-#, fuzzy
 msgid "Your Network IP"
 msgstr "ネットワークIP"
 
-#, fuzzy
 msgid ""
 "This is the network IP as seen on the gateway and provides warnings if "
 "errors are detected. These two addresses SHOULD be your external IP as seen "
@@ -446,11 +430,9 @@ msgid ""
 "your Network IP, you should configure your NAT settings in the Asterisk SIP "
 "Settings module"
 msgstr ""
-"これはゲートウェイ上で確認されたネットワークIPで、エラーが検出された場合に警"
-"告が提供されます。これらはあなたのルーターのWAN側で確認できるあなたの外部IPで"
-"ある必要があります。そうでない場合やこれらがあなたのネットワークIPと一致しな"
-"い場合はAsterisk SIP設定モジュールやこのモジュールを使用していない場合は、"
-"sip_nat.conf内のNAT設定を調整してください。"
+"これはゲートウェイ上から見た際のネットワークIPで、エラーが検出された場合に警告が提供されます。これら2つのアドレスは、あなたのルーターのWAN側から見"
+"た際の外部IPである必要があります。そうでない場合や、これらがあなたのネットワークIPと一致しない場合、Asterisk "
+"SIP設定モジュールでNAT設定を行う必要があります"
 
 msgid ""
 "Warning: The SIP Contact header is not set to your WAN IP. It is set to your "
@@ -534,37 +516,31 @@ msgstr "フェイル"
 msgid "Status"
 msgstr "ステータス"
 
-#, fuzzy
 msgid "External IP"
-msgstr "外向けIP："
+msgstr "外部IP"
 
 msgid "Account Settings"
 msgstr "アカウント設定"
 
-#, fuzzy
 msgid "Credentials"
-msgstr "SIP証明書"
+msgstr "認証"
 
-#, fuzzy
 msgid ""
 "The SIP Username and Password (secret) for this account along with the "
 "associated email address to log into the SIPStation store. You can change "
 "the password in the SIPStation portal at https://store.freepbx.com"
 msgstr ""
-"このアカウントのSIPユーザー名とパスワード(secret)です。パスワードはhttps://"
-"store.freepbx.comのSIPSTATION(TM) ポータルより変更できます。"
+"SIPStationストアへのログイン用に、Eメールアドレスと関連づけたこのアカウントの為のSIPユーザー名とパスワード(secret)。このパスワード"
+"は https://store.freepbx.com のSIPStationポータルで変更できます"
 
-#, fuzzy
 msgid "SIP Username:"
-msgstr "ユーザー名："
+msgstr "SIPユーザー名："
 
-#, fuzzy
 msgid "SIP Password:"
-msgstr "パスワード："
+msgstr "SIPパスワード："
 
-#, fuzzy
 msgid "Email Address:"
-msgstr "住所1"
+msgstr "Eメールアドレス:"
 
 msgid "Gateways"
 msgstr "ゲートウェイ"
@@ -579,29 +555,25 @@ msgstr ""
 msgid "Service Information"
 msgstr "サービス情報"
 
-#, fuzzy
 msgid ""
 "The number of concurrent calls that have been purchased and are configured "
 "for your service. Sometimes called trunks and similar to the number of PRI "
 "channels or POTS lines in a traditional telco environment."
 msgstr ""
-"同時にできるコールの数。トランクとも呼ばれます。従来の通信環境だと、PRIチャン"
-"ネルやアナログ回線に例えることができます。"
+"あなたのサービスで購入済みで設定済みの同時コール数。場合によってトランクと呼ばれ、伝統的な通信環境でのPRIチャンネルやアナログ回線と同様です。"
 
 msgid "Channels"
 msgstr "チャネル"
 
-#, fuzzy
 msgid "Account Services"
-msgstr "アカウント設定"
+msgstr "アカウントサービス"
 
-#, fuzzy
 msgid ""
 "Here you can set the global failover number for all of your associated DIDs "
 "if your Asterisk server is unable to connect to SIPStation"
 msgstr ""
-"全ての連携したDIDに対して、AsteriskサーバーがSIPStationに接続できない場合に使"
-"用する「グローバルフェイルオーバー番号」を指定できます。"
+"ここでは、AsteriskサーバーがSIPStationに接続できない場合に使用する、全ての連携DIDsに対するグローバルフェイルオーバー番号を指定でき"
+"ます"
 
 msgid "Global Failover Number"
 msgstr "グローバルフェイルオーバー番号"
@@ -609,20 +581,20 @@ msgstr "グローバルフェイルオーバー番号"
 msgid "Global Failover IP/FQDN"
 msgstr "グローバルフェイルオーバーIP・FQDN"
 
-#, fuzzy
 msgid "E911 Master Location"
 msgstr "E911(緊急通報)所在地"
 
-#, fuzzy
 msgid ""
 "This is your primary E911 address. It must be a valid US or Canadian address "
 "and must be setup to user this service. You are responsible for the accuracy "
 "of this information as well as confirming that the E911 service is working. "
 "You can configure and dial 933 transmitted to any of the SIPStation trunks "
 "to validate the address."
-msgstr "主要なE911住所です。アメリカ・カナダの有効住所しか使用できません。"
+msgstr ""
+"あなたのプライマリーE911アドレスです。アメリカ・カナダの有効な住所である必要があり、またこのサービスに設定する必要があります。あなたはこの情報の正確"
+"性と、E911サービスが有効に稼働している事を確認する責任があります。あなたは設定し、そしてこのアドレスが有効かどうか検証する為、933へダイヤルしSI"
+"PStaionトランクの何れかに転送して確認する事が出来ます。"
 
-#, fuzzy
 msgid ""
 "When you call 911 on a SIPStation trunk, it will ignore any Caller ID you "
 "send if that number has not been explicitly enabled for E911 service and "
@@ -630,11 +602,10 @@ msgid ""
 "seeing this Caller ID as a call back number and this address when they are "
 "properly equipped to receive address information which is usually the case"
 msgstr ""
-"SIPStationトランクから911を発信したとき、E911サービスに対して有効になっていな"
-"いCIDだと、元のCIDを無視してこのCIDを送信します。よって、このCIDに関連した情"
-"報が911のオペレーターに見えるようになります。"
+"SIPStationトランクから911を発信したとき、この番号がE911サービスに対して明確に有効になっておらず、このCaller "
+"IDが送信された場合、元のCaller "
+"IDは無視してこのCIDを送信します。よって、このCIDに関連した情報が911のオペレーターに見えるようになります"
 
-#, fuzzy
 msgid ""
 "You can enable other SIPStation DIDs with E911 if you have additional "
 "addresses you want associated with other DIDs, or if you explicitly want the "
@@ -644,12 +615,15 @@ msgid ""
 "then setting it as the Master. Each change incurs a small fee and then each "
 "DID that is explicitly E911 enabled will incur a small monthly fee except "
 "this Master E911 DID which is included with your service cost."
-msgstr "他のDIDをE911に対応させることができます。"
+msgstr ""
+"もし他のDIDsと関連づけしたい追加アドレスがある場合、もしくは明確にE911オペレーターにこれらの番号をコールバック用番号として、この番号と比較させて"
+"見せたい場合には、他のSIPStation DIDsを有効にする事が出来ます。E911が有効な追加DID毎に、わずかな月額費用が発生します。また、最初に"
+"有効にしマスターとして設定される事によって、他のDIDをマスターE911DIDとして選択する事が出来ます。各変更毎にわずかな費用が発生し、サービス費用に"
+"含まれるマスターE911DIDを除き、明確にE911が有効にされたものについてもわずかな月額費用が発生します。"
 
 msgid "E911 Caller ID"
 msgstr "E911(緊急通報)発信者番号"
 
-#, fuzzy
 msgid "Name"
 msgstr "名前"
 
@@ -668,9 +642,8 @@ msgstr "州"
 msgid "Zip"
 msgstr "郵便番号"
 
-#, fuzzy
 msgid "Update Account Settings"
-msgstr "アカウント設定"
+msgstr "アカウント設定のアップデート"
 
 msgid "Route and Trunk Configuration"
 msgstr "経路とトランク設定"
@@ -730,75 +703,59 @@ msgstr "デフォルトSIPStationルートを追加"
 msgid "DID Configuration"
 msgstr "DID 設定"
 
-#, fuzzy
 msgid "Here you can manage your DIDs<br>Specifically you can do the follow: "
-msgstr "ここではDIDの管理ができます。<br>具体的には、以下の操作ができます："
+msgstr "ここではDIDsの管理ができます。<br>具体的には、以下の事が可能です： "
 
 msgid "DID"
 msgstr "DID"
 
-#, fuzzy
 msgid ""
 "Your DID, Clicking here will take you to the inbound route setup for this DID"
-msgstr ""
-"設定するDID。ここにクリックすると、このDIDのインバウンドルート設定に移動しま"
-"す。"
+msgstr "あなたのDID。ここをクリックすると、このDIDのインバウンドルート設定に移動します"
 
-#, fuzzy
 msgid "Set E911"
-msgstr "E911を設定"
+msgstr "E911設定"
 
-#, fuzzy
 msgid ""
 "Set and manage your per DID E911 Addresses (Fees Apply for Multiple E911 "
 "Addresses)"
-msgstr "DIDごとのE911住所を設定・管理します（複数ある場合は料金がかかります）"
+msgstr "DIDごとのE911アドレスを設定、管理します（E911アドレスが複数ある場合は費用がかかります）"
 
-#, fuzzy
 msgid "Failover Number"
-msgstr "フェールオーバー #"
+msgstr "フェールオーバー番号"
 
-#, fuzzy
 msgid "Set and manage your per DID Failover Numbers"
-msgstr "DIDフェイルオーバー番号ごとの設定・管理"
+msgstr "DIDフェイルオーバー番号ごとの設定、管理"
 
 msgid "Description"
 msgstr "説明"
 
-#, fuzzy
 msgid "Set A Description for the Inbound Routes Page"
-msgstr "インバウンドルートページで使用する説明を設定します。"
+msgstr "インバウンドルートページで使用する説明を設定"
 
 msgid "Route To"
 msgstr "次へのルート"
 
-#, fuzzy
 msgid "Route Your DID to a specified location"
-msgstr "あなたのDIDを特定の宛先にルートします。"
+msgstr "あなたのDIDを特定の宛先にルーティング"
 
 msgid "Set CID"
 msgstr "発信者番号を設定"
 
-#, fuzzy
 msgid ""
 "Automatically set the CID of the Extension to the DID if this DID is routed "
 "to an extension"
-msgstr ""
-"内線にルートされているDIDであれば、内線のCIDを自動的にそのDIDに設定します。"
+msgstr "もしこのDIDが一つの内線にルーティングされている場合、その内線のCIDを自動的にDIDとして設定します"
 
-#, fuzzy
 msgid "Set ECID"
-msgstr "発信者番号を設定"
+msgstr "ECIDを設定"
 
-#, fuzzy
 msgid "Set the Emergency CID of the Extension to an E911 enabled DID"
-msgstr "内線の緊急CIDを、E911が有効なDIDに設定します。"
+msgstr "内線の緊急CIDを、E911が有効なDIDに設定します"
 
-#, fuzzy
 msgid "Failover Num"
-msgstr "フェールオーバー #"
+msgstr "フェールオーバー番号"
 
-#, fuzzy
 msgid "Emergency CID"
 msgstr "緊急CID"
 
